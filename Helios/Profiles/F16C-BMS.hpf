@@ -5791,7 +5791,7 @@
     </Interface>
     <Interface TypeIdentifier="Helios.Falcon.Interface" Name="Falcon">
       <FalconType>BMS</FalconType>
-      <KeyFile>E:\Falcon BMS 4.34\User\Config\wheelchock.key</KeyFile>
+      <KeyFile>E:\Falcon BMS 4.34\User\Config\BMS - Full.key</KeyFile>
       <CockpitDatFile />
       <FocusAssist>True</FocusAssist>
     </Interface>
