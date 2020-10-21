@@ -2847,8 +2847,8 @@
               <Size>34,34</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
-              <Image>wheelchocks\F16\left_BTN_1.png</Image>
-              <PushedImage>wheelchocks\F16\left_BTN_1_PRESS.png</PushedImage>
+              <Image>Capt_Zeen\F16\left_BTN_1.png</Image>
+              <PushedImage>Capt_Zeen\F16\left_BTN_1_PRESS.png</PushedImage>
               <Text>
                 <Color>#FFFFFFFF</Color>
                 <Font>
@@ -2874,8 +2874,8 @@
               <Size>40,40</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
-              <Image>wheelchocks\F16\left_BTN_3.png</Image>
-              <PushedImage>wheelchocks\F16\left_BTN_3_PRESS.png</PushedImage>
+              <Image>Capt_Zeen\F16\left_BTN_3.png</Image>
+              <PushedImage>Capt_Zeen\F16\left_BTN_3_PRESS.png</PushedImage>
               <Text>
                 <Color>#FFFFFFFF</Color>
                 <Font>
@@ -2901,8 +2901,8 @@
               <Size>34,34</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
-              <Image>wheelchocks\F16\left_BTN_1.png</Image>
-              <PushedImage>wheelchocks\F16\left_BTN_1_PRESS.png</PushedImage>
+              <Image>Capt_Zeen\F16\left_BTN_1.png</Image>
+              <PushedImage>Capt_Zeen\F16\left_BTN_1_PRESS.png</PushedImage>
               <Text>
                 <Color>#FFFFFFFF</Color>
                 <Font>
@@ -2928,8 +2928,8 @@
               <Size>34,34</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
-              <Image>wheelchocks\F16\left_BTN_1.png</Image>
-              <PushedImage>wheelchocks\F16\left_BTN_1_PRESS.png</PushedImage>
+              <Image>Capt_Zeen\F16\left_BTN_1.png</Image>
+              <PushedImage>Capt_Zeen\F16\left_BTN_1_PRESS.png</PushedImage>
               <Text>
                 <Color>#FFFFFFFF</Color>
                 <Font>
@@ -9789,13 +9789,2056 @@
             </Control>
           </Children>
         </Control>
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="NAV_buttom" SnapTarget="True" Locked="True">
+          <Location>814,602</Location>
+          <Size>52,26</Size>
+          <Hidden>False</Hidden>
+          <Type>Toggle</Type>
+          <Image>Capt_Zeen\F16\CZ_grey_Line_OFF.png</Image>
+          <PushedImage>Capt_Zeen\F16\CZ_grey_Line.png</PushedImage>
+          <Text>
+            <Color>#FFD8D2CB</Color>
+            <Font>
+              <FontFamily>Franklin Gothic</FontFamily>
+              <FontStyle>Normal</FontStyle>
+              <FontWeight>Normal</FontWeight>
+              <FontSize>13</FontSize>
+              <HorizontalAlignment>Center</HorizontalAlignment>
+              <VerticalAlignment>Center</VerticalAlignment>
+              <Padding>
+                <Left>0</Left>
+                <Top>0</Top>
+                <Right>0</Right>
+                <Bottom>0</Bottom>
+              </Padding>
+            </Font>
+            <Text>MAPS</Text>
+          </Text>
+          <Children />
+        </Control>
+        <Control TypeIdentifier="Helios.Panel" Name="NAV_panel" SnapTarget="True" Locked="True">
+          <Location>0,0</Location>
+          <Size>662,720</Size>
+          <Hidden>True</Hidden>
+          <Background>
+            <Color>#FF1E1E1E</Color>
+          </Background>
+          <Children>
+            <Control TypeIdentifier="Helios.Panel" Name="panel CHECKLISTS" SnapTarget="True" Locked="False">
+              <Location>22,0</Location>
+              <Size>638,720</Size>
+              <Hidden>True</Hidden>
+              <Background />
+              <Children>
+                <Control TypeIdentifier="Helios.Base.KneeboardSwitch" Name="Kneeboard Switch CheckLists" SnapTarget="True" Locked="False">
+                  <Location>10,662</Location>
+                  <Size>32,66</Size>
+                  <Rotation>CW</Rotation>
+                  <Hidden>False</Hidden>
+                  <SwitchType>MomOnMom</SwitchType>
+                  <Orientation>Vertical</Orientation>
+                  <ClickType>Touch</ClickType>
+                  <PositionOneImage>{Helios}/Images/Rockers/triangles-light-up.png</PositionOneImage>
+                  <PositionTwoImage>{Helios}/Images/Rockers/triangles-light-norm.png</PositionTwoImage>
+                  <PositionThreeImage>{Helios}/Images/Rockers/triangles-light-down.png</PositionThreeImage>
+                  <DefaultPosition>Two</DefaultPosition>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.Text" Name="number" SnapTarget="True" Locked="False">
+                  <FillBackground>False</FillBackground>
+                  <BackgroundColor>#FF1E1E1E</BackgroundColor>
+                  <FontColor>#FFBF1E1E</FontColor>
+                  <Font>
+                    <FontFamily>Arial</FontFamily>
+                    <FontStyle>Normal</FontStyle>
+                    <FontWeight>Normal</FontWeight>
+                    <FontSize>9.33333333333333</FontSize>
+                    <HorizontalAlignment>Center</HorizontalAlignment>
+                    <VerticalAlignment>Center</VerticalAlignment>
+                    <Padding>
+                      <Left>0</Left>
+                      <Top>0</Top>
+                      <Right>0</Right>
+                      <Bottom>0</Bottom>
+                    </Padding>
+                  </Font>
+                  <Text>0</Text>
+                  <Location>22,636</Location>
+                  <Size>40,18</Size>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.Text" Name="page number 1" SnapTarget="True" Locked="False">
+                  <FillBackground>False</FillBackground>
+                  <BackgroundColor>#FF1E1E1E</BackgroundColor>
+                  <FontColor>#FFFDFBFB</FontColor>
+                  <Font>
+                    <FontFamily>Arial</FontFamily>
+                    <FontStyle>Normal</FontStyle>
+                    <FontWeight>Normal</FontWeight>
+                    <FontSize>9.33333333333333</FontSize>
+                    <HorizontalAlignment>Center</HorizontalAlignment>
+                    <VerticalAlignment>Top</VerticalAlignment>
+                    <Padding>
+                      <Left>0</Left>
+                      <Top>0</Top>
+                      <Right>0</Right>
+                      <Bottom>0</Bottom>
+                    </Padding>
+                  </Font>
+                  <Text>Page          / 103</Text>
+                  <Location>0,640</Location>
+                  <Size>84,14</Size>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_1_btn" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>6,30</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>MAIN</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_2_btn" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>6,50</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>AVIONTICS</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_3_btn" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>6,68</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>WEAPONS</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_4_btn" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>6,88</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>EMERGENCY</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_1_btn 1" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>6,12</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>INTERIOR</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.KneeBoard" Name="charts CHECKLISTS" SnapTarget="False" Locked="False">
+                  <Positions>
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Cockpit Interior\Cockpit Interior Checklists-3.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Cockpit Interior\Cockpit Interior Checklists-4.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Main\Main Checklists-02.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Main\Main Checklists-03.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Main\Main Checklists-04.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Main\Main Checklists-05.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Main\Main Checklists-06.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Main\Main Checklists-07.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Main\Main Checklists-08.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Main\Main Checklists-09.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Main\Main Checklists-10.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Main\Main Checklists-11.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Main\Main Checklists-12.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Main\Main Checklists-13.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Main\Main Checklists-14.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Main\Main Checklists-15.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Main\Main Checklists-16.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Main\Main Checklists-17.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Aviontics\Avionic Checklists-02.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Aviontics\Avionic Checklists-03.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Aviontics\Avionic Checklists-04.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Aviontics\Avionic Checklists-05.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Aviontics\Avionic Checklists-06.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Aviontics\Avionic Checklists-07.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Aviontics\Avionic Checklists-08.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Aviontics\Avionic Checklists-09.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Aviontics\Avionic Checklists-10.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Aviontics\Avionic Checklists-11.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Aviontics\Avionic Checklists-12.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Aviontics\Avionic Checklists-13.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Aviontics\Avionic Checklists-14.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Aviontics\Avionic Checklists-15.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Aviontics\Avionic Checklists-16.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Aviontics\Avionic Checklists-17.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Aviontics\Avionic Checklists-18.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Aviontics\Avionic Checklists-19.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Aviontics\Avionic Checklists-20.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Weapons\Weapons Checklists-02.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Weapons\Weapons Checklists-03.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Weapons\Weapons Checklists-04.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Weapons\Weapons Checklists-05.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Weapons\Weapons Checklists-06.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Weapons\Weapons Checklists-07.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Weapons\Weapons Checklists-08.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Weapons\Weapons Checklists-09.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Weapons\Weapons Checklists-10.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Weapons\Weapons Checklists-11.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Weapons\Weapons Checklists-12.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Weapons\Weapons Checklists-13.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Weapons\Weapons Checklists-14.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Weapons\Weapons Checklists-15.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Weapons\Weapons Checklists-16.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Weapons\Weapons Checklists-17.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-02.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-03.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-04.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-05.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-06.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-07.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-08.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-09.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-10.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-11.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-12.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-13.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-14.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-15.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-16.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-17.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-18.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-19.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-20.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-21.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-22.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-23.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-24.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-25.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-26.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-27.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-28.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-29.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-30.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-31.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-32.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-33.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-34.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-35.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-36.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-37.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-38.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-39.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-40.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-41.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-42.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-43.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-44.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-45.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-46.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-47.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-48.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-49.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-50.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-51.png" />
+                    <Position ImageFilename="BMS\kneeboards\CheckLists\Emergency\Emergency Checklists-52.png" />
+                  </Positions>
+                  <Alignment>Uniform</Alignment>
+                  <Location>76,0</Location>
+                  <Size>560,720</Size>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+              </Children>
+            </Control>
+            <Control TypeIdentifier="Helios.Panel" Name="panel Balkins" SnapTarget="True" Locked="False">
+              <Location>22,0</Location>
+              <Size>638,720</Size>
+              <Hidden>True</Hidden>
+              <Background />
+              <Children>
+                <Control TypeIdentifier="Helios.Base.KneeboardSwitch" Name="Kneeboard Switch BALKINS" SnapTarget="True" Locked="False">
+                  <Location>10,662</Location>
+                  <Size>32,66</Size>
+                  <Rotation>CW</Rotation>
+                  <Hidden>False</Hidden>
+                  <SwitchType>MomOnMom</SwitchType>
+                  <Orientation>Vertical</Orientation>
+                  <ClickType>Touch</ClickType>
+                  <PositionOneImage>{Helios}/Images/Rockers/triangles-light-up.png</PositionOneImage>
+                  <PositionTwoImage>{Helios}/Images/Rockers/triangles-light-norm.png</PositionTwoImage>
+                  <PositionThreeImage>{Helios}/Images/Rockers/triangles-light-down.png</PositionThreeImage>
+                  <DefaultPosition>Two</DefaultPosition>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.Text" Name="number" SnapTarget="True" Locked="False">
+                  <FillBackground>False</FillBackground>
+                  <BackgroundColor>#FF1E1E1E</BackgroundColor>
+                  <FontColor>#FFBF1E1E</FontColor>
+                  <Font>
+                    <FontFamily>Arial</FontFamily>
+                    <FontStyle>Normal</FontStyle>
+                    <FontWeight>Normal</FontWeight>
+                    <FontSize>9.33333333333333</FontSize>
+                    <HorizontalAlignment>Center</HorizontalAlignment>
+                    <VerticalAlignment>Center</VerticalAlignment>
+                    <Padding>
+                      <Left>0</Left>
+                      <Top>0</Top>
+                      <Right>0</Right>
+                      <Bottom>0</Bottom>
+                    </Padding>
+                  </Font>
+                  <Text>0</Text>
+                  <Location>22,636</Location>
+                  <Size>40,18</Size>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.Text" Name="page number 1" SnapTarget="True" Locked="False">
+                  <FillBackground>False</FillBackground>
+                  <BackgroundColor>#FF1E1E1E</BackgroundColor>
+                  <FontColor>#FFFDFBFB</FontColor>
+                  <Font>
+                    <FontFamily>Arial</FontFamily>
+                    <FontStyle>Normal</FontStyle>
+                    <FontWeight>Normal</FontWeight>
+                    <FontSize>9.33333333333333</FontSize>
+                    <HorizontalAlignment>Center</HorizontalAlignment>
+                    <VerticalAlignment>Top</VerticalAlignment>
+                    <Padding>
+                      <Left>0</Left>
+                      <Top>0</Top>
+                      <Right>0</Right>
+                      <Bottom>0</Bottom>
+                    </Padding>
+                  </Font>
+                  <Text>Page          / 118</Text>
+                  <Location>0,640</Location>
+                  <Size>84,14</Size>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_1_btn" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>6,30</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>GENERAL INFO</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_2_btn" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>6,46</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>AKTION</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_3_btn" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>6,62</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>AMENDOLA</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_4_btn" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>6,78</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>AVIANO</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_5_btn" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>6,94</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>BATAJNICA</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_5_btn 1" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>6,110</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>BRINK</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_5_btn 1 1" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>6,126</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>CASALE</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_5_btn 1 2" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>6,142</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>CERVIA</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_5_btn 1 3" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>6,158</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>FALCONARA</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_5_btn 1 4" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>6,174</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>GIOIA DEL COLLE</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_5_btn 1 5" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>6,190</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>GROSSETO</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_5_btn 1 6" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>6,206</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>ISTRANA</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_5_btn 1 7" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>6,222</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>MIRAMARE</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_5_btn 1 8" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>6,238</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>PESCARA</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_5_btn 1 9" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>6,254</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>PLESO</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_5_btn 1 10" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>6,270</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>RIVOLTO</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_5_btn 1 11" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>6,286</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>RONCHI DEL LEGIONARI</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_5_btn 1 12" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>6,302</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>SIGONELLA</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_5_btn 1 13" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>6,318</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>TASZAR</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_5_btn 1 14" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>6,350</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>NAVAIDS</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_5_btn 1 15" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>6,334</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\green.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>TESSERA</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.KneeBoard" Name="charts BALKINS" SnapTarget="False" Locked="False">
+                  <Positions>
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-01.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-02.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-03.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-04.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-05.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-06.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-07.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-08.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-09.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-10.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-11.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-12.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-13.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-14.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-15.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-16.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-17.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-18.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-19.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-20.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-21.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-22.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-23.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-24.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-25.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-26.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-27.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-28.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-29.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-30.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-31.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-32.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-33.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-34.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-35.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-36.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-37.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-38.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-39.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-40.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-41.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-42.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-43.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-44.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-45.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-46.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-47.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-48.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-49.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-50.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans MAIP-51.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans Navaids list-1.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans Navaids list-2.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans Navaids list-3.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans Navaids list-4.png" />
+                    <Position ImageFilename="BMS\kneeboards/Balkins/Balkans Navaids list-5.png" />
+                  </Positions>
+                  <Alignment>Stretched</Alignment>
+                  <Location>76,0</Location>
+                  <Size>560,720</Size>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+              </Children>
+            </Control>
+            <Control TypeIdentifier="Helios.Panel" Name="panel S KOREA" SnapTarget="True" Locked="True">
+              <Location>24,0</Location>
+              <Size>638,720</Size>
+              <Hidden>True</Hidden>
+              <Background />
+              <Children>
+                <Control TypeIdentifier="Helios.Base.KneeBoard" Name="charts S KOREA" SnapTarget="False" Locked="False">
+                  <Positions>
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Airstrips\Eastwest_airstrip_SK.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Airstrips\Mandumi_airport.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Airstrips\Northsouth_airstrip_SK.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Chongju\Chongju_airport.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Chongju\Chongju_Departure_5.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Chongju\Chongju_ILS_23R.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Chongju\Chongju_RDR_05.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Chongju\Chongju_RDR_23.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Chongju\Chongju_TCN_05L.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Chongju\Chongju_TCN_05R.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Chongju\Chongju_TCN_23L.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Chongju\chongju_visual.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Choongwon\Choongwon_airport.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Choongwon\Choongwon_Departure_1.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Choongwon\Choongwon_LOC_34R.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Choongwon\Choongwon_TCN_16L.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Choongwon\Choongwon_TCN_16R.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Choongwon\Choongwon_TCN_34L.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Hoengsong\Hoengsong_airport.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Hoengsong\Hoengsong_Departure_Wonju4.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Hoengsong\Hoengsong_ILS_02.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Hoengsong\Hoengsong_TCN_20.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Kangnung\kangnung_airport.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Kangnung\Kangnung_CTL_08.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Kangnung\Kangnung_Departure_Gangwon.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Kangnung\Kangnung_ILS_26.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Kimhae\Kimhae_airport.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Kimhae\Kimhae_Departure_Nakdong3A.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Kimhae\Kimhae_Departure_Nakdong4A.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Kimhae\Kimhae_ILS_34.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Kimhae\Kimhae_TCN_16.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Kimpo\Kimpo_airport.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Kimpo\Kimpo_Departure_1EW.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Kimpo\Kimpo_ILS_14L.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Kimpo\Kimpo_ILS_14R.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Kimpo\Kimpo_ILS_32L.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Kimpo\Kimpo_ILS_32R.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Kotar\Kotar_area.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Kotar\Kotar_diagram.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Kotar\Kotar_target.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Kunsan\Kunsan_airport.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Kunsan\Kunsan_ALS.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Kunsan\Kunsan_Departure_Aladi1.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Kunsan\Kunsan_Departure_Coyote3.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Kunsan\Kunsan_Departure_Patro.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Kunsan\Kunsan_ILS_18.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Kunsan\Kunsan_ILS_36.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Kunsan\Kunsan_RDR_18.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Kunsan\Kunsan_RDR_36.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Kunsan\Kunsan_spawn_diagram.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Kunsan\Kunsan_visual.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Kwangju\kwangju_airport.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Kwangju\Kwangju_Departure_3A.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Kwangju\Kwangju_Departure_4A.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Kwangju\Kwangju_ILS_02.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Kwangju\Kwangju_ILS_20.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Osan\Osan_airport.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Osan\Osan_Departure_Draggin1.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Osan\Osan_Departure_Mustang4.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Osan\Osan_Departure_Thunder2.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Osan\Osan_Departure_Yoke4.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Osan\Osan_ILS_09L.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Osan\Osan_ILS_27R.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Osan\Osan_RDR_09.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Osan\Osan_RDR_27.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Pohang\Pohang_airport.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Pohang\Pohang_Departure_Posco1.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Pohang\Pohang_ILS_26.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Pohang\Pohang_TCN_08.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Pusan\Pusan_airport.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Pusan\Pusan_Departure_Korav.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Pusan\Pusan_ILS_32.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Pusan\Pusan_TCN_14.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Pyongtaek\Pyongtaek_airport.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Pyongtaek\Pyongtaek_Departure_Osan1.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Pyongtaek\Pyongtaek_ILS_34.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Pyongtaek\Pyongtaek_TCN_16.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Sachon\Sachon_airport.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Sachon\Sachon_Departure_1.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Sachon\Sachon_ILS_05L.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Sachon\Sachon_ILS_23R.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Sachon\Sachon_TCN_05R.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Sachon\Sachon_TCN_23L.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Seosan\Seosan_airport.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Seosan\Seosan_Departure_1.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Seosan\Seosan_HITCN_02L.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Seosan\Seosan_HITCN_20L.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Seosan\Seosan_HITCN_20R.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Seosan\Seosan_ILS_02R.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Seoul\Seoul_airport.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Seoul\Seoul_Departure_Hatch1.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Seoul\Seoul_Departure_Noru1.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Seoul\Seoul_ILS_19.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Seoul\Seoul_TCN_01.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Seoul\Seoul_TCN_18.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Seoul\Seoul_TCN_36.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Sokcho\Sokcho_airport.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Sokcho\Sokcho_CTL_08.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Sokcho\Sokcho_Departure_1.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Sokcho\Sokcho_ILS_26.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Suwon\Suwon_airport.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Suwon\Suwon_Departure_6.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Suwon\Suwon_ILS_32L.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Suwon\Suwon_TCN_14.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Suwon\Suwon_TCN_32R.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Taegu\Taegu_airport.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Taegu\Taegu_CTL_14.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Taegu\Taegu_Departure_6.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Taegu\Taegu_ILS_32.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Taegu\Taegu_RDR_14.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Taegu\Taegu_RDR_32.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Yechon\Yechon_airport.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Yechon\Yechon_Departure_Parot5A.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Yechon\Yechon_ILS_26.png" />
+                    <Position ImageFilename="BMS\kneeboards\01 South Korea\Yechon\Yechon_TCN_08.png" />
+                  </Positions>
+                  <Alignment>Uniform</Alignment>
+                  <Location>78,0</Location>
+                  <Size>592,720</Size>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.KneeboardSwitch" Name="Kneeboard Switch S KOREA" SnapTarget="True" Locked="False">
+                  <Location>10,662</Location>
+                  <Size>32,66</Size>
+                  <Rotation>CW</Rotation>
+                  <Hidden>False</Hidden>
+                  <SwitchType>MomOnMom</SwitchType>
+                  <Orientation>Vertical</Orientation>
+                  <ClickType>Touch</ClickType>
+                  <PositionOneImage>{Helios}/Images/Rockers/triangles-light-up.png</PositionOneImage>
+                  <PositionTwoImage>{Helios}/Images/Rockers/triangles-light-norm.png</PositionTwoImage>
+                  <PositionThreeImage>{Helios}/Images/Rockers/triangles-light-down.png</PositionThreeImage>
+                  <DefaultPosition>Two</DefaultPosition>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.Text" Name="page number" SnapTarget="True" Locked="False">
+                  <FillBackground>False</FillBackground>
+                  <BackgroundColor>#FF1E1E1E</BackgroundColor>
+                  <FontColor>#FFC23434</FontColor>
+                  <Font>
+                    <FontFamily>Arial</FontFamily>
+                    <FontStyle>Normal</FontStyle>
+                    <FontWeight>Normal</FontWeight>
+                    <FontSize>9.33333333333333</FontSize>
+                    <HorizontalAlignment>Center</HorizontalAlignment>
+                    <VerticalAlignment>Top</VerticalAlignment>
+                    <Padding>
+                      <Left>0</Left>
+                      <Top>0</Top>
+                      <Right>0</Right>
+                      <Bottom>0</Bottom>
+                    </Padding>
+                  </Font>
+                  <Text>0</Text>
+                  <Location>32,640</Location>
+                  <Size>30,14</Size>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.Text" Name="page number 1" SnapTarget="True" Locked="False">
+                  <FillBackground>False</FillBackground>
+                  <BackgroundColor>#FF1E1E1E</BackgroundColor>
+                  <FontColor>#FFFDFBFB</FontColor>
+                  <Font>
+                    <FontFamily>Arial</FontFamily>
+                    <FontStyle>Normal</FontStyle>
+                    <FontWeight>Normal</FontWeight>
+                    <FontSize>9.33333333333333</FontSize>
+                    <HorizontalAlignment>Center</HorizontalAlignment>
+                    <VerticalAlignment>Top</VerticalAlignment>
+                    <Padding>
+                      <Left>0</Left>
+                      <Top>0</Top>
+                      <Right>0</Right>
+                      <Bottom>0</Bottom>
+                    </Padding>
+                  </Font>
+                  <Text>Page         / 115</Text>
+                  <Location>8,640</Location>
+                  <Size>84,14</Size>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_1_btn" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>10,32</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>CHONGJU</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_2_btn" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>10,52</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>CHOONGWON</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_3_btn" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>10,70</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>HOENGSONG</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_4_btn" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>10,88</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>KANGNUNG</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_5_btn" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>10,108</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>KIMHAE</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_6_btn" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>10,126</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>KIMPO</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_7_btn" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>10,144</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>KOTAR</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_8_btn" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>10,164</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>KUNSAN</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_9_btn" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>10,200</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>OSAN</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_10_btn" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>10,220</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>POHANG</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_11_btn" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>10,238</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>PUSAN</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_12_btn" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>10,182</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>KWANGJU</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_13_btn" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>10,256</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>PYONGTAEK</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_14_btn" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>10,276</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>SACHON</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_15_btn" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>10,294</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>SEOSAN</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_16_btn" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>10,312</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>SEOUL</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_17_btn" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>10,332</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>SOKCHO</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_18_btn" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>10,350</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>SUWON</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_19_btn" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>10,368</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>TAEGU</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_20_btn" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>10,388</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>YECHON</Text>
+                  </Text>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.IndicatorPushButton" Name="chart_1_btn 1" SnapTarget="True" Locked="False">
+                  <IndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</IndicatorOnImage>
+                  <PushedIndicatorOnImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedIndicatorOnImage>
+                  <OnTextColor>#FFFFFFFF</OnTextColor>
+                  <Location>10,12</Location>
+                  <Size>96,16</Size>
+                  <Hidden>False</Hidden>
+                  <Type>Momentary</Type>
+                  <Image>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</Image>
+                  <PushedImage>Capt_Zeen\Kneeboards\utils\blue.jpg</PushedImage>
+                  <Text>
+                    <Color>#FFFFFEFE</Color>
+                    <Font>
+                      <FontFamily>Arial</FontFamily>
+                      <FontStyle>Normal</FontStyle>
+                      <FontWeight>Normal</FontWeight>
+                      <FontSize>6.66666666666667</FontSize>
+                      <HorizontalAlignment>Center</HorizontalAlignment>
+                      <VerticalAlignment>Center</VerticalAlignment>
+                      <Padding>
+                        <Left>0</Left>
+                        <Top>0</Top>
+                        <Right>0</Right>
+                        <Bottom>0</Bottom>
+                      </Padding>
+                    </Font>
+                    <Text>Air Strips</Text>
+                  </Text>
+                  <Children />
+                </Control>
+              </Children>
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Btn CheckLists" SnapTarget="True" Locked="False">
+              <Location>0,212</Location>
+              <Size>104,20</Size>
+              <Rotation>CCW</Rotation>
+              <Hidden>False</Hidden>
+              <Type>Toggle</Type>
+              <Image>Capt_Zeen\Kneeboards\utils\green.jpg</Image>
+              <PushedImage>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</PushedImage>
+              <Text>
+                <Color>#FFFFFFFF</Color>
+                <Font>
+                  <FontFamily>Franklin Gothic</FontFamily>
+                  <FontStyle>Normal</FontStyle>
+                  <FontWeight>Normal</FontWeight>
+                  <FontSize>14</FontSize>
+                  <HorizontalAlignment>Center</HorizontalAlignment>
+                  <VerticalAlignment>Center</VerticalAlignment>
+                  <Padding>
+                    <Left>0</Left>
+                    <Top>0</Top>
+                    <Right>0</Right>
+                    <Bottom>0</Bottom>
+                  </Padding>
+                </Font>
+                <Text>CHECKLISTS</Text>
+              </Text>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Btn Balkins" SnapTarget="True" Locked="False">
+              <Location>0,106</Location>
+              <Size>104,20</Size>
+              <Rotation>CCW</Rotation>
+              <Hidden>False</Hidden>
+              <Type>Toggle</Type>
+              <Image>Capt_Zeen\Kneeboards\utils\blue.jpg</Image>
+              <PushedImage>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</PushedImage>
+              <Text>
+                <Color>#FFFFFFFF</Color>
+                <Font>
+                  <FontFamily>Franklin Gothic</FontFamily>
+                  <FontStyle>Normal</FontStyle>
+                  <FontWeight>Normal</FontWeight>
+                  <FontSize>14</FontSize>
+                  <HorizontalAlignment>Center</HorizontalAlignment>
+                  <VerticalAlignment>Center</VerticalAlignment>
+                  <Padding>
+                    <Left>0</Left>
+                    <Top>0</Top>
+                    <Right>0</Right>
+                    <Bottom>0</Bottom>
+                  </Padding>
+                </Font>
+                <Text>BALKINS</Text>
+              </Text>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Btn S Korea" SnapTarget="True" Locked="False">
+              <Location>0,2</Location>
+              <Size>104,20</Size>
+              <Rotation>CCW</Rotation>
+              <Hidden>False</Hidden>
+              <Type>Toggle</Type>
+              <Image>Capt_Zeen\Kneeboards\utils\blue.jpg</Image>
+              <PushedImage>Capt_Zeen\Kneeboards\utils\dark_grey.jpg</PushedImage>
+              <Text>
+                <Color>#FFFFFFFF</Color>
+                <Font>
+                  <FontFamily>Franklin Gothic</FontFamily>
+                  <FontStyle>Normal</FontStyle>
+                  <FontWeight>Normal</FontWeight>
+                  <FontSize>14</FontSize>
+                  <HorizontalAlignment>Center</HorizontalAlignment>
+                  <VerticalAlignment>Center</VerticalAlignment>
+                  <Padding>
+                    <Left>0</Left>
+                    <Top>0</Top>
+                    <Right>0</Right>
+                    <Bottom>0</Bottom>
+                  </Padding>
+                </Font>
+                <Text>S KOREA</Text>
+              </Text>
+              <Children />
+            </Control>
+          </Children>
+        </Control>
         <Control TypeIdentifier="Helios.Base.PushButton" Name="UTIL_button" SnapTarget="True" Locked="True">
           <Location>814,630</Location>
           <Size>52,24</Size>
           <Hidden>False</Hidden>
           <Type>Toggle</Type>
-          <Image>wheelchocks\F16\CZ_grey_Line_OFF.png</Image>
-          <PushedImage>wheelchocks\F16\CZ_grey_Line.png</PushedImage>
+          <Image>Capt_Zeen\F16\CZ_grey_Line_OFF.png</Image>
+          <PushedImage>Capt_Zeen\F16\CZ_grey_Line.png</PushedImage>
           <Text>
             <Color>#FFD8D2CB</Color>
             <Font>
@@ -10774,6 +12817,16 @@ end</LuaScript>
       <StaticValue>SimCBEOSB_20L</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Main_panel.button 61;Helios.Base.PushButton;button 61" Name="pushed" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimCBEOSB_10R</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Main_panel.button 71;Helios.Base.PushButton;button 71" Name="pushed" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimCBEOSB_20R</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.Main_panel.com2 btn;Helios.Base.PushButton;com2 btn" Name="pushed" />
       <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
       <StaticValue>SimICPCom2</StaticValue>
@@ -10789,6 +12842,16 @@ end</LuaScript>
       <StaticValue>SimCBEOSB_11L</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Main_panel.button 52;Helios.Base.PushButton;button 52" Name="pushed" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Main_panel.button 62;Helios.Base.PushButton;button 62" Name="pushed" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimCBEOSB_11R</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.Main_panel.iff btn;Helios.Base.PushButton;iff btn" Name="pushed" />
       <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
       <StaticValue>SimICPIFF</StaticValue>
@@ -10802,6 +12865,16 @@ end</LuaScript>
       <Trigger Source="Visual;Monitor 2.Main_panel.button 43;Helios.Base.PushButton;button 43" Name="pushed" />
       <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
       <StaticValue>SimCBEOSB_12L</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Main_panel.button 53;Helios.Base.PushButton;button 53" Name="pushed" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimCBEOSB_2R</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Main_panel.button 63;Helios.Base.PushButton;button 63" Name="pushed" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimCBEOSB_12R</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.Main_panel.button 73;Helios.Base.PushButton;button 73" Name="pushed" />
@@ -10824,6 +12897,16 @@ end</LuaScript>
       <StaticValue>SimCBEOSB_13L</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Main_panel.button 54;Helios.Base.PushButton;button 54" Name="pushed" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimCBEOSB_3R</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Main_panel.button 64;Helios.Base.PushButton;button 64" Name="pushed" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimCBEOSB_13R</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.Main_panel.button 74;Helios.Base.PushButton;button 74" Name="pushed" />
       <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
       <StaticValue>SimToggleTFR</StaticValue>
@@ -10844,6 +12927,16 @@ end</LuaScript>
       <StaticValue>SimCBEOSB_14L</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Main_panel.button 55;Helios.Base.PushButton;button 55" Name="pushed" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimCBEOSB_4R</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Main_panel.button 65;Helios.Base.PushButton;button 65" Name="pushed" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimCBEOSB_14R</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.Main_panel.AG btn;Helios.Base.PushButton;AG btn" Name="pushed" />
       <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
       <StaticValue>SimICPAG</StaticValue>
@@ -10857,6 +12950,16 @@ end</LuaScript>
       <Trigger Source="Visual;Monitor 2.Main_panel.button 46;Helios.Base.PushButton;button 46" Name="pushed" />
       <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
       <StaticValue>SimCBEOSB_15L</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Main_panel.button 56;Helios.Base.PushButton;button 56" Name="pushed" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimCBEOSB_5R</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Main_panel.button 66;Helios.Base.PushButton;button 66" Name="pushed" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimCBEOSB_15R</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.Main_panel.button rcl;Helios.Base.PushButton;button rcl" Name="pushed" />
@@ -10874,6 +12977,16 @@ end</LuaScript>
       <StaticValue>SimCBEOSB_16L</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Main_panel.button 57;Helios.Base.PushButton;button 57" Name="pushed" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimCBEOSB_6R</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Main_panel.button 67;Helios.Base.PushButton;button 67" Name="pushed" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimCBEOSB_16R</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.Main_panel.button enter;Helios.Base.PushButton;button enter" Name="pushed" />
       <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
       <StaticValue>SimICPEnter</StaticValue>
@@ -10887,6 +13000,16 @@ end</LuaScript>
       <Trigger Source="Visual;Monitor 2.Main_panel.button 48;Helios.Base.PushButton;button 48" Name="pushed" />
       <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
       <StaticValue>SimCBEOSB_17L</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Main_panel.button 58;Helios.Base.PushButton;button 58" Name="pushed" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimCBEOSB_7R</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Main_panel.button 68;Helios.Base.PushButton;button 68" Name="pushed" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimCBEOSB_17R</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.Main_panel.button wx;Helios.Base.PushButton;button wx" Name="pushed" />
@@ -10904,6 +13027,16 @@ end</LuaScript>
       <StaticValue>SimCBEOSB_18L</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Main_panel.button 59;Helios.Base.PushButton;button 59" Name="pushed" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimCBEOSB_8R</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Main_panel.button 69;Helios.Base.PushButton;button 69" Name="pushed" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimCBEOSB_18R</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.Main_panel.button 40;Helios.Base.PushButton;button 40" Name="pushed" />
       <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
       <StaticValue>SimCBEOSB_9L</StaticValue>
@@ -10912,6 +13045,16 @@ end</LuaScript>
       <Trigger Source="Visual;Monitor 2.Main_panel.button 50;Helios.Base.PushButton;button 50" Name="pushed" />
       <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
       <StaticValue>SimCBEOSB_19L</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Main_panel.button 60;Helios.Base.PushButton;button 60" Name="pushed" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimCBEOSB_9R</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Main_panel.button 70;Helios.Base.PushButton;button 70" Name="pushed" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimCBEOSB_19R</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.Main_panel.rf norm;Helios.Base.ThreeWayToggleSwitch;rf norm" Name="position one.entered" />
@@ -11062,6 +13205,16 @@ end</LuaScript>
       <Trigger Source="Visual;Monitor 2.Main_panel.left brt;Helios.Base.ThreeWayToggleSwitch;left brt" Name="position three.entered" />
       <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
       <StaticValue>SimCBEOSB_BRTDOWN_L</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Main_panel.right brt;Helios.Base.ThreeWayToggleSwitch;right brt" Name="position one.entered" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimCBEOSB_BRTUP_R</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Main_panel.right brt;Helios.Base.ThreeWayToggleSwitch;right brt" Name="position three.entered" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimCBEOSB_BRTDOWN_R</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.Main_panel.button 11 1 2;Helios.Base.PushButton;button 11 1 2" Name="pushed" />
@@ -12592,6 +14745,577 @@ end</LuaScript>
       <Trigger Source="Visual;Monitor 2.UTILITY Panel.Button TIR PAUSE;Helios.Base.PushButton;Button TIR PAUSE" Name="pushed" />
       <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
       <StaticValue>{F9}</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_buttom;Helios.Base.PushButton;NAV_buttom" Name="pushed" />
+      <Action Target="Visual;Monitor 2.UTIL_button;Helios.Base.PushButton;UTIL_button" Name="set.physical state" />
+      <StaticValue>0</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_buttom;Helios.Base.PushButton;NAV_buttom" Name="closed" />
+      <Action Target="Visual;Monitor 2.NAV_panel;Helios.Panel;NAV_panel" Name="set.hidden" />
+      <StaticValue>false</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_buttom;Helios.Base.PushButton;NAV_buttom" Name="open" />
+      <Action Target="Visual;Monitor 2.NAV_panel;Helios.Panel;NAV_panel" Name="set.hidden" />
+      <StaticValue>true</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel CHECKLISTS.Kneeboard Switch CheckLists;Helios.Base.KneeboardSwitch;Kneeboard Switch CheckLists" Name="Kneeboard position.changed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel CHECKLISTS.charts CHECKLISTS;Helios.Base.KneeBoard;charts CHECKLISTS" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel CHECKLISTS.chart_1_btn;Helios.Base.IndicatorPushButton;chart_1_btn" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel CHECKLISTS.charts CHECKLISTS;Helios.Base.KneeBoard;charts CHECKLISTS" Name="set.position" />
+      <StaticValue>2</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel CHECKLISTS.chart_2_btn;Helios.Base.IndicatorPushButton;chart_2_btn" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel CHECKLISTS.charts CHECKLISTS;Helios.Base.KneeBoard;charts CHECKLISTS" Name="set.position" />
+      <StaticValue>18</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel CHECKLISTS.chart_3_btn;Helios.Base.IndicatorPushButton;chart_3_btn" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel CHECKLISTS.charts CHECKLISTS;Helios.Base.KneeBoard;charts CHECKLISTS" Name="set.position" />
+      <StaticValue>37</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel CHECKLISTS.chart_4_btn;Helios.Base.IndicatorPushButton;chart_4_btn" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel CHECKLISTS.charts CHECKLISTS;Helios.Base.KneeBoard;charts CHECKLISTS" Name="set.position" />
+      <StaticValue>53</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel CHECKLISTS.chart_1_btn 1;Helios.Base.IndicatorPushButton;chart_1_btn 1" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel CHECKLISTS.charts CHECKLISTS;Helios.Base.KneeBoard;charts CHECKLISTS" Name="set.position" />
+      <StaticValue>0</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel CHECKLISTS.charts CHECKLISTS;Helios.Base.KneeBoard;charts CHECKLISTS" Name="position.changed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel CHECKLISTS.Kneeboard Switch CheckLists;Helios.Base.KneeboardSwitch;Kneeboard Switch CheckLists" Name="set.Kneeboard position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel CHECKLISTS.charts CHECKLISTS;Helios.Base.KneeBoard;charts CHECKLISTS" Name="position.changed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel CHECKLISTS.number;Helios.Base.Text;number" Name="set.Text" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel CHECKLISTS.charts CHECKLISTS;Helios.Base.KneeBoard;charts CHECKLISTS" Name="position.changed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel CHECKLISTS.chart_1_btn;Helios.Base.IndicatorPushButton;chart_1_btn" Name="set.indicator" />
+      <LuaScript>if TriggerValue&gt;=2 and TriggerValue &lt;=17 then return true else return false
+end</LuaScript>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel CHECKLISTS.charts CHECKLISTS;Helios.Base.KneeBoard;charts CHECKLISTS" Name="position.changed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel CHECKLISTS.chart_2_btn;Helios.Base.IndicatorPushButton;chart_2_btn" Name="set.indicator" />
+      <LuaScript>if TriggerValue&gt;=18 and TriggerValue &lt;=36 then return true else return false
+end</LuaScript>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel CHECKLISTS.charts CHECKLISTS;Helios.Base.KneeBoard;charts CHECKLISTS" Name="position.changed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel CHECKLISTS.chart_3_btn;Helios.Base.IndicatorPushButton;chart_3_btn" Name="set.indicator" />
+      <LuaScript>if TriggerValue&gt;=37 and TriggerValue &lt;=52 then return true else return false
+end</LuaScript>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel CHECKLISTS.charts CHECKLISTS;Helios.Base.KneeBoard;charts CHECKLISTS" Name="position.changed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel CHECKLISTS.chart_4_btn;Helios.Base.IndicatorPushButton;chart_4_btn" Name="set.indicator" />
+      <LuaScript>if TriggerValue&gt;=53 and TriggerValue &lt;=103 then return true else return false
+end</LuaScript>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel CHECKLISTS.charts CHECKLISTS;Helios.Base.KneeBoard;charts CHECKLISTS" Name="position.changed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel CHECKLISTS.chart_1_btn 1;Helios.Base.IndicatorPushButton;chart_1_btn 1" Name="set.indicator" />
+      <LuaScript>if TriggerValue&gt;=0 and TriggerValue &lt;=1 then return true else return false
+end</LuaScript>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel Balkins.Kneeboard Switch BALKINS;Helios.Base.KneeboardSwitch;Kneeboard Switch BALKINS" Name="Kneeboard position.changed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel Balkins.charts BALKINS;Helios.Base.KneeBoard;charts BALKINS" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel Balkins.chart_1_btn;Helios.Base.IndicatorPushButton;chart_1_btn" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel Balkins.charts BALKINS;Helios.Base.KneeBoard;charts BALKINS" Name="set.position" />
+      <StaticValue>3</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel Balkins.chart_2_btn;Helios.Base.IndicatorPushButton;chart_2_btn" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel Balkins.charts BALKINS;Helios.Base.KneeBoard;charts BALKINS" Name="set.position" />
+      <StaticValue>10</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel Balkins.chart_3_btn;Helios.Base.IndicatorPushButton;chart_3_btn" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel Balkins.charts BALKINS;Helios.Base.KneeBoard;charts BALKINS" Name="set.position" />
+      <StaticValue>12</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel Balkins.chart_4_btn;Helios.Base.IndicatorPushButton;chart_4_btn" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel Balkins.charts BALKINS;Helios.Base.KneeBoard;charts BALKINS" Name="set.position" />
+      <StaticValue>14</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel Balkins.chart_5_btn;Helios.Base.IndicatorPushButton;chart_5_btn" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel Balkins.charts BALKINS;Helios.Base.KneeBoard;charts BALKINS" Name="set.position" />
+      <StaticValue>18</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel Balkins.chart_5_btn 1;Helios.Base.IndicatorPushButton;chart_5_btn 1" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel Balkins.charts BALKINS;Helios.Base.KneeBoard;charts BALKINS" Name="set.position" />
+      <StaticValue>20</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel Balkins.chart_5_btn 1 1;Helios.Base.IndicatorPushButton;chart_5_btn 1 1" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel Balkins.charts BALKINS;Helios.Base.KneeBoard;charts BALKINS" Name="set.position" />
+      <StaticValue>22</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel Balkins.chart_5_btn 1 2;Helios.Base.IndicatorPushButton;chart_5_btn 1 2" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel Balkins.charts BALKINS;Helios.Base.KneeBoard;charts BALKINS" Name="set.position" />
+      <StaticValue>24</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel Balkins.chart_5_btn 1 3;Helios.Base.IndicatorPushButton;chart_5_btn 1 3" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel Balkins.charts BALKINS;Helios.Base.KneeBoard;charts BALKINS" Name="set.position" />
+      <StaticValue>25</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel Balkins.chart_5_btn 1 4;Helios.Base.IndicatorPushButton;chart_5_btn 1 4" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel Balkins.charts BALKINS;Helios.Base.KneeBoard;charts BALKINS" Name="set.position" />
+      <StaticValue>27</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel Balkins.chart_5_btn 1 5;Helios.Base.IndicatorPushButton;chart_5_btn 1 5" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel Balkins.charts BALKINS;Helios.Base.KneeBoard;charts BALKINS" Name="set.position" />
+      <StaticValue>29</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel Balkins.chart_5_btn 1 6;Helios.Base.IndicatorPushButton;chart_5_btn 1 6" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel Balkins.charts BALKINS;Helios.Base.KneeBoard;charts BALKINS" Name="set.position" />
+      <StaticValue>31</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel Balkins.chart_5_btn 1 7;Helios.Base.IndicatorPushButton;chart_5_btn 1 7" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel Balkins.charts BALKINS;Helios.Base.KneeBoard;charts BALKINS" Name="set.position" />
+      <StaticValue>32</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel Balkins.chart_5_btn 1 8;Helios.Base.IndicatorPushButton;chart_5_btn 1 8" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel Balkins.charts BALKINS;Helios.Base.KneeBoard;charts BALKINS" Name="set.position" />
+      <StaticValue>34</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel Balkins.chart_5_btn 1 9;Helios.Base.IndicatorPushButton;chart_5_btn 1 9" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel Balkins.charts BALKINS;Helios.Base.KneeBoard;charts BALKINS" Name="set.position" />
+      <StaticValue>36</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel Balkins.chart_5_btn 1 10;Helios.Base.IndicatorPushButton;chart_5_btn 1 10" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel Balkins.charts BALKINS;Helios.Base.KneeBoard;charts BALKINS" Name="set.position" />
+      <StaticValue>38</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel Balkins.chart_5_btn 1 11;Helios.Base.IndicatorPushButton;chart_5_btn 1 11" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel Balkins.charts BALKINS;Helios.Base.KneeBoard;charts BALKINS" Name="set.position" />
+      <StaticValue>43</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel Balkins.chart_5_btn 1 12;Helios.Base.IndicatorPushButton;chart_5_btn 1 12" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel Balkins.charts BALKINS;Helios.Base.KneeBoard;charts BALKINS" Name="set.position" />
+      <StaticValue>45</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel Balkins.chart_5_btn 1 13;Helios.Base.IndicatorPushButton;chart_5_btn 1 13" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel Balkins.charts BALKINS;Helios.Base.KneeBoard;charts BALKINS" Name="set.position" />
+      <StaticValue>47</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel Balkins.chart_5_btn 1 14;Helios.Base.IndicatorPushButton;chart_5_btn 1 14" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel Balkins.charts BALKINS;Helios.Base.KneeBoard;charts BALKINS" Name="set.position" />
+      <StaticValue>51</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel Balkins.chart_5_btn 1 15;Helios.Base.IndicatorPushButton;chart_5_btn 1 15" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel Balkins.charts BALKINS;Helios.Base.KneeBoard;charts BALKINS" Name="set.position" />
+      <StaticValue>49</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel Balkins.charts BALKINS;Helios.Base.KneeBoard;charts BALKINS" Name="position.changed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel Balkins.Kneeboard Switch BALKINS;Helios.Base.KneeboardSwitch;Kneeboard Switch BALKINS" Name="set.Kneeboard position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel Balkins.charts BALKINS;Helios.Base.KneeBoard;charts BALKINS" Name="position.changed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel Balkins.number;Helios.Base.Text;number" Name="set.Text" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel Balkins.charts BALKINS;Helios.Base.KneeBoard;charts BALKINS" Name="position.changed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel Balkins.chart_1_btn;Helios.Base.IndicatorPushButton;chart_1_btn" Name="set.indicator" />
+      <LuaScript>if TriggerValue&gt;=2 and TriggerValue &lt;=17 then return true else return false
+end</LuaScript>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel Balkins.charts BALKINS;Helios.Base.KneeBoard;charts BALKINS" Name="position.changed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel Balkins.chart_2_btn;Helios.Base.IndicatorPushButton;chart_2_btn" Name="set.indicator" />
+      <LuaScript>if TriggerValue&gt;=18 and TriggerValue &lt;=36 then return true else return false
+end</LuaScript>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel Balkins.charts BALKINS;Helios.Base.KneeBoard;charts BALKINS" Name="position.changed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel Balkins.chart_3_btn;Helios.Base.IndicatorPushButton;chart_3_btn" Name="set.indicator" />
+      <LuaScript>if TriggerValue&gt;=37 and TriggerValue &lt;=52 then return true else return false
+end</LuaScript>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel Balkins.charts BALKINS;Helios.Base.KneeBoard;charts BALKINS" Name="position.changed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel Balkins.chart_4_btn;Helios.Base.IndicatorPushButton;chart_4_btn" Name="set.indicator" />
+      <LuaScript>if TriggerValue&gt;=53 and TriggerValue &lt;=103 then return true else return false
+end</LuaScript>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel Balkins.charts BALKINS;Helios.Base.KneeBoard;charts BALKINS" Name="position.changed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel Balkins.chart_5_btn;Helios.Base.IndicatorPushButton;chart_5_btn" Name="set.indicator" />
+      <LuaScript>if TriggerValue&gt;=104 then return true else return false
+end</LuaScript>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="position.changed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.Kneeboard Switch S KOREA;Helios.Base.KneeboardSwitch;Kneeboard Switch S KOREA" Name="set.Kneeboard position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="position.changed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.page number;Helios.Base.Text;page number" Name="set.Text" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="position.changed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_1_btn;Helios.Base.IndicatorPushButton;chart_1_btn" Name="set.indicator" />
+      <LuaScript>if TriggerValue&gt;=3 and TriggerValue &lt;=11 then return true else return false
+end</LuaScript>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="position.changed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_2_btn;Helios.Base.IndicatorPushButton;chart_2_btn" Name="set.indicator" />
+      <LuaScript>if TriggerValue&gt;=12 and TriggerValue &lt;=17 then return true else return false
+end</LuaScript>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="position.changed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_3_btn;Helios.Base.IndicatorPushButton;chart_3_btn" Name="set.indicator" />
+      <LuaScript>if TriggerValue&gt;=18 and TriggerValue &lt;=21 then return true else return false
+end</LuaScript>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="position.changed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_4_btn;Helios.Base.IndicatorPushButton;chart_4_btn" Name="set.indicator" />
+      <LuaScript>if TriggerValue&gt;=22 and TriggerValue &lt;=25 then return true else return false
+end</LuaScript>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="position.changed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_5_btn;Helios.Base.IndicatorPushButton;chart_5_btn" Name="set.indicator" />
+      <LuaScript>if TriggerValue&gt;=26 and TriggerValue &lt;=30 then return true else return false
+end</LuaScript>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="position.changed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_6_btn;Helios.Base.IndicatorPushButton;chart_6_btn" Name="set.indicator" />
+      <LuaScript>if TriggerValue&gt;=31 and TriggerValue &lt;=36 then return true else return false
+end</LuaScript>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="position.changed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_7_btn;Helios.Base.IndicatorPushButton;chart_7_btn" Name="set.indicator" />
+      <LuaScript>if TriggerValue&gt;=37 and TriggerValue &lt;=39 then return true else return false
+end</LuaScript>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="position.changed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_8_btn;Helios.Base.IndicatorPushButton;chart_8_btn" Name="set.indicator" />
+      <LuaScript>if TriggerValue&gt;=40 and TriggerValue &lt;=50 then return true else return false
+end</LuaScript>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="position.changed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_9_btn;Helios.Base.IndicatorPushButton;chart_9_btn" Name="set.indicator" />
+      <LuaScript>if TriggerValue&gt;=56 and TriggerValue &lt;=64 then return true else return false
+end</LuaScript>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="position.changed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_10_btn;Helios.Base.IndicatorPushButton;chart_10_btn" Name="set.indicator" />
+      <LuaScript>if TriggerValue&gt;=65 and TriggerValue &lt;=68 then return true else return false
+end</LuaScript>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="position.changed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_11_btn;Helios.Base.IndicatorPushButton;chart_11_btn" Name="set.indicator" />
+      <LuaScript>if TriggerValue&gt;=69 and TriggerValue &lt;=72 then return true else return false
+end</LuaScript>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="position.changed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_12_btn;Helios.Base.IndicatorPushButton;chart_12_btn" Name="set.indicator" />
+      <LuaScript>if TriggerValue&gt;=51 and TriggerValue &lt;=55 then return true else return false
+end</LuaScript>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="position.changed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_13_btn;Helios.Base.IndicatorPushButton;chart_13_btn" Name="set.indicator" />
+      <LuaScript>if TriggerValue&gt;=73 and TriggerValue &lt;=76 then return true else return false
+end</LuaScript>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="position.changed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_14_btn;Helios.Base.IndicatorPushButton;chart_14_btn" Name="set.indicator" />
+      <LuaScript>if TriggerValue&gt;=77 and TriggerValue &lt;=82 then return true else return false
+end</LuaScript>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="position.changed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_15_btn;Helios.Base.IndicatorPushButton;chart_15_btn" Name="set.indicator" />
+      <LuaScript>if TriggerValue&gt;=83 and TriggerValue &lt;=88 then return true else return false
+end</LuaScript>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="position.changed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_16_btn;Helios.Base.IndicatorPushButton;chart_16_btn" Name="set.indicator" />
+      <LuaScript>if TriggerValue&gt;=89 and TriggerValue &lt;=95 then return true else return false
+end</LuaScript>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="position.changed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_17_btn;Helios.Base.IndicatorPushButton;chart_17_btn" Name="set.indicator" />
+      <LuaScript>if TriggerValue&gt;=96 and TriggerValue &lt;=99 then return true else return false
+end</LuaScript>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="position.changed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_18_btn;Helios.Base.IndicatorPushButton;chart_18_btn" Name="set.indicator" />
+      <LuaScript>if TriggerValue&gt;=100 and TriggerValue &lt;=104 then return true else return false
+end</LuaScript>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="position.changed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_19_btn;Helios.Base.IndicatorPushButton;chart_19_btn" Name="set.indicator" />
+      <LuaScript>if TriggerValue&gt;=105 and TriggerValue &lt;=110 then return true else return false
+end</LuaScript>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="position.changed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_20_btn;Helios.Base.IndicatorPushButton;chart_20_btn" Name="set.indicator" />
+      <LuaScript>if TriggerValue&gt;=111 and TriggerValue &lt;=114 then return true else return false
+end</LuaScript>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="position.changed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_1_btn 1;Helios.Base.IndicatorPushButton;chart_1_btn 1" Name="set.indicator" />
+      <LuaScript>if TriggerValue&gt;=0 and TriggerValue &lt;=2 then return true else return false
+end</LuaScript>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.Kneeboard Switch S KOREA;Helios.Base.KneeboardSwitch;Kneeboard Switch S KOREA" Name="Kneeboard position.changed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_1_btn;Helios.Base.IndicatorPushButton;chart_1_btn" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="set.position" />
+      <StaticValue>3</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_2_btn;Helios.Base.IndicatorPushButton;chart_2_btn" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="set.position" />
+      <StaticValue>12</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_3_btn;Helios.Base.IndicatorPushButton;chart_3_btn" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="set.position" />
+      <StaticValue>18</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_4_btn;Helios.Base.IndicatorPushButton;chart_4_btn" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="set.position" />
+      <StaticValue>22</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_5_btn;Helios.Base.IndicatorPushButton;chart_5_btn" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="set.position" />
+      <StaticValue>26</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_6_btn;Helios.Base.IndicatorPushButton;chart_6_btn" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="set.position" />
+      <StaticValue>31</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_7_btn;Helios.Base.IndicatorPushButton;chart_7_btn" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="set.position" />
+      <StaticValue>37</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_8_btn;Helios.Base.IndicatorPushButton;chart_8_btn" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="set.position" />
+      <StaticValue>40</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_9_btn;Helios.Base.IndicatorPushButton;chart_9_btn" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="set.position" />
+      <StaticValue>56</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_10_btn;Helios.Base.IndicatorPushButton;chart_10_btn" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="set.position" />
+      <StaticValue>65</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_11_btn;Helios.Base.IndicatorPushButton;chart_11_btn" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="set.position" />
+      <StaticValue>69</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_12_btn;Helios.Base.IndicatorPushButton;chart_12_btn" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="set.position" />
+      <StaticValue>51</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_13_btn;Helios.Base.IndicatorPushButton;chart_13_btn" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="set.position" />
+      <StaticValue>73</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_14_btn;Helios.Base.IndicatorPushButton;chart_14_btn" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="set.position" />
+      <StaticValue>77</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_15_btn;Helios.Base.IndicatorPushButton;chart_15_btn" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="set.position" />
+      <StaticValue>83</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_16_btn;Helios.Base.IndicatorPushButton;chart_16_btn" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="set.position" />
+      <StaticValue>89</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_17_btn;Helios.Base.IndicatorPushButton;chart_17_btn" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="set.position" />
+      <StaticValue>96</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_18_btn;Helios.Base.IndicatorPushButton;chart_18_btn" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="set.position" />
+      <StaticValue>100</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_19_btn;Helios.Base.IndicatorPushButton;chart_19_btn" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="set.position" />
+      <StaticValue>105</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_20_btn;Helios.Base.IndicatorPushButton;chart_20_btn" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="set.position" />
+      <StaticValue>111</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.panel S KOREA.chart_1_btn 1;Helios.Base.IndicatorPushButton;chart_1_btn 1" Name="pushed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA.charts S KOREA;Helios.Base.KneeBoard;charts S KOREA" Name="set.position" />
+      <StaticValue>0</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.Btn CheckLists;Helios.Base.PushButton;Btn CheckLists" Name="closed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel CHECKLISTS;Helios.Panel;panel CHECKLISTS" Name="set.hidden" />
+      <StaticValue>false</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.Btn CheckLists;Helios.Base.PushButton;Btn CheckLists" Name="open" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel CHECKLISTS;Helios.Panel;panel CHECKLISTS" Name="set.hidden" />
+      <StaticValue>true</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.Btn CheckLists;Helios.Base.PushButton;Btn CheckLists" Name="closed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel Balkins;Helios.Panel;panel Balkins" Name="set.hidden" />
+      <StaticValue>true</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.Btn CheckLists;Helios.Base.PushButton;Btn CheckLists" Name="closed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA;Helios.Panel;panel S KOREA" Name="set.hidden" />
+      <StaticValue>true</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.Btn CheckLists;Helios.Base.PushButton;Btn CheckLists" Name="closed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.Btn S Korea;Helios.Base.PushButton;Btn S Korea" Name="set.physical state" />
+      <StaticValue>false</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.Btn CheckLists;Helios.Base.PushButton;Btn CheckLists" Name="closed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.Btn Balkins;Helios.Base.PushButton;Btn Balkins" Name="set.physical state" />
+      <StaticValue>false</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.Btn Balkins;Helios.Base.PushButton;Btn Balkins" Name="closed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel CHECKLISTS;Helios.Panel;panel CHECKLISTS" Name="set.hidden" />
+      <StaticValue>true</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.Btn Balkins;Helios.Base.PushButton;Btn Balkins" Name="open" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel Balkins;Helios.Panel;panel Balkins" Name="set.hidden" />
+      <StaticValue>true</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.Btn Balkins;Helios.Base.PushButton;Btn Balkins" Name="closed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel Balkins;Helios.Panel;panel Balkins" Name="set.hidden" />
+      <StaticValue>false</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.Btn Balkins;Helios.Base.PushButton;Btn Balkins" Name="closed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA;Helios.Panel;panel S KOREA" Name="set.hidden" />
+      <StaticValue>true</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.Btn Balkins;Helios.Base.PushButton;Btn Balkins" Name="closed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.Btn CheckLists;Helios.Base.PushButton;Btn CheckLists" Name="set.physical state" />
+      <StaticValue>false</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.Btn Balkins;Helios.Base.PushButton;Btn Balkins" Name="closed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.Btn S Korea;Helios.Base.PushButton;Btn S Korea" Name="set.physical state" />
+      <StaticValue>false</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.Btn S Korea;Helios.Base.PushButton;Btn S Korea" Name="closed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel CHECKLISTS;Helios.Panel;panel CHECKLISTS" Name="set.hidden" />
+      <StaticValue>true</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.Btn S Korea;Helios.Base.PushButton;Btn S Korea" Name="closed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel Balkins;Helios.Panel;panel Balkins" Name="set.hidden" />
+      <StaticValue>true</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.Btn S Korea;Helios.Base.PushButton;Btn S Korea" Name="closed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA;Helios.Panel;panel S KOREA" Name="set.hidden" />
+      <StaticValue>false</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.Btn S Korea;Helios.Base.PushButton;Btn S Korea" Name="open" />
+      <Action Target="Visual;Monitor 2.NAV_panel.panel S KOREA;Helios.Panel;panel S KOREA" Name="set.hidden" />
+      <StaticValue>true</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.Btn S Korea;Helios.Base.PushButton;Btn S Korea" Name="closed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.Btn CheckLists;Helios.Base.PushButton;Btn CheckLists" Name="set.physical state" />
+      <StaticValue>false</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.NAV_panel.Btn S Korea;Helios.Base.PushButton;Btn S Korea" Name="closed" />
+      <Action Target="Visual;Monitor 2.NAV_panel.Btn Balkins;Helios.Base.PushButton;Btn Balkins" Name="set.physical state" />
+      <StaticValue>false</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.UTIL_button;Helios.Base.PushButton;UTIL_button" Name="pushed" />
