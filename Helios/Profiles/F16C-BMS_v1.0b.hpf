@@ -32,7 +32,7 @@
               <Background />
               <Children>
                 <Control TypeIdentifier="Helios.Falcon.DED" Name="DED" SnapTarget="True" Locked="True">
-                  <Location>806,1</Location>
+                  <Location>806,0</Location>
                   <Size>214,72</Size>
                   <Hidden>False</Hidden>
                   <Children />
@@ -64,8 +64,8 @@
                   <Hidden>False</Hidden>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Panel" Name="Panel_EHSI" SnapTarget="True" Locked="True">
-                  <Location>560,540</Location>
+                <Control TypeIdentifier="Helios.Panel" Name="Panel_EHSI" SnapTarget="True" Locked="False">
+                  <Location>556,540</Location>
                   <Size>168,178</Size>
                   <Hidden>False</Hidden>
                   <Background />
@@ -268,7 +268,7 @@
                         </Padding>
                       </Font>
                       <Text>PLS</Text>
-                      <Location>35,146</Location>
+                      <Location>40,146</Location>
                       <Size>18,10</Size>
                       <Hidden>False</Hidden>
                       <Children />
@@ -297,17 +297,70 @@
                       <Hidden>False</Hidden>
                       <Children />
                     </Control>
-                    <Control TypeIdentifier="Helios.Panel" Name="Panel_DRAP_Nm" SnapTarget="True" Locked="False">
-                      <Location>0,0</Location>
-                      <Size>168,178</Size>
-                      <Hidden>True</Hidden>
-                      <Background>
-                        <Image>BMS\F-16\Images\DRAP_Nm.png</Image>
-                        <ImageAlignment>Stretched</ImageAlignment>
-                      </Background>
+                    <Control TypeIdentifier="Helios.Base.TextDisplay" Name="TextDisplay CRS" SnapTarget="True" Locked="True">
+                      <Font>
+                        <FontFamily>Franklin Gothic</FontFamily>
+                        <FontStyle>Normal</FontStyle>
+                        <FontWeight>Normal</FontWeight>
+                        <FontSize>8.14285714285713</FontSize>
+                        <HorizontalAlignment>Right</HorizontalAlignment>
+                        <VerticalAlignment>Center</VerticalAlignment>
+                        <Padding>
+                          <Left>0</Left>
+                          <Top>0</Top>
+                          <Right>0</Right>
+                          <Bottom>0</Bottom>
+                        </Padding>
+                      </Font>
+                      <OnTextColor>#FFD8DCD8</OnTextColor>
+                      <BackgroundColor>#FF000000</BackgroundColor>
+                      <TextTest>000</TextTest>
+                      <ParserDictionary />
+                      <UseBackground>True</UseBackground>
+                      <UseParserDictionary>False</UseParserDictionary>
+                      <ScalingMode>Height</ScalingMode>
+                      <Location>130,20</Location>
+                      <Size>20,12</Size>
+                      <Hidden>False</Hidden>
                       <Children />
                     </Control>
-                    <Control TypeIdentifier="Helios.Panel" Name="Panel_OFF" SnapTarget="True" Locked="False">
+                    <Control TypeIdentifier="Helios.Base.TextDisplay" Name="TextDisplay Nm" SnapTarget="True" Locked="True">
+                      <Font>
+                        <FontFamily>Franklin Gothic</FontFamily>
+                        <FontStyle>Normal</FontStyle>
+                        <FontWeight>Normal</FontWeight>
+                        <FontSize>8.14285714285713</FontSize>
+                        <HorizontalAlignment>Left</HorizontalAlignment>
+                        <VerticalAlignment>Center</VerticalAlignment>
+                        <Padding>
+                          <Left>0.0584294985497002</Left>
+                          <Top>0</Top>
+                          <Right>0.0584294985497002</Right>
+                          <Bottom>0</Bottom>
+                        </Padding>
+                      </Font>
+                      <OnTextColor>#FFD8DCD8</OnTextColor>
+                      <BackgroundColor>#FF000000</BackgroundColor>
+                      <TextTest>000</TextTest>
+                      <ParserDictionary />
+                      <UseBackground>True</UseBackground>
+                      <UseParserDictionary>False</UseParserDictionary>
+                      <ScalingMode>Height</ScalingMode>
+                      <Location>16,20</Location>
+                      <Size>20,12</Size>
+                      <Hidden>False</Hidden>
+                      <Children />
+                    </Control>
+                    <Control TypeIdentifier="Helios.Base.Image" Name="Panel_DRAP_Nm" SnapTarget="False" Locked="True">
+                      <Image>{Helios}/Images/Panels/yellow-caution.png</Image>
+                      <Alignment>Tiled</Alignment>
+                      <CornerRadius>0</CornerRadius>
+                      <Location>16,20</Location>
+                      <Size>20,12</Size>
+                      <Hidden>True</Hidden>
+                      <Children />
+                    </Control>
+                    <Control TypeIdentifier="Helios.Panel" Name="Panel_OFF" SnapTarget="True" Locked="True">
                       <Location>0,0</Location>
                       <Size>168,178</Size>
                       <Hidden>False</Hidden>
@@ -315,102 +368,6 @@
                         <Image>BMS\F-16\Images\FOND NOIR.png</Image>
                         <ImageAlignment>Stretched</ImageAlignment>
                       </Background>
-                      <Children />
-                    </Control>
-                    <Control TypeIdentifier="Helios.Base.CustomDrum" Name="CRS digit 1" SnapTarget="True" Locked="False">
-                      <Location>128,20</Location>
-                      <Size>8,10</Size>
-                      <Hidden>False</Hidden>
-                      <DrumImage>{Helios}/Gauges/A-10/Common/drum_tape.xaml</DrumImage>
-                      <Drum_PosX>0</Drum_PosX>
-                      <Drum_PosY>0</Drum_PosY>
-                      <Drum_Width>50</Drum_Width>
-                      <Drum_Height>1000</Drum_Height>
-                      <MinVertical>-76</MinVertical>
-                      <VerticalTravel>-822</VerticalTravel>
-                      <InitialVertical>-822</InitialVertical>
-                      <MinInputVertical>0</MinInputVertical>
-                      <MaxInputVertical>9</MaxInputVertical>
-                      <Children />
-                    </Control>
-                    <Control TypeIdentifier="Helios.Base.CustomDrum" Name="CRS digit 2" SnapTarget="True" Locked="False">
-                      <Location>136,20</Location>
-                      <Size>8,10</Size>
-                      <Hidden>False</Hidden>
-                      <DrumImage>{Helios}/Gauges/A-10/Common/drum_tape.xaml</DrumImage>
-                      <Drum_PosX>0</Drum_PosX>
-                      <Drum_PosY>0</Drum_PosY>
-                      <Drum_Width>50</Drum_Width>
-                      <Drum_Height>1000</Drum_Height>
-                      <MinVertical>-76</MinVertical>
-                      <VerticalTravel>-822</VerticalTravel>
-                      <InitialVertical>-822</InitialVertical>
-                      <MinInputVertical>0</MinInputVertical>
-                      <MaxInputVertical>9</MaxInputVertical>
-                      <Children />
-                    </Control>
-                    <Control TypeIdentifier="Helios.Base.CustomDrum" Name="CRS digit 3" SnapTarget="True" Locked="True">
-                      <Location>144,20</Location>
-                      <Size>8,10</Size>
-                      <Hidden>False</Hidden>
-                      <DrumImage>{Helios}/Gauges/A-10/Common/drum_tape.xaml</DrumImage>
-                      <Drum_PosX>0</Drum_PosX>
-                      <Drum_PosY>0</Drum_PosY>
-                      <Drum_Width>50</Drum_Width>
-                      <Drum_Height>1000</Drum_Height>
-                      <MinVertical>-76</MinVertical>
-                      <VerticalTravel>-822</VerticalTravel>
-                      <InitialVertical>-822</InitialVertical>
-                      <MinInputVertical>0</MinInputVertical>
-                      <MaxInputVertical>9</MaxInputVertical>
-                      <Children />
-                    </Control>
-                    <Control TypeIdentifier="Helios.Base.CustomDrum" Name="HDG digit 1" SnapTarget="True" Locked="True">
-                      <Location>12,20</Location>
-                      <Size>8,10</Size>
-                      <Hidden>False</Hidden>
-                      <DrumImage>{Helios}/Gauges/A-10/Common/drum_tape.xaml</DrumImage>
-                      <Drum_PosX>0</Drum_PosX>
-                      <Drum_PosY>0</Drum_PosY>
-                      <Drum_Width>50</Drum_Width>
-                      <Drum_Height>1000</Drum_Height>
-                      <MinVertical>-76</MinVertical>
-                      <VerticalTravel>-822</VerticalTravel>
-                      <InitialVertical>-822</InitialVertical>
-                      <MinInputVertical>0</MinInputVertical>
-                      <MaxInputVertical>9</MaxInputVertical>
-                      <Children />
-                    </Control>
-                    <Control TypeIdentifier="Helios.Base.CustomDrum" Name="HDG digit 2" SnapTarget="True" Locked="True">
-                      <Location>20,20</Location>
-                      <Size>8,10</Size>
-                      <Hidden>False</Hidden>
-                      <DrumImage>{Helios}/Gauges/A-10/Common/drum_tape.xaml</DrumImage>
-                      <Drum_PosX>0</Drum_PosX>
-                      <Drum_PosY>0</Drum_PosY>
-                      <Drum_Width>50</Drum_Width>
-                      <Drum_Height>1000</Drum_Height>
-                      <MinVertical>-76</MinVertical>
-                      <VerticalTravel>-822</VerticalTravel>
-                      <InitialVertical>-822</InitialVertical>
-                      <MinInputVertical>0</MinInputVertical>
-                      <MaxInputVertical>9</MaxInputVertical>
-                      <Children />
-                    </Control>
-                    <Control TypeIdentifier="Helios.Base.CustomDrum" Name="HDG digit 3" SnapTarget="True" Locked="True">
-                      <Location>28,20</Location>
-                      <Size>8,10</Size>
-                      <Hidden>False</Hidden>
-                      <DrumImage>{Helios}/Gauges/A-10/Common/drum_tape.xaml</DrumImage>
-                      <Drum_PosX>0</Drum_PosX>
-                      <Drum_PosY>0</Drum_PosY>
-                      <Drum_Width>50</Drum_Width>
-                      <Drum_Height>1000</Drum_Height>
-                      <MinVertical>-76</MinVertical>
-                      <VerticalTravel>-822</VerticalTravel>
-                      <InitialVertical>-822</InitialVertical>
-                      <MinInputVertical>0</MinInputVertical>
-                      <MaxInputVertical>9</MaxInputVertical>
                       <Children />
                     </Control>
                   </Children>
@@ -431,26 +388,26 @@
                   <Children />
                 </Control>
                 <Control TypeIdentifier="Helios.F16.OilPressure" Name="Oil Pressure" SnapTarget="True" Locked="True">
-                  <Location>1154,229</Location>
+                  <Location>1154,228</Location>
                   <Size>68,68</Size>
                   <Hidden>False</Hidden>
                   <Children />
                 </Control>
                 <Control TypeIdentifier="Helios.F16.Nozzle" Name="Nozzle" SnapTarget="True" Locked="True">
-                  <Location>1157,294</Location>
+                  <Location>1156,294</Location>
                   <Size>88,88</Size>
                   <Hidden>False</Hidden>
                   <Children />
                 </Control>
                 <Control TypeIdentifier="Helios.F16.RPM" Name="RPM" SnapTarget="True" Locked="True">
-                  <Location>1152,387</Location>
-                  <Size>113,113</Size>
+                  <Location>1152,386</Location>
+                  <Size>112,112</Size>
                   <Hidden>False</Hidden>
                   <Children />
                 </Control>
                 <Control TypeIdentifier="Helios.F16.FTIT" Name="FTIT" SnapTarget="True" Locked="True">
-                  <Location>1160,499</Location>
-                  <Size>117,117</Size>
+                  <Location>1160,498</Location>
+                  <Size>116,116</Size>
                   <Hidden>False</Hidden>
                   <Children />
                 </Control>
@@ -461,26 +418,26 @@
                   <Children />
                 </Control>
                 <Control TypeIdentifier="Helios.F16.Airspeed" Name="Airspeed" SnapTarget="True" Locked="True">
-                  <Location>489,248</Location>
-                  <Size>140,145</Size>
+                  <Location>488,248</Location>
+                  <Size>140,144</Size>
                   <Hidden>False</Hidden>
                   <Children />
                 </Control>
                 <Control TypeIdentifier="Helios.F16.VVI" Name="VVI" SnapTarget="True" Locked="True">
-                  <Location>725,388</Location>
-                  <Size>73,157</Size>
+                  <Location>724,388</Location>
+                  <Size>72,156</Size>
                   <Hidden>False</Hidden>
                   <Children />
                 </Control>
                 <Control TypeIdentifier="Helios.F16.AOA" Name="AOA" SnapTarget="True" Locked="True">
-                  <Location>485,388</Location>
-                  <Size>73,157</Size>
+                  <Location>484,388</Location>
+                  <Size>72,156</Size>
                   <Hidden>False</Hidden>
                   <Children />
                 </Control>
                 <Control TypeIdentifier="Helios.F16.ADI" Name="ADI main" SnapTarget="True" Locked="True">
                   <Location>556,388</Location>
-                  <Size>163,158</Size>
+                  <Size>162,158</Size>
                   <Hidden>False</Hidden>
                   <Children />
                 </Control>
@@ -2940,7 +2897,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="button 22 2" SnapTarget="True" Locked="False">
-              <Location>1,334</Location>
+              <Location>0,334</Location>
               <Size>34,34</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
@@ -2967,7 +2924,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="Kneeboard Button" SnapTarget="True" Locked="False">
-              <Location>0,371</Location>
+              <Location>0,370</Location>
               <Size>34,34</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
@@ -3048,7 +3005,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Panel" Name="SeedBrake Panel" SnapTarget="True" Locked="False">
-              <Location>1,472</Location>
+              <Location>0,472</Location>
               <Size>42,66</Size>
               <Hidden>False</Hidden>
               <Background>
@@ -3240,8 +3197,8 @@
                   <Children />
                 </Control>
                 <Control TypeIdentifier="Helios.Base.CustomDrum" Name="CustomDrum 1 1" SnapTarget="True" Locked="False">
-                  <Location>29,62</Location>
-                  <Size>7,14</Size>
+                  <Location>28,62</Location>
+                  <Size>6,14</Size>
                   <Hidden>False</Hidden>
                   <DrumImage>{Helios}/Gauges/A-10/Common/drum_tape.xaml</DrumImage>
                   <Drum_PosX>0</Drum_PosX>
@@ -3256,8 +3213,8 @@
                   <Children />
                 </Control>
                 <Control TypeIdentifier="Helios.Base.CustomDrum" Name="CustomDrum 1 1 1" SnapTarget="True" Locked="False">
-                  <Location>37,62</Location>
-                  <Size>7,14</Size>
+                  <Location>36,62</Location>
+                  <Size>6,14</Size>
                   <Hidden>False</Hidden>
                   <DrumImage>{Helios}/Gauges/A-10/Common/drum_tape.xaml</DrumImage>
                   <Drum_PosX>0</Drum_PosX>
@@ -3273,7 +3230,7 @@
                 </Control>
                 <Control TypeIdentifier="Helios.Base.CustomDrum" Name="CustomDrum 1 1 2" SnapTarget="True" Locked="False">
                   <Location>44,62</Location>
-                  <Size>7,14</Size>
+                  <Size>6,14</Size>
                   <Hidden>False</Hidden>
                   <DrumImage>{Helios}/Gauges/A-10/Common/drum_tape.xaml</DrumImage>
                   <Drum_PosX>0</Drum_PosX>
@@ -3289,7 +3246,7 @@
                 </Control>
                 <Control TypeIdentifier="Helios.Base.CustomDrum" Name="CustomDrum 1 1 3" SnapTarget="True" Locked="False">
                   <Location>58,62</Location>
-                  <Size>7,14</Size>
+                  <Size>6,14</Size>
                   <Hidden>False</Hidden>
                   <DrumImage>{Helios}/Gauges/A-10/Common/drum_tape.xaml</DrumImage>
                   <Drum_PosX>0</Drum_PosX>
@@ -3304,8 +3261,8 @@
                   <Children />
                 </Control>
                 <Control TypeIdentifier="Helios.Base.CustomDrum" Name="CustomDrum 1 1 4" SnapTarget="True" Locked="False">
-                  <Location>51,62</Location>
-                  <Size>7,14</Size>
+                  <Location>50,62</Location>
+                  <Size>6,14</Size>
                   <Hidden>False</Hidden>
                   <DrumImage>{Helios}/Gauges/A-10/Common/drum_tape.xaml</DrumImage>
                   <Drum_PosX>0</Drum_PosX>
@@ -6005,7 +5962,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="st sta" SnapTarget="True" Locked="False">
-              <Location>240,25</Location>
+              <Location>240,24</Location>
               <Size>18,56</Size>
               <Rotation>CW</Rotation>
               <Hidden>False</Hidden>
@@ -6084,7 +6041,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="mfd" SnapTarget="True" Locked="False">
-              <Location>240,105</Location>
+              <Location>240,104</Location>
               <Size>18,56</Size>
               <Rotation>CW</Rotation>
               <Hidden>False</Hidden>
@@ -7929,8 +7886,8 @@
               <UseBackground>False</UseBackground>
               <UseParserDictionary>False</UseParserDictionary>
               <ScalingMode>None</ScalingMode>
-              <Location>289,90</Location>
-              <Size>13,30</Size>
+              <Location>288,90</Location>
+              <Size>12,30</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -7957,7 +7914,7 @@
               <UseParserDictionary>False</UseParserDictionary>
               <ScalingMode>None</ScalingMode>
               <Location>304,90</Location>
-              <Size>13,30</Size>
+              <Size>12,30</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -7983,8 +7940,8 @@
               <UseBackground>False</UseBackground>
               <UseParserDictionary>False</UseParserDictionary>
               <ScalingMode>None</ScalingMode>
-              <Location>319,90</Location>
-              <Size>13,30</Size>
+              <Location>318,90</Location>
+              <Size>12,30</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -8010,8 +7967,8 @@
               <UseBackground>False</UseBackground>
               <UseParserDictionary>False</UseParserDictionary>
               <ScalingMode>None</ScalingMode>
-              <Location>335,90</Location>
-              <Size>13,30</Size>
+              <Location>334,90</Location>
+              <Size>12,30</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -8070,7 +8027,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Orange Seal - Round 2" SnapTarget="True" Locked="False">
-              <Location>155,159</Location>
+              <Location>154,158</Location>
               <Size>24,56</Size>
               <Hidden>False</Hidden>
               <SwitchType>MomOnOn</SwitchType>
@@ -8150,7 +8107,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.RotaryEncoder" Name="Rotary Encoder 4" SnapTarget="True" Locked="False">
-              <Location>319,180</Location>
+              <Location>318,180</Location>
               <Size>26,26</Size>
               <Hidden>False</Hidden>
               <KnobImage>Capt_Zeen\F16\rotator_105.png</KnobImage>
@@ -9040,7 +8997,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.CalibrationFilter" Name="Calibration Filter IFFM1D2" SnapTarget="False" Locked="False">
-              <Location>166,133</Location>
+              <Location>166,132</Location>
               <Size>20,20</Size>
               <Hidden>False</Hidden>
               <PointCount>4</PointCount>
@@ -9330,7 +9287,7 @@
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.KneeboardSwitch" Name="Kneeboard Switch" SnapTarget="True" Locked="False">
+            <Control TypeIdentifier="Helios.Base.KneeboardSwitch" Name="Kneeboard Switch" SnapTarget="True" Locked="True">
               <Location>0,0</Location>
               <Size>636,388</Size>
               <Rotation>CW</Rotation>
@@ -9384,7 +9341,7 @@
           </Children>
         </Control>
         <Control TypeIdentifier="Helios.Panel" Name="UTILITY Panel" SnapTarget="True" Locked="True">
-          <Location>875,588</Location>
+          <Location>874,588</Location>
           <Size>254,132</Size>
           <Hidden>True</Hidden>
           <Background>
@@ -9392,8 +9349,8 @@
           </Background>
           <Children>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="Button Pretty ScreenShot" SnapTarget="True" Locked="False">
-              <Location>2,94</Location>
-              <Size>46,34</Size>
+              <Location>5,53</Location>
+              <Size>52,34</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
               <Image>{Helios}/Images/Buttons/mfd.png</Image>
@@ -9419,8 +9376,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="Button ShowChat 1" SnapTarget="True" Locked="False">
-              <Location>2,50</Location>
-              <Size>46,36</Size>
+              <Location>5,14</Location>
+              <Size>52,36</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
               <Image>{Helios}/Images/Buttons/mfd.png</Image>
@@ -9446,8 +9403,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="Button TeamSpeak PTT" SnapTarget="True" Locked="False">
-              <Location>2,2</Location>
-              <Size>46,42</Size>
+              <Location>217,14</Location>
+              <Size>32,29</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
               <Image>{Helios}/Images/Buttons/mfd.png</Image>
@@ -9473,8 +9430,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="Button IVC Global" SnapTarget="True" Locked="False">
-              <Location>198,2</Location>
-              <Size>40,42</Size>
+              <Location>216,53</Location>
+              <Size>33,35</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
               <Image>{Helios}/Images/Buttons/mfd.png</Image>
@@ -9500,8 +9457,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="Button IVC Local" SnapTarget="True" Locked="False">
-              <Location>198,50</Location>
-              <Size>40,36</Size>
+              <Location>216,99</Location>
+              <Size>33,30</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
               <Image>{Helios}/Images/Buttons/mfd.png</Image>
@@ -9527,115 +9484,43 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="Button EXIT MISSION" SnapTarget="True" Locked="False">
-              <Location>48,2</Location>
-              <Size>46,46</Size>
+              <Location>5,90</Location>
+              <Size>52,40</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
-              <Image>-Ice's Falcon BMS ver.3S\Buttons\EXIT MISSION On.png</Image>
-              <PushedImage>-Ice's Falcon BMS ver.3S\Buttons\EXIT MISSION On.png</PushedImage>
+              <Image>{Helios}/Images/Buttons/mfd.png</Image>
+              <PushedImage>{Helios}/Images/Buttons/mfd-in.png</PushedImage>
+              <Text>
+                <Color>#FFFFFFFF</Color>
+                <Font>
+                  <FontFamily>Franklin Gothic</FontFamily>
+                  <FontStyle>Normal</FontStyle>
+                  <FontWeight>Normal</FontWeight>
+                  <FontSize>10</FontSize>
+                  <HorizontalAlignment>Center</HorizontalAlignment>
+                  <VerticalAlignment>Center</VerticalAlignment>
+                  <Padding>
+                    <Left>0</Left>
+                    <Top>0</Top>
+                    <Right>0</Right>
+                    <Bottom>0</Bottom>
+                  </Padding>
+                </Font>
+                <Text>EXIT MSN</Text>
+              </Text>
               <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Panel" Name="TrackIR" SnapTarget="False" Locked="False">
-              <Location>100,2</Location>
-              <Size>88,126</Size>
-              <Hidden>False</Hidden>
-              <Background>
-                <Color>#FF1E1E1E</Color>
-              </Background>
-              <Border>
-                <TopLeftCorner>{Helios}/Images/Panels/panel-backplate-top-left.png</TopLeftCorner>
-                <TopBorder>{Helios}/Images/Panels/panel-top.png</TopBorder>
-                <TopRightCorner>{Helios}/Images/Panels/panel-backplate-top-right.png</TopRightCorner>
-                <RightBorder>{Helios}/Images/Panels/panel-right.png</RightBorder>
-                <BottomRightCorner>{Helios}/Images/Panels/panel-backplate-bottom-right.png</BottomRightCorner>
-                <BottomBorder>{Helios}/Images/Panels/panel-bottom.png</BottomBorder>
-                <BottomLeftCorner>{Helios}/Images/Panels/panel-backplate-bottom-left.png</BottomLeftCorner>
-                <LeftBorder>{Helios}/Images/Panels/panel-left.png</LeftBorder>
-              </Border>
-              <Children>
-                <Control TypeIdentifier="Helios.Base.PushButton" Name="TRACKIR Reload" SnapTarget="True" Locked="False">
-                  <Location>16,90</Location>
-                  <Size>56,22</Size>
-                  <Hidden>False</Hidden>
-                  <Type>Toggle</Type>
-                  <Image>{Helios}/Images/Buttons/tactile-dark-square.png</Image>
-                  <PushedImage>{Helios}/Images/Buttons/tactile-dark-square-in.png</PushedImage>
-                  <Text>
-                    <Color>#FFFFFFFF</Color>
-                    <Font>
-                      <FontFamily>Franklin Gothic</FontFamily>
-                      <FontStyle>Normal</FontStyle>
-                      <FontWeight>Normal</FontWeight>
-                      <FontSize>13</FontSize>
-                      <HorizontalAlignment>Center</HorizontalAlignment>
-                      <VerticalAlignment>Center</VerticalAlignment>
-                      <Padding>
-                        <Left>0</Left>
-                        <Top>0</Top>
-                        <Right>0</Right>
-                        <Bottom>0</Bottom>
-                      </Padding>
-                    </Font>
-                    <Text>RELOAD</Text>
-                  </Text>
-                  <Children />
-                </Control>
-                <Control TypeIdentifier="Helios.Base.Text" Name="Label" SnapTarget="True" Locked="False">
-                  <FillBackground>False</FillBackground>
-                  <BackgroundColor>#FF1E1E1E</BackgroundColor>
-                  <FontColor>#FFFFFFFF</FontColor>
-                  <Font>
-                    <FontFamily>Franklin Gothic</FontFamily>
-                    <FontStyle>Normal</FontStyle>
-                    <FontWeight>Normal</FontWeight>
-                    <FontSize>7.53881278538813</FontSize>
-                    <HorizontalAlignment>Center</HorizontalAlignment>
-                    <VerticalAlignment>Top</VerticalAlignment>
-                    <Padding>
-                      <Left>0</Left>
-                      <Top>0</Top>
-                      <Right>0</Right>
-                      <Bottom>0</Bottom>
-                    </Padding>
-                    <Underline />
-                  </Font>
-                  <Text>TrackIR Control</Text>
-                  <Location>20,26</Location>
-                  <Size>50,12</Size>
-                  <Hidden>False</Hidden>
-                  <Children />
-                </Control>
-                <Control TypeIdentifier="Helios.Base.PushButton" Name="Button TIR CENTER" SnapTarget="True" Locked="False">
-                  <Location>16,40</Location>
-                  <Size>56,22</Size>
-                  <Hidden>False</Hidden>
-                  <Type>Momentary</Type>
-                  <Image>-Ice's Falcon BMS ver.3S\Buttons\TIR Center.png</Image>
-                  <PushedImage>-Ice's Falcon BMS ver.3S\Buttons\TIR Center.png</PushedImage>
-                  <Children />
-                </Control>
-                <Control TypeIdentifier="Helios.Base.PushButton" Name="Button TIR PAUSE" SnapTarget="True" Locked="False">
-                  <Location>16,66</Location>
-                  <Size>56,22</Size>
-                  <Hidden>False</Hidden>
-                  <Type>Momentary</Type>
-                  <Image>-Ice's Falcon BMS ver.3S\Buttons\TIR Pause.png</Image>
-                  <PushedImage>-Ice's Falcon BMS ver.3S\Buttons\TIR Pause.png</PushedImage>
-                  <Children />
-                </Control>
-              </Children>
             </Control>
             <Control TypeIdentifier="Helios.Base.Image" Name="Caution" SnapTarget="False" Locked="False">
               <Image>{Helios}/Images/Panels/yellow-caution.png</Image>
               <Alignment>Tiled</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>54,50</Location>
+              <Location>157,15</Location>
               <Size>40,36</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="Push - Red" SnapTarget="True" Locked="False">
-              <Location>58,52</Location>
+              <Location>161,17</Location>
               <Size>32,32</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
@@ -9662,7 +9547,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="Push - Red 1" SnapTarget="True" Locked="False">
-              <Location>58,94</Location>
+              <Location>161,62</Location>
               <Size>32,32</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
@@ -9688,10 +9573,224 @@
               </Text>
               <Children />
             </Control>
+            <Control TypeIdentifier="Helios.Base.Text" Name="Label" SnapTarget="True" Locked="False">
+              <FillBackground>False</FillBackground>
+              <BackgroundColor>#FF1E1E1E</BackgroundColor>
+              <FontColor>#FFFFFFFF</FontColor>
+              <Font>
+                <FontFamily>Franklin Gothic</FontFamily>
+                <FontStyle>Normal</FontStyle>
+                <FontWeight>Normal</FontWeight>
+                <FontSize>7.53881278538813</FontSize>
+                <HorizontalAlignment>Center</HorizontalAlignment>
+                <VerticalAlignment>Top</VerticalAlignment>
+                <Padding>
+                  <Left>0</Left>
+                  <Top>0</Top>
+                  <Right>0</Right>
+                  <Bottom>0</Bottom>
+                </Padding>
+                <Underline />
+              </Font>
+              <Text>BMS Control</Text>
+              <Location>6,0</Location>
+              <Size>50,12</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="TRACKIR Reload" SnapTarget="True" Locked="False">
+              <Location>78,66</Location>
+              <Size>56,22</Size>
+              <Hidden>False</Hidden>
+              <Type>Toggle</Type>
+              <Image>{Helios}/Images/Buttons/tactile-dark-square.png</Image>
+              <PushedImage>{Helios}/Images/Buttons/tactile-dark-square-in.png</PushedImage>
+              <Text>
+                <Color>#FFFFFFFF</Color>
+                <Font>
+                  <FontFamily>Franklin Gothic</FontFamily>
+                  <FontStyle>Normal</FontStyle>
+                  <FontWeight>Normal</FontWeight>
+                  <FontSize>13</FontSize>
+                  <HorizontalAlignment>Center</HorizontalAlignment>
+                  <VerticalAlignment>Center</VerticalAlignment>
+                  <Padding>
+                    <Left>0</Left>
+                    <Top>0</Top>
+                    <Right>0</Right>
+                    <Bottom>0</Bottom>
+                  </Padding>
+                </Font>
+                <Text>RELOAD</Text>
+              </Text>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Text" Name="Label 1" SnapTarget="True" Locked="False">
+              <FillBackground>False</FillBackground>
+              <BackgroundColor>#FF1E1E1E</BackgroundColor>
+              <FontColor>#FFFFFFFF</FontColor>
+              <Font>
+                <FontFamily>Franklin Gothic</FontFamily>
+                <FontStyle>Normal</FontStyle>
+                <FontWeight>Normal</FontWeight>
+                <FontSize>7.53881278538813</FontSize>
+                <HorizontalAlignment>Center</HorizontalAlignment>
+                <VerticalAlignment>Top</VerticalAlignment>
+                <Padding>
+                  <Left>0</Left>
+                  <Top>0</Top>
+                  <Right>0</Right>
+                  <Bottom>0</Bottom>
+                </Padding>
+                <Underline />
+              </Font>
+              <Text>TrackIR Control</Text>
+              <Location>81,0</Location>
+              <Size>50,12</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Button TIR CENTER" SnapTarget="True" Locked="False">
+              <Location>78,14</Location>
+              <Size>56,22</Size>
+              <Hidden>False</Hidden>
+              <Type>Momentary</Type>
+              <Image>{Helios}/Images/Buttons/mfd.png</Image>
+              <PushedImage>{Helios}/Images/Buttons/mfd-in.png</PushedImage>
+              <Text>
+                <Color>#FFFFFFFF</Color>
+                <Font>
+                  <FontFamily>Franklin Gothic</FontFamily>
+                  <FontStyle>Normal</FontStyle>
+                  <FontWeight>Normal</FontWeight>
+                  <FontSize>9</FontSize>
+                  <HorizontalAlignment>Center</HorizontalAlignment>
+                  <VerticalAlignment>Center</VerticalAlignment>
+                  <Padding>
+                    <Left>0</Left>
+                    <Top>0</Top>
+                    <Right>0</Right>
+                    <Bottom>0</Bottom>
+                  </Padding>
+                </Font>
+                <Text>TIR CENTER</Text>
+              </Text>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Button TIR PAUSE" SnapTarget="True" Locked="False">
+              <Location>78,40</Location>
+              <Size>56,22</Size>
+              <Hidden>False</Hidden>
+              <Type>Momentary</Type>
+              <Image>{Helios}/Images/Buttons/mfd.png</Image>
+              <PushedImage>{Helios}/Images/Buttons/mfd-in.png</PushedImage>
+              <Text>
+                <Color>#FFFFFFFF</Color>
+                <Font>
+                  <FontFamily>Franklin Gothic</FontFamily>
+                  <FontStyle>Normal</FontStyle>
+                  <FontWeight>Normal</FontWeight>
+                  <FontSize>9</FontSize>
+                  <HorizontalAlignment>Center</HorizontalAlignment>
+                  <VerticalAlignment>Center</VerticalAlignment>
+                  <Padding>
+                    <Left>0</Left>
+                    <Top>0</Top>
+                    <Right>0</Right>
+                    <Bottom>0</Bottom>
+                  </Padding>
+                </Font>
+                <Text>TIR PAUSE</Text>
+              </Text>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Line" Name="Line" SnapTarget="True" Locked="False">
+              <Location>67,15</Location>
+              <Size>100,1</Size>
+              <Rotation>CW</Rotation>
+              <Hidden>False</Hidden>
+              <Color>#FFFFFFFF</Color>
+              <Thickness>2</Thickness>
+              <Start>67,15</Start>
+              <End>167,15</End>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Text" Name="Label 1 1" SnapTarget="True" Locked="False">
+              <FillBackground>False</FillBackground>
+              <BackgroundColor>#FF1E1E1E</BackgroundColor>
+              <FontColor>#FFFFFFFF</FontColor>
+              <Font>
+                <FontFamily>Franklin Gothic</FontFamily>
+                <FontStyle>Normal</FontStyle>
+                <FontWeight>Normal</FontWeight>
+                <FontSize>7.53881278538813</FontSize>
+                <HorizontalAlignment>Center</HorizontalAlignment>
+                <VerticalAlignment>Top</VerticalAlignment>
+                <Padding>
+                  <Left>0</Left>
+                  <Top>0</Top>
+                  <Right>0</Right>
+                  <Bottom>0</Bottom>
+                </Padding>
+                <Underline />
+              </Font>
+              <Text>HELIOS Control</Text>
+              <Location>152,0</Location>
+              <Size>50,12</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Text" Name="Label 1 2" SnapTarget="True" Locked="False">
+              <FillBackground>False</FillBackground>
+              <BackgroundColor>#FF1E1E1E</BackgroundColor>
+              <FontColor>#FFFFFFFF</FontColor>
+              <Font>
+                <FontFamily>Franklin Gothic</FontFamily>
+                <FontStyle>Normal</FontStyle>
+                <FontWeight>Normal</FontWeight>
+                <FontSize>7.53881278538813</FontSize>
+                <HorizontalAlignment>Center</HorizontalAlignment>
+                <VerticalAlignment>Top</VerticalAlignment>
+                <Padding>
+                  <Left>0</Left>
+                  <Top>0</Top>
+                  <Right>0</Right>
+                  <Bottom>0</Bottom>
+                </Padding>
+                <Underline />
+              </Font>
+              <Text>COMMS</Text>
+              <Location>219,0</Location>
+              <Size>28,12</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Line" Name="Line 1" SnapTarget="True" Locked="False">
+              <Location>146,15</Location>
+              <Size>100,1</Size>
+              <Rotation>CW</Rotation>
+              <Hidden>False</Hidden>
+              <Color>#FFFFFFFF</Color>
+              <Thickness>2</Thickness>
+              <Start>146,15</Start>
+              <End>246,15</End>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Line" Name="Line 1 1" SnapTarget="True" Locked="False">
+              <Location>207,15</Location>
+              <Size>100,1</Size>
+              <Rotation>CW</Rotation>
+              <Hidden>False</Hidden>
+              <Color>#FFFFFFFF</Color>
+              <Thickness>2</Thickness>
+              <Start>207,15</Start>
+              <End>307,15</End>
+              <Children />
+            </Control>
           </Children>
         </Control>
         <Control TypeIdentifier="Helios.Base.PushButton" Name="UTIL_button" SnapTarget="True" Locked="True">
-          <Location>815,630</Location>
+          <Location>814,630</Location>
           <Size>52,24</Size>
           <Hidden>False</Hidden>
           <Type>Toggle</Type>
@@ -10344,62 +10443,12 @@ else return "NAV"
 end</LuaScript>
     </Binding>
     <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="HSI.distance to beacon.changed" />
-      <Action Target="Visual;Monitor 2.Main_panel.textures Panel.Panel_EHSI.Panel_DRAP_Nm;Helios.Panel;Panel_DRAP_Nm" Name="set.hidden" />
-      <LuaScript>if TriggerValue ==0 then
-return flase
-else return true
-end</LuaScript>
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
       <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="HSI.off flag.changed" />
       <Action Target="Visual;Monitor 2.Main_panel.textures Panel.Panel_EHSI.Panel_OFF;Helios.Panel;Panel_OFF" Name="set.hidden" />
       <LuaScript>if TriggerValue ==true then 
 return false
 else return true
 end</LuaScript>
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="HSI.desired course.changed" />
-      <Action Target="Visual;Monitor 2.Main_panel.textures Panel.Panel_EHSI.CRS digit 1;Helios.Base.CustomDrum;CRS digit 1" Name="set.Drum tape offset" />
-      <LuaScript>place=3
-total=string.format("%05d",math.floor(TriggerValue))
-return string.sub(total,place,place)</LuaScript>
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="HSI.desired course.changed" />
-      <Action Target="Visual;Monitor 2.Main_panel.textures Panel.Panel_EHSI.CRS digit 2;Helios.Base.CustomDrum;CRS digit 2" Name="set.Drum tape offset" />
-      <LuaScript>place=4
-total=string.format("%05d",math.floor(TriggerValue))
-return string.sub(total,place,place)</LuaScript>
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="HSI.desired course.changed" />
-      <Action Target="Visual;Monitor 2.Main_panel.textures Panel.Panel_EHSI.CRS digit 3;Helios.Base.CustomDrum;CRS digit 3" Name="set.Drum tape offset" />
-      <LuaScript>place=5
-total=string.format("%05d",math.floor(TriggerValue))
-return string.sub(total,place,place)</LuaScript>
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="HSI.distance to beacon.changed" />
-      <Action Target="Visual;Monitor 2.Main_panel.textures Panel.Panel_EHSI.HDG digit 1;Helios.Base.CustomDrum;HDG digit 1" Name="set.Drum tape offset" />
-      <LuaScript>place=3
-total=string.format("%05d",math.floor(TriggerValue))
-return string.sub(total,place,place)</LuaScript>
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="HSI.distance to beacon.changed" />
-      <Action Target="Visual;Monitor 2.Main_panel.textures Panel.Panel_EHSI.HDG digit 2;Helios.Base.CustomDrum;HDG digit 2" Name="set.Drum tape offset" />
-      <LuaScript>place=4
-total=string.format("%05d",math.floor(TriggerValue))
-return string.sub(total,place,place)</LuaScript>
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="HSI.distance to beacon.changed" />
-      <Action Target="Visual;Monitor 2.Main_panel.textures Panel.Panel_EHSI.HDG digit 3;Helios.Base.CustomDrum;HDG digit 3" Name="set.Drum tape offset" />
-      <LuaScript>place=5
-total=string.format("%05d",math.floor(TriggerValue))
-return string.sub(total,place,place)</LuaScript>
     </Binding>
     <Binding BypassCascadingTriggers="False">
       <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="Refuel Indexer.air/nws indicator.changed" />
@@ -10620,6 +10669,24 @@ end</LuaScript>
       <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="IFF.backup mode 3 digit 2.changed" />
       <Action Target="Visual;Monitor 2.LEFT 3 panel.Calibration Filter IFFM3D2;Helios.Base.CalibrationFilter;Calibration Filter IFFM3D2" Name="Input.set.Value" />
       <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="HSI.desired course.changed" />
+      <Action Target="Visual;Monitor 2.Main_panel.textures Panel.Panel_EHSI.TextDisplay CRS;Helios.Base.TextDisplay;TextDisplay CRS" Name="set.TextDisplay" />
+      <LuaScript>return string.format("%03d", TriggerValue)</LuaScript>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="HSI.distance to beacon.changed" />
+      <Action Target="Visual;Monitor 2.Main_panel.textures Panel.Panel_EHSI.TextDisplay Nm;Helios.Base.TextDisplay;TextDisplay Nm" Name="set.TextDisplay" />
+      <LuaScript>return string.format("%03d", TriggerValue)</LuaScript>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="HSI.distance to beacon.changed" />
+      <Action Target="Visual;Monitor 2.Main_panel.textures Panel.Panel_EHSI.Panel_DRAP_Nm;Helios.Base.Image;Panel_DRAP_Nm" Name="set.hidden" />
+      <LuaScript>if TriggerValue ==0 then
+return flase
+else return true
+end</LuaScript>
     </Binding>
     <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.Main_panel.Pressure Setting Knob;Helios.Base.RotaryEncoder;Pressure Setting Knob" Name="encoder.incremented" />
@@ -12492,21 +12559,6 @@ end</LuaScript>
       <StaticValue>{ESCAPE}e</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 2.UTILITY Panel.TrackIR.TRACKIR Reload;Helios.Base.PushButton;TRACKIR Reload" Name="pushed" />
-      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
-      <StaticValue>ReloadTrackIR</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 2.UTILITY Panel.TrackIR.Button TIR CENTER;Helios.Base.PushButton;Button TIR CENTER" Name="pushed" />
-      <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
-      <StaticValue>{F12}</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 2.UTILITY Panel.TrackIR.Button TIR PAUSE;Helios.Base.PushButton;Button TIR PAUSE" Name="pushed" />
-      <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
-      <StaticValue>{F9}</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.UTILITY Panel.Push - Red;Helios.Base.PushButton;Push - Red" Name="pushed" />
       <Action Target="Interface;;Helios.Base.ProfileInterface;Profile" Name="reset" />
       <StaticValue />
@@ -12525,6 +12577,21 @@ end</LuaScript>
       <Trigger Source="Visual;Monitor 2.UTILITY Panel.Push - Red 1;Helios.Base.PushButton;Push - Red 1" Name="pushed" />
       <Action Target="Interface;;Helios.Base.ProfileInterface;Profile" Name="reset" />
       <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.UTILITY Panel.TRACKIR Reload;Helios.Base.PushButton;TRACKIR Reload" Name="pushed" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>ReloadTrackIR</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.UTILITY Panel.Button TIR CENTER;Helios.Base.PushButton;Button TIR CENTER" Name="pushed" />
+      <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
+      <StaticValue>{F12}</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.UTILITY Panel.Button TIR PAUSE;Helios.Base.PushButton;Button TIR PAUSE" Name="pushed" />
+      <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
+      <StaticValue>{F9}</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.UTIL_button;Helios.Base.PushButton;UTIL_button" Name="pushed" />
