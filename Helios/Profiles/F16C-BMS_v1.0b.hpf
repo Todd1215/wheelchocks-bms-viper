@@ -12844,7 +12844,7 @@ end</LuaScript>
     <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.Main_panel.button 52;Helios.Base.PushButton;button 52" Name="pushed" />
       <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
-      <StaticValue />
+      <StaticValue>SimCBEOSB_1R</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.Main_panel.button 62;Helios.Base.PushButton;button 62" Name="pushed" />
