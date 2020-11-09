@@ -550,7 +550,7 @@
                 </Control>
               </Children>
             </Control>
-            <Control TypeIdentifier="Helios.Base.CustomTape" Name="compass" SnapTarget="True" Locked="True">
+            <Control TypeIdentifier="Helios.Base.CustomTape" Name="compass" SnapTarget="True" Locked="False">
               <Location>1746,942</Location>
               <Size>138,138</Size>
               <Hidden>False</Hidden>
@@ -573,7 +573,7 @@
               <HorizontalTravel>-644</HorizontalTravel>
               <MinVertical>20</MinVertical>
               <VerticalTravel>-20</VerticalTravel>
-              <MinRotation>-180</MinRotation>
+              <MinRotation>0</MinRotation>
               <RotationTravel>180</RotationTravel>
               <InitialHorizontal>-13</InitialHorizontal>
               <InitialVertical>0</InitialVertical>
@@ -2843,7 +2843,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="button 22 1 1" SnapTarget="True" Locked="False">
-              <Location>12,438</Location>
+              <Location>12,437</Location>
               <Size>51,51</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
@@ -2855,7 +2855,7 @@
                   <FontFamily>Franklin Gothic</FontFamily>
                   <FontStyle>Normal</FontStyle>
                   <FontWeight>Normal</FontWeight>
-                  <FontSize>8</FontSize>
+                  <FontSize>10</FontSize>
                   <HorizontalAlignment>Center</HorizontalAlignment>
                   <VerticalAlignment>Center</VerticalAlignment>
                   <Padding>
@@ -2897,7 +2897,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="button 22 2" SnapTarget="True" Locked="False">
-              <Location>0,501</Location>
+              <Location>5,504</Location>
               <Size>51,51</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
@@ -2923,88 +2923,7 @@
               </Text>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.PushButton" Name="Kneeboard Button" SnapTarget="True" Locked="False">
-              <Location>0,555</Location>
-              <Size>51,51</Size>
-              <Hidden>False</Hidden>
-              <Type>Momentary</Type>
-              <Image>Capt_Zeen\F16\left_BTN_1.png</Image>
-              <PushedImage>Capt_Zeen\F16\left_BTN_1_PRESS.png</PushedImage>
-              <Text>
-                <Color>#FFFFFFFF</Color>
-                <Font>
-                  <FontFamily>Franklin Gothic</FontFamily>
-                  <FontStyle>Normal</FontStyle>
-                  <FontWeight>Normal</FontWeight>
-                  <FontSize>10.5</FontSize>
-                  <HorizontalAlignment>Center</HorizontalAlignment>
-                  <VerticalAlignment>Center</VerticalAlignment>
-                  <Padding>
-                    <Left>0</Left>
-                    <Top>0</Top>
-                    <Right>0</Right>
-                    <Bottom>0</Bottom>
-                  </Padding>
-                </Font>
-                <Text>KB</Text>
-              </Text>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.PushButton" Name="Button PAUSE" SnapTarget="True" Locked="False">
-              <Location>255,1047</Location>
-              <Size>87,30</Size>
-              <Hidden>False</Hidden>
-              <Type>Momentary</Type>
-              <Image>{Helios}/Images/Buttons/mfd.png</Image>
-              <PushedImage>{Helios}/Images/Buttons/mfd-in.png</PushedImage>
-              <Text>
-                <Color>#FFE0D71D</Color>
-                <Font>
-                  <FontFamily>Franklin Gothic</FontFamily>
-                  <FontStyle>Normal</FontStyle>
-                  <FontWeight>Normal</FontWeight>
-                  <FontSize>12</FontSize>
-                  <HorizontalAlignment>Center</HorizontalAlignment>
-                  <VerticalAlignment>Center</VerticalAlignment>
-                  <Padding>
-                    <Left>0</Left>
-                    <Top>0</Top>
-                    <Right>0</Right>
-                    <Bottom>0</Bottom>
-                  </Padding>
-                </Font>
-                <Text>PAUSE</Text>
-              </Text>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.PushButton" Name="Button FREEZE 1" SnapTarget="True" Locked="False">
-              <Location>360,1047</Location>
-              <Size>87,30</Size>
-              <Hidden>False</Hidden>
-              <Type>Momentary</Type>
-              <Image>{Helios}/Images/Buttons/mfd.png</Image>
-              <PushedImage>{Helios}/Images/Buttons/mfd-in.png</PushedImage>
-              <Text>
-                <Color>#FFE0D61C</Color>
-                <Font>
-                  <FontFamily>Franklin Gothic</FontFamily>
-                  <FontStyle>Normal</FontStyle>
-                  <FontWeight>Normal</FontWeight>
-                  <FontSize>12</FontSize>
-                  <HorizontalAlignment>Center</HorizontalAlignment>
-                  <VerticalAlignment>Center</VerticalAlignment>
-                  <Padding>
-                    <Left>0</Left>
-                    <Top>0</Top>
-                    <Right>0</Right>
-                    <Bottom>0</Bottom>
-                  </Padding>
-                </Font>
-                <Text>FREEZE</Text>
-              </Text>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Panel" Name="SeedBrake Panel" SnapTarget="True" Locked="False">
+            <Control TypeIdentifier="Helios.Panel" Name="SpeedBrake Panel" SnapTarget="True" Locked="False">
               <Location>0,708</Location>
               <Size>63,99</Size>
               <Hidden>False</Hidden>
@@ -3087,7 +3006,52 @@
                 </Control>
               </Children>
             </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Kneeboard Button" SnapTarget="True" Locked="False">
+              <Location>0,558</Location>
+              <Size>51,51</Size>
+              <Hidden>False</Hidden>
+              <Type>Momentary</Type>
+              <Image>Capt_Zeen\F16\left_BTN_1.png</Image>
+              <PushedImage>Capt_Zeen\F16\left_BTN_1_PRESS.png</PushedImage>
+              <Text>
+                <Color>#FFFFFFFF</Color>
+                <Font>
+                  <FontFamily>Franklin Gothic</FontFamily>
+                  <FontStyle>Normal</FontStyle>
+                  <FontWeight>Normal</FontWeight>
+                  <FontSize>10.5</FontSize>
+                  <HorizontalAlignment>Center</HorizontalAlignment>
+                  <VerticalAlignment>Center</VerticalAlignment>
+                  <Padding>
+                    <Left>0</Left>
+                    <Top>0</Top>
+                    <Right>0</Right>
+                    <Bottom>0</Bottom>
+                  </Padding>
+                </Font>
+                <Text>KB</Text>
+              </Text>
+              <Children />
+            </Control>
           </Children>
+        </Control>
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Close Side Panels" SnapTarget="True" Locked="True">
+          <Location>231,0</Location>
+          <Size>1517,1080</Size>
+          <Hidden>False</Hidden>
+          <Type>Momentary</Type>
+          <Image />
+          <PushedImage />
+          <Children />
+        </Control>
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Gear Panel Buttun" SnapTarget="True" Locked="True">
+          <Location>0,933</Location>
+          <Size>200,147</Size>
+          <Hidden>False</Hidden>
+          <Type>Toggle</Type>
+          <Image />
+          <PushedImage />
+          <Children />
         </Control>
         <Control TypeIdentifier="Helios.Panel" Name="RIGHT 1 panel" SnapTarget="True" Locked="True">
           <Location>1221,144</Location>
@@ -4316,24 +4280,6 @@
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="Image 1 1" SnapTarget="False" Locked="False">
-              <Image>Capt_Zeen\F16\marco_indicadores.png</Image>
-              <Alignment>Stretched</Alignment>
-              <CornerRadius>0</CornerRadius>
-              <Location>333,225</Location>
-              <Size>84,84</Size>
-              <Hidden>False</Hidden>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="Image 1 1 1" SnapTarget="False" Locked="False">
-              <Image>Capt_Zeen\F16\marco_indicadores.png</Image>
-              <Alignment>Stretched</Alignment>
-              <CornerRadius>0</CornerRadius>
-              <Location>396,279</Location>
-              <Size>87,87</Size>
-              <Hidden>False</Hidden>
-              <Children />
-            </Control>
             <Control TypeIdentifier="Helios.Panel" Name="panel alarms 2" SnapTarget="True" Locked="False">
               <Location>21,318</Location>
               <Size>345,336</Size>
@@ -5193,6 +5139,54 @@
               <Type>Toggle</Type>
               <Image>Capt_Zeen\F16\rotator_035.png</Image>
               <PushedImage>Capt_Zeen\F16\rotator_035_PRESSED.png</PushedImage>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.F16.HydraulicPressure" Name="Hydraulic Pressure" SnapTarget="True" Locked="False">
+              <Location>396,279</Location>
+              <Size>87,87</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.F16.HydraulicPressure" Name="Hydraulic Pressure 1" SnapTarget="True" Locked="False">
+              <Location>333,225</Location>
+              <Size>87,87</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Image" Name="Caution" SnapTarget="False" Locked="False">
+              <Image>{Helios}/Images/Panels/yellow-caution.png</Image>
+              <Alignment>Tiled</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <Location>373,132</Location>
+              <Size>55,52</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Push - Red" SnapTarget="True" Locked="False">
+              <Location>378,135</Location>
+              <Size>45,45</Size>
+              <Hidden>False</Hidden>
+              <Type>Momentary</Type>
+              <Image>{Helios}/Images/Buttons/red-push.png</Image>
+              <PushedImage>{Helios}/Images/Buttons/red-push-in.png</PushedImage>
+              <Text>
+                <Color>#FFFFFFFF</Color>
+                <Font>
+                  <FontFamily>Franklin Gothic</FontFamily>
+                  <FontStyle>Normal</FontStyle>
+                  <FontWeight>Normal</FontWeight>
+                  <FontSize>12</FontSize>
+                  <HorizontalAlignment>Center</HorizontalAlignment>
+                  <VerticalAlignment>Center</VerticalAlignment>
+                  <Padding>
+                    <Left>0</Left>
+                    <Top>0</Top>
+                    <Right>0</Right>
+                    <Bottom>0</Bottom>
+                  </Padding>
+                </Font>
+                <Text>FUEL DUMP</Text>
+              </Text>
               <Children />
             </Control>
           </Children>
@@ -6809,7 +6803,7 @@
               <DefaultPosition>Two</DefaultPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Canopy Handle acivator 1" SnapTarget="True" Locked="False">
+            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Canopy Handle acivator 1" SnapTarget="True" Locked="True">
               <Location>3,273</Location>
               <Size>114,192</Size>
               <Hidden>False</Hidden>
@@ -6988,7 +6982,7 @@
               <Location>579,846</Location>
               <Size>33,84</Size>
               <Hidden>False</Hidden>
-              <SwitchType>MomOnMom</SwitchType>
+              <SwitchType>OnOnOn</SwitchType>
               <Orientation>Vertical</Orientation>
               <ClickType>Swipe</ClickType>
               <PositionOneImage>Capt_Zeen\F16\sw_020_UP.png</PositionOneImage>
@@ -9105,9 +9099,9 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="RIGHT 3 button" SnapTarget="True" Locked="True">
-          <Location>1218,1038</Location>
-          <Size>75,21</Size>
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="RIGHT 3 button" SnapTarget="True" Locked="False">
+          <Location>1222,929</Location>
+          <Size>65,39</Size>
           <Hidden>False</Hidden>
           <Type>Toggle</Type>
           <Image>Capt_Zeen\F16\CZ_grey_Line_OFF.png</Image>
@@ -9118,9 +9112,9 @@
               <FontFamily>Franklin Gothic</FontFamily>
               <FontStyle>Normal</FontStyle>
               <FontWeight>Normal</FontWeight>
-              <FontSize>12</FontSize>
+              <FontSize>15</FontSize>
               <HorizontalAlignment>Center</HorizontalAlignment>
-              <VerticalAlignment>Top</VerticalAlignment>
+              <VerticalAlignment>Center</VerticalAlignment>
               <Padding>
                 <Left>0</Left>
                 <Top>0</Top>
@@ -9128,13 +9122,13 @@
                 <Bottom>0</Bottom>
               </Padding>
             </Font>
-            <Text>RIGHT 3</Text>
+            <Text>RIGHT REAR</Text>
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="RIGHT 2 button" SnapTarget="True" Locked="True">
-          <Location>1218,1011</Location>
-          <Size>75,21</Size>
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="RIGHT 2 button" SnapTarget="True" Locked="False">
+          <Location>1222,885</Location>
+          <Size>65,41</Size>
           <Hidden>False</Hidden>
           <Type>Toggle</Type>
           <Image>Capt_Zeen\F16\CZ_grey_Line_OFF.png</Image>
@@ -9145,9 +9139,9 @@
               <FontFamily>Franklin Gothic</FontFamily>
               <FontStyle>Normal</FontStyle>
               <FontWeight>Normal</FontWeight>
-              <FontSize>12</FontSize>
+              <FontSize>15</FontSize>
               <HorizontalAlignment>Center</HorizontalAlignment>
-              <VerticalAlignment>Top</VerticalAlignment>
+              <VerticalAlignment>Center</VerticalAlignment>
               <Padding>
                 <Left>0</Left>
                 <Top>0</Top>
@@ -9155,13 +9149,13 @@
                 <Bottom>0</Bottom>
               </Padding>
             </Font>
-            <Text>RIGHT 2</Text>
+            <Text>RIGHT MID</Text>
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="RIGH 1 button" SnapTarget="True" Locked="True">
-          <Location>1218,987</Location>
-          <Size>75,21</Size>
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="RIGH 1 button" SnapTarget="True" Locked="False">
+          <Location>1221,843</Location>
+          <Size>66,39</Size>
           <Hidden>False</Hidden>
           <Type>Toggle</Type>
           <Image>Capt_Zeen\F16\CZ_grey_Line_OFF.png</Image>
@@ -9172,9 +9166,9 @@
               <FontFamily>Franklin Gothic</FontFamily>
               <FontStyle>Normal</FontStyle>
               <FontWeight>Normal</FontWeight>
-              <FontSize>12</FontSize>
+              <FontSize>15</FontSize>
               <HorizontalAlignment>Center</HorizontalAlignment>
-              <VerticalAlignment>Top</VerticalAlignment>
+              <VerticalAlignment>Center</VerticalAlignment>
               <Padding>
                 <Left>0</Left>
                 <Top>0</Top>
@@ -9182,13 +9176,13 @@
                 <Bottom>0</Bottom>
               </Padding>
             </Font>
-            <Text>RIGHT 1</Text>
+            <Text>RIGHT FRONT</Text>
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="LEFT 3 button" SnapTarget="True" Locked="True">
-          <Location>741,1038</Location>
-          <Size>75,21</Size>
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="LEFT 3 button" SnapTarget="True" Locked="False">
+          <Location>744,926</Location>
+          <Size>62,43</Size>
           <Hidden>False</Hidden>
           <Type>Toggle</Type>
           <Image>Capt_Zeen\F16\CZ_grey_Line_OFF.png</Image>
@@ -9199,9 +9193,9 @@
               <FontFamily>Franklin Gothic</FontFamily>
               <FontStyle>Normal</FontStyle>
               <FontWeight>Normal</FontWeight>
-              <FontSize>12</FontSize>
+              <FontSize>15</FontSize>
               <HorizontalAlignment>Center</HorizontalAlignment>
-              <VerticalAlignment>Top</VerticalAlignment>
+              <VerticalAlignment>Center</VerticalAlignment>
               <Padding>
                 <Left>0</Left>
                 <Top>0</Top>
@@ -9209,13 +9203,13 @@
                 <Bottom>0</Bottom>
               </Padding>
             </Font>
-            <Text>LEFT 3</Text>
+            <Text>LEFT REAR</Text>
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="LEFT 2 button" SnapTarget="True" Locked="True">
-          <Location>741,1011</Location>
-          <Size>75,21</Size>
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="LEFT 2 button" SnapTarget="True" Locked="False">
+          <Location>744,885</Location>
+          <Size>62,39</Size>
           <Hidden>False</Hidden>
           <Type>Toggle</Type>
           <Image>Capt_Zeen\F16\CZ_grey_Line_OFF.png</Image>
@@ -9226,9 +9220,9 @@
               <FontFamily>Franklin Gothic</FontFamily>
               <FontStyle>Normal</FontStyle>
               <FontWeight>Normal</FontWeight>
-              <FontSize>12</FontSize>
+              <FontSize>15</FontSize>
               <HorizontalAlignment>Center</HorizontalAlignment>
-              <VerticalAlignment>Top</VerticalAlignment>
+              <VerticalAlignment>Center</VerticalAlignment>
               <Padding>
                 <Left>0</Left>
                 <Top>0</Top>
@@ -9236,13 +9230,13 @@
                 <Bottom>0</Bottom>
               </Padding>
             </Font>
-            <Text>LEFT 2</Text>
+            <Text>LEFT MID</Text>
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="LEFT 1 button" SnapTarget="True" Locked="True">
-          <Location>741,987</Location>
-          <Size>75,21</Size>
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="LEFT 1 button" SnapTarget="True" Locked="False">
+          <Location>744,843</Location>
+          <Size>62,39</Size>
           <Hidden>False</Hidden>
           <Type>Toggle</Type>
           <Image>Capt_Zeen\F16\CZ_grey_Line_OFF.png</Image>
@@ -9253,9 +9247,9 @@
               <FontFamily>Franklin Gothic</FontFamily>
               <FontStyle>Normal</FontStyle>
               <FontWeight>Normal</FontWeight>
-              <FontSize>12</FontSize>
+              <FontSize>15</FontSize>
               <HorizontalAlignment>Center</HorizontalAlignment>
-              <VerticalAlignment>Top</VerticalAlignment>
+              <VerticalAlignment>Center</VerticalAlignment>
               <Padding>
                 <Left>0</Left>
                 <Top>0</Top>
@@ -9263,7 +9257,7 @@
                 <Bottom>0</Bottom>
               </Padding>
             </Font>
-            <Text>LEFT 1</Text>
+            <Text>LEFT FRONT</Text>
           </Text>
           <Children />
         </Control>
@@ -9341,16 +9335,16 @@
           </Children>
         </Control>
         <Control TypeIdentifier="Helios.Panel" Name="UTILITY Panel" SnapTarget="True" Locked="True">
-          <Location>1311,882</Location>
-          <Size>381,198</Size>
+          <Location>711,362</Location>
+          <Size>491,460</Size>
           <Hidden>True</Hidden>
           <Background>
             <Color>#FF1E1E1E</Color>
           </Background>
           <Children>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="Button Pretty ScreenShot" SnapTarget="True" Locked="False">
-              <Location>7,79</Location>
-              <Size>78,51</Size>
+              <Location>19,136</Location>
+              <Size>78,56</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
               <Image>{Helios}/Images/Buttons/mfd.png</Image>
@@ -9361,7 +9355,7 @@
                   <FontFamily>Franklin Gothic</FontFamily>
                   <FontStyle>Normal</FontStyle>
                   <FontWeight>Normal</FontWeight>
-                  <FontSize>10.5</FontSize>
+                  <FontSize>14</FontSize>
                   <HorizontalAlignment>Center</HorizontalAlignment>
                   <VerticalAlignment>Center</VerticalAlignment>
                   <Padding>
@@ -9371,12 +9365,12 @@
                     <Bottom>0</Bottom>
                   </Padding>
                 </Font>
-                <Text>SCR       SHT</Text>
+                <Text>SCREEN SHOT</Text>
               </Text>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="Button ShowChat 1" SnapTarget="True" Locked="False">
-              <Location>7,21</Location>
+              <Location>19,78</Location>
               <Size>78,54</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
@@ -9388,7 +9382,7 @@
                   <FontFamily>Franklin Gothic</FontFamily>
                   <FontStyle>Normal</FontStyle>
                   <FontWeight>Normal</FontWeight>
-                  <FontSize>10.5</FontSize>
+                  <FontSize>17</FontSize>
                   <HorizontalAlignment>Center</HorizontalAlignment>
                   <VerticalAlignment>Center</VerticalAlignment>
                   <Padding>
@@ -9403,8 +9397,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="Button TeamSpeak PTT" SnapTarget="True" Locked="False">
-              <Location>325,21</Location>
-              <Size>48,43</Size>
+              <Location>431,75</Location>
+              <Size>48,56</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
               <Image>{Helios}/Images/Buttons/mfd.png</Image>
@@ -9430,8 +9424,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="Button IVC Global" SnapTarget="True" Locked="False">
-              <Location>324,79</Location>
-              <Size>49,52</Size>
+              <Location>431,150</Location>
+              <Size>49,51</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
               <Image>{Helios}/Images/Buttons/mfd.png</Image>
@@ -9457,8 +9451,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="Button IVC Local" SnapTarget="True" Locked="False">
-              <Location>324,148</Location>
-              <Size>49,45</Size>
+              <Location>431,202</Location>
+              <Size>49,50</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
               <Image>{Helios}/Images/Buttons/mfd.png</Image>
@@ -9484,7 +9478,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="Button EXIT MISSION" SnapTarget="True" Locked="False">
-              <Location>7,135</Location>
+              <Location>19,195</Location>
               <Size>78,60</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
@@ -9496,7 +9490,7 @@
                   <FontFamily>Franklin Gothic</FontFamily>
                   <FontStyle>Normal</FontStyle>
                   <FontWeight>Normal</FontWeight>
-                  <FontSize>10</FontSize>
+                  <FontSize>14</FontSize>
                   <HorizontalAlignment>Center</HorizontalAlignment>
                   <VerticalAlignment>Center</VerticalAlignment>
                   <Padding>
@@ -9506,7 +9500,7 @@
                     <Bottom>0</Bottom>
                   </Padding>
                 </Font>
-                <Text>EXIT MSN</Text>
+                <Text>EXIT MISSION</Text>
               </Text>
               <Children />
             </Control>
@@ -9514,14 +9508,14 @@
               <Image>{Helios}/Images/Panels/yellow-caution.png</Image>
               <Alignment>Tiled</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>235,22</Location>
-              <Size>60,54</Size>
+              <Location>286,72</Location>
+              <Size>98,196</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="Push - Red" SnapTarget="True" Locked="False">
-              <Location>241,25</Location>
-              <Size>48,48</Size>
+              <Location>302,82</Location>
+              <Size>68,68</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
               <Image>{Helios}/Images/Buttons/red-push.png</Image>
@@ -9547,8 +9541,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="Push - Red 1" SnapTarget="True" Locked="False">
-              <Location>241,93</Location>
-              <Size>48,48</Size>
+              <Location>302,188</Location>
+              <Size>68,68</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
               <Image>{Helios}/Images/Buttons/red-push.png</Image>
@@ -9581,9 +9575,9 @@
                 <FontFamily>Franklin Gothic</FontFamily>
                 <FontStyle>Normal</FontStyle>
                 <FontWeight>Normal</FontWeight>
-                <FontSize>11.3082191780822</FontSize>
+                <FontSize>16</FontSize>
                 <HorizontalAlignment>Center</HorizontalAlignment>
-                <VerticalAlignment>Top</VerticalAlignment>
+                <VerticalAlignment>Bottom</VerticalAlignment>
                 <Padding>
                   <Left>0</Left>
                   <Top>0</Top>
@@ -9593,14 +9587,14 @@
                 <Underline />
               </Font>
               <Text>BMS Control</Text>
-              <Location>9,0</Location>
-              <Size>75,18</Size>
+              <Location>25,21</Location>
+              <Size>66,54</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="TRACKIR Reload" SnapTarget="True" Locked="False">
-              <Location>117,99</Location>
-              <Size>84,33</Size>
+              <Location>145,195</Location>
+              <Size>84,57</Size>
               <Hidden>False</Hidden>
               <Type>Toggle</Type>
               <Image>{Helios}/Images/Buttons/tactile-dark-square.png</Image>
@@ -9633,7 +9627,7 @@
                 <FontFamily>Franklin Gothic</FontFamily>
                 <FontStyle>Normal</FontStyle>
                 <FontWeight>Normal</FontWeight>
-                <FontSize>11.3082191780822</FontSize>
+                <FontSize>16</FontSize>
                 <HorizontalAlignment>Center</HorizontalAlignment>
                 <VerticalAlignment>Top</VerticalAlignment>
                 <Padding>
@@ -9645,14 +9639,14 @@
                 <Underline />
               </Font>
               <Text>TrackIR Control</Text>
-              <Location>121,0</Location>
-              <Size>75,18</Size>
+              <Location>145,37</Location>
+              <Size>84,38</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="Button TIR CENTER" SnapTarget="True" Locked="False">
-              <Location>117,21</Location>
-              <Size>84,33</Size>
+              <Location>145,78</Location>
+              <Size>84,53</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
               <Image>{Helios}/Images/Buttons/mfd.png</Image>
@@ -9678,8 +9672,8 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="Button TIR PAUSE" SnapTarget="True" Locked="False">
-              <Location>117,60</Location>
-              <Size>84,33</Size>
+              <Location>145,137</Location>
+              <Size>84,55</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
               <Image>{Helios}/Images/Buttons/mfd.png</Image>
@@ -9704,17 +9698,6 @@
               </Text>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Line" Name="Line" SnapTarget="True" Locked="False">
-              <Location>100,22</Location>
-              <Size>150,1</Size>
-              <Rotation>CW</Rotation>
-              <Hidden>False</Hidden>
-              <Color>#FFFFFFFF</Color>
-              <Thickness>2</Thickness>
-              <Start>100,22</Start>
-              <End>250,22</End>
-              <Children />
-            </Control>
             <Control TypeIdentifier="Helios.Base.Text" Name="Label 1 1" SnapTarget="True" Locked="False">
               <FillBackground>False</FillBackground>
               <BackgroundColor>#FF1E1E1E</BackgroundColor>
@@ -9723,9 +9706,9 @@
                 <FontFamily>Franklin Gothic</FontFamily>
                 <FontStyle>Normal</FontStyle>
                 <FontWeight>Normal</FontWeight>
-                <FontSize>11.3082191780822</FontSize>
+                <FontSize>16</FontSize>
                 <HorizontalAlignment>Center</HorizontalAlignment>
-                <VerticalAlignment>Top</VerticalAlignment>
+                <VerticalAlignment>Bottom</VerticalAlignment>
                 <Padding>
                   <Left>0</Left>
                   <Top>0</Top>
@@ -9735,8 +9718,8 @@
                 <Underline />
               </Font>
               <Text>HELIOS Control</Text>
-              <Location>228,0</Location>
-              <Size>75,18</Size>
+              <Location>286,21</Location>
+              <Size>88,51</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -9748,9 +9731,9 @@
                 <FontFamily>Franklin Gothic</FontFamily>
                 <FontStyle>Normal</FontStyle>
                 <FontWeight>Normal</FontWeight>
-                <FontSize>11.3082191780822</FontSize>
+                <FontSize>16</FontSize>
                 <HorizontalAlignment>Center</HorizontalAlignment>
-                <VerticalAlignment>Top</VerticalAlignment>
+                <VerticalAlignment>Bottom</VerticalAlignment>
                 <Padding>
                   <Left>0</Left>
                   <Top>0</Top>
@@ -9760,38 +9743,16 @@
                 <Underline />
               </Font>
               <Text>COMMS</Text>
-              <Location>328,0</Location>
-              <Size>42,18</Size>
+              <Location>423,37</Location>
+              <Size>65,35</Size>
               <Hidden>False</Hidden>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.Line" Name="Line 1" SnapTarget="True" Locked="False">
-              <Location>219,22</Location>
-              <Size>150,1</Size>
-              <Rotation>CW</Rotation>
-              <Hidden>False</Hidden>
-              <Color>#FFFFFFFF</Color>
-              <Thickness>2</Thickness>
-              <Start>219,22</Start>
-              <End>369,22</End>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.Line" Name="Line 1 1" SnapTarget="True" Locked="False">
-              <Location>310,22</Location>
-              <Size>150,1</Size>
-              <Rotation>CW</Rotation>
-              <Hidden>False</Hidden>
-              <Color>#FFFFFFFF</Color>
-              <Thickness>2</Thickness>
-              <Start>310,22</Start>
-              <End>460,22</End>
               <Children />
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="NAV_buttom" SnapTarget="True" Locked="True">
-          <Location>1221,903</Location>
-          <Size>78,39</Size>
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="NAV_buttom" SnapTarget="True" Locked="False">
+          <Location>1222,971</Location>
+          <Size>65,41</Size>
           <Hidden>False</Hidden>
           <Type>Toggle</Type>
           <Image>Capt_Zeen\F16\CZ_grey_Line_OFF.png</Image>
@@ -11833,12 +11794,12 @@
           </Children>
         </Control>
         <Control TypeIdentifier="Helios.Base.PushButton" Name="UTIL_button" SnapTarget="True" Locked="True">
-          <Location>1221,945</Location>
-          <Size>78,36</Size>
+          <Location>1832,0</Location>
+          <Size>87,41</Size>
           <Hidden>False</Hidden>
           <Type>Toggle</Type>
-          <Image>Capt_Zeen\F16\CZ_grey_Line_OFF.png</Image>
-          <PushedImage>Capt_Zeen\F16\CZ_grey_Line.png</PushedImage>
+          <Image>{Helios}/Images/Buttons/mfd.png</Image>
+          <PushedImage>{Helios}/Images/Buttons/mfd-in.png</PushedImage>
           <Text>
             <Color>#FFD8D2CB</Color>
             <Font>
@@ -11856,6 +11817,87 @@
               </Padding>
             </Font>
             <Text>UTILITY</Text>
+          </Text>
+          <Children />
+        </Control>
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Button PAUSE" SnapTarget="True" Locked="True">
+          <Location>0,0</Location>
+          <Size>87,36</Size>
+          <Hidden>False</Hidden>
+          <Type>Momentary</Type>
+          <Image>{Helios}/Images/Buttons/mfd.png</Image>
+          <PushedImage>{Helios}/Images/Buttons/mfd-in.png</PushedImage>
+          <Text>
+            <Color>#FFE0D71D</Color>
+            <Font>
+              <FontFamily>Franklin Gothic</FontFamily>
+              <FontStyle>Normal</FontStyle>
+              <FontWeight>Normal</FontWeight>
+              <FontSize>12</FontSize>
+              <HorizontalAlignment>Center</HorizontalAlignment>
+              <VerticalAlignment>Center</VerticalAlignment>
+              <Padding>
+                <Left>0</Left>
+                <Top>0</Top>
+                <Right>0</Right>
+                <Bottom>0</Bottom>
+              </Padding>
+            </Font>
+            <Text>PAUSE</Text>
+          </Text>
+          <Children />
+        </Control>
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Button FREEZE" SnapTarget="True" Locked="True">
+          <Location>0,36</Location>
+          <Size>87,41</Size>
+          <Hidden>False</Hidden>
+          <Type>Momentary</Type>
+          <Image>{Helios}/Images/Buttons/mfd.png</Image>
+          <PushedImage>{Helios}/Images/Buttons/mfd-in.png</PushedImage>
+          <Text>
+            <Color>#FFE0D61C</Color>
+            <Font>
+              <FontFamily>Franklin Gothic</FontFamily>
+              <FontStyle>Normal</FontStyle>
+              <FontWeight>Normal</FontWeight>
+              <FontSize>12</FontSize>
+              <HorizontalAlignment>Center</HorizontalAlignment>
+              <VerticalAlignment>Center</VerticalAlignment>
+              <Padding>
+                <Left>0</Left>
+                <Top>0</Top>
+                <Right>0</Right>
+                <Bottom>0</Bottom>
+              </Padding>
+            </Font>
+            <Text>FREEZE</Text>
+          </Text>
+          <Children />
+        </Control>
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Enable Cursor" SnapTarget="True" Locked="True">
+          <Location>0,77</Location>
+          <Size>87,43</Size>
+          <Hidden>False</Hidden>
+          <Type>Toggle</Type>
+          <Image>{Helios}/Images/Buttons/mfd.png</Image>
+          <PushedImage>{Helios}/Images/Buttons/mfd-lit-in.png</PushedImage>
+          <Text>
+            <Color>#FFFFFFFF</Color>
+            <Font>
+              <FontFamily>Franklin Gothic</FontFamily>
+              <FontStyle>Normal</FontStyle>
+              <FontWeight>Normal</FontWeight>
+              <FontSize>12</FontSize>
+              <HorizontalAlignment>Center</HorizontalAlignment>
+              <VerticalAlignment>Center</VerticalAlignment>
+              <Padding>
+                <Left>0</Left>
+                <Top>0</Top>
+                <Right>0</Right>
+                <Bottom>0</Bottom>
+              </Padding>
+            </Font>
+            <Text>Disable Cursor</Text>
           </Text>
           <Children />
         </Control>
@@ -12690,7 +12732,7 @@ end</LuaScript>
     </Binding>
     <Binding BypassCascadingTriggers="False">
       <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="General.speed brake position.changed" />
-      <Action Target="Visual;Monitor 2.Main_panel.SeedBrake Panel.CustomDrum 1;Helios.Base.CustomDrum;CustomDrum 1" Name="set.Drum tape offset" />
+      <Action Target="Visual;Monitor 2.Main_panel.SpeedBrake Panel.CustomDrum 1;Helios.Base.CustomDrum;CustomDrum 1" Name="set.Drum tape offset" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="False">
@@ -12732,13 +12774,23 @@ else return true
 end</LuaScript>
     </Binding>
     <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="Right Eyebrow.engine fire indicator.changed" />
-      <Action Target="Visual;Monitor 2.Main_panel.engine fire;Helios.Base.Indicator;engine fire" Name="set.indicator" />
+      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="Hydraulic.Pressure B.changed" />
+      <Action Target="Visual;Monitor 2.RIGHT 1 panel.Hydraulic Pressure;Helios.F16.HydraulicPressure;Hydraulic Pressure" Name="set.hydraulic pressure" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="Hydraulic.Pressure A.changed" />
+      <Action Target="Visual;Monitor 2.RIGHT 1 panel.Hydraulic Pressure 1;Helios.F16.HydraulicPressure;Hydraulic Pressure 1" Name="set.hydraulic pressure" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="False">
       <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="Right Eyebrow.engine indicator.changed" />
       <Action Target="Visual;Monitor 2.Main_panel.engine;Helios.Base.Indicator;engine" Name="set.indicator" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="Right Eyebrow.engine fire indicator.changed" />
+      <Action Target="Visual;Monitor 2.Main_panel.engine fire;Helios.Base.Indicator;engine fire" Name="set.indicator" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="False">
@@ -13353,23 +13405,93 @@ end</LuaScript>
     </Binding>
     <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.Main_panel.Kneeboard Button;Helios.Base.PushButton;Kneeboard Button" Name="pushed" />
-      <Action Target="Visual;Monitor 2.Kneeboard Panel Right;Helios.Panel;Kneeboard Panel Right" Name="toggle.hidden" />
-      <StaticValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 2.Main_panel.Kneeboard Button;Helios.Base.PushButton;Kneeboard Button" Name="pushed" />
       <Action Target="Visual;Monitor 2.Kneeboard Panel Left;Helios.Panel;Kneeboard Panel Left" Name="toggle.hidden" />
       <StaticValue />
     </Binding>
     <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 2.Main_panel.Button PAUSE;Helios.Base.PushButton;Button PAUSE" Name="pushed" />
-      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
-      <StaticValue>SimTogglePaused</StaticValue>
+      <Trigger Source="Visual;Monitor 2.Main_panel.Kneeboard Button;Helios.Base.PushButton;Kneeboard Button" Name="pushed" />
+      <Action Target="Visual;Monitor 2.Kneeboard Panel Right;Helios.Panel;Kneeboard Panel Right" Name="toggle.hidden" />
+      <StaticValue />
     </Binding>
     <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 2.Main_panel.Button FREEZE 1;Helios.Base.PushButton;Button FREEZE 1" Name="pushed" />
+      <Trigger Source="Visual;Monitor 2.Close Side Panels;Helios.Base.PushButton;Close Side Panels" Name="pushed" />
+      <Action Target="Visual;Monitor 2.LEFT 3 panel;Helios.Panel;LEFT 3 panel" Name="set.hidden" />
+      <StaticValue>true</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Close Side Panels;Helios.Base.PushButton;Close Side Panels" Name="pushed" />
+      <Action Target="Visual;Monitor 2.LEFT 2 panel;Helios.Panel;LEFT 2 panel" Name="set.hidden" />
+      <StaticValue>true</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Close Side Panels;Helios.Base.PushButton;Close Side Panels" Name="pushed" />
+      <Action Target="Visual;Monitor 2.LEFT 1 panel;Helios.Panel;LEFT 1 panel" Name="set.hidden" />
+      <StaticValue>true</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Close Side Panels;Helios.Base.PushButton;Close Side Panels" Name="pushed" />
+      <Action Target="Visual;Monitor 2.RIGHT 3 panel;Helios.Panel;RIGHT 3 panel" Name="set.hidden" />
+      <StaticValue>true</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Close Side Panels;Helios.Base.PushButton;Close Side Panels" Name="pushed" />
+      <Action Target="Visual;Monitor 2.RIGHT 2 panel;Helios.Panel;RIGHT 2 panel" Name="set.hidden" />
+      <StaticValue>true</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Close Side Panels;Helios.Base.PushButton;Close Side Panels" Name="pushed" />
+      <Action Target="Visual;Monitor 2.RIGHT 1 panel;Helios.Panel;RIGHT 1 panel" Name="set.hidden" />
+      <StaticValue>true</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Close Side Panels;Helios.Base.PushButton;Close Side Panels" Name="pushed" />
+      <Action Target="Visual;Monitor 2.RIGH 1 button;Helios.Base.PushButton;RIGH 1 button" Name="set.physical state" />
+      <StaticValue>false</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Close Side Panels;Helios.Base.PushButton;Close Side Panels" Name="pushed" />
+      <Action Target="Visual;Monitor 2.RIGHT 2 button;Helios.Base.PushButton;RIGHT 2 button" Name="set.physical state" />
+      <StaticValue>false</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Close Side Panels;Helios.Base.PushButton;Close Side Panels" Name="pushed" />
+      <Action Target="Visual;Monitor 2.RIGHT 3 button;Helios.Base.PushButton;RIGHT 3 button" Name="set.physical state" />
+      <StaticValue>false</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Close Side Panels;Helios.Base.PushButton;Close Side Panels" Name="pushed" />
+      <Action Target="Visual;Monitor 2.LEFT 1 button;Helios.Base.PushButton;LEFT 1 button" Name="set.physical state" />
+      <StaticValue>false</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Close Side Panels;Helios.Base.PushButton;Close Side Panels" Name="pushed" />
+      <Action Target="Visual;Monitor 2.LEFT 2 button;Helios.Base.PushButton;LEFT 2 button" Name="set.physical state" />
+      <StaticValue>false</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Close Side Panels;Helios.Base.PushButton;Close Side Panels" Name="pushed" />
+      <Action Target="Visual;Monitor 2.LEFT 3 button;Helios.Base.PushButton;LEFT 3 button" Name="set.physical state" />
+      <StaticValue>false</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Close Side Panels;Helios.Base.PushButton;Close Side Panels" Name="pushed" />
+      <Action Target="Visual;Monitor 2.Gear Panel Buttun;Helios.Base.PushButton;Gear Panel Buttun" Name="set.physical state" />
+      <StaticValue>false</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Gear Panel Buttun;Helios.Base.PushButton;Gear Panel Buttun" Name="closed" />
+      <Action Target="Visual;Monitor 2.LEFT 1 panel;Helios.Panel;LEFT 1 panel" Name="set.hidden" />
+      <StaticValue>false</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Gear Panel Buttun;Helios.Base.PushButton;Gear Panel Buttun" Name="open" />
+      <Action Target="Visual;Monitor 2.LEFT 1 panel;Helios.Panel;LEFT 1 panel" Name="set.hidden" />
+      <StaticValue>true</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.RIGHT 1 panel.Push - Red;Helios.Base.PushButton;Push - Red" Name="pushed" />
       <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
-      <StaticValue>SimMotionFreeze</StaticValue>
+      <StaticValue>SimFuelDump</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.RIGHT 2 panel.switch;Helios.Base.ThreeWayToggleSwitch;switch" Name="position one.entered" />
@@ -14307,6 +14429,11 @@ end</LuaScript>
       <StaticValue>SimIFFMode4MonitorOff</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.LEFT 3 panel.fuel master cover;Helios.Base.GuardedSwitch;fuel master cover" Name="released" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimMasterFuelOff</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.LEFT 3 panel.wing tail sw;Helios.Base.ThreeWayToggleSwitch;wing tail sw" Name="position one.entered" />
       <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
       <StaticValue>SimWingLightBrt</StaticValue>
@@ -14662,6 +14789,11 @@ end</LuaScript>
       <StaticValue>false</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.LEFT 2 button;Helios.Base.PushButton;LEFT 2 button" Name="closed" />
+      <Action Target="Visual;Monitor 2.Gear Panel Buttun;Helios.Base.PushButton;Gear Panel Buttun" Name="set.physical state" />
+      <StaticValue>false</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.LEFT 1 button;Helios.Base.PushButton;LEFT 1 button" Name="closed" />
       <Action Target="Visual;Monitor 2.LEFT 1 panel;Helios.Panel;LEFT 1 panel" Name="set.hidden" />
       <StaticValue>false</StaticValue>
@@ -14679,6 +14811,11 @@ end</LuaScript>
     <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.LEFT 1 button;Helios.Base.PushButton;LEFT 1 button" Name="closed" />
       <Action Target="Visual;Monitor 2.LEFT 3 button;Helios.Base.PushButton;LEFT 3 button" Name="set.physical state" />
+      <StaticValue>false</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.LEFT 1 button;Helios.Base.PushButton;LEFT 1 button" Name="closed" />
+      <Action Target="Visual;Monitor 2.Gear Panel Buttun;Helios.Base.PushButton;Gear Panel Buttun" Name="set.physical state" />
       <StaticValue>false</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="False">
@@ -15361,6 +15498,26 @@ end</LuaScript>
       <Trigger Source="Visual;Monitor 2.UTIL_button;Helios.Base.PushButton;UTIL_button" Name="pushed" />
       <Action Target="Visual;Monitor 2.UTILITY Panel;Helios.Panel;UTILITY Panel" Name="toggle.hidden" />
       <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Button PAUSE;Helios.Base.PushButton;Button PAUSE" Name="pushed" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimTogglePaused</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Button FREEZE;Helios.Base.PushButton;Button FREEZE" Name="pushed" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimMotionFreeze</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Enable Cursor;Helios.Base.PushButton;Enable Cursor" Name="closed" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>OTWMouseButtonsIn3dDisable</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Enable Cursor;Helios.Base.PushButton;Enable Cursor" Name="open" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>OTWMouseButtonsIn3dEnable</StaticValue>
     </Binding>
   </Bindings>
 </HeliosProfile>
