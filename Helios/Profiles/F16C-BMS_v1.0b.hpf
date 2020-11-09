@@ -3035,15 +3035,6 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="Close Side Panels" SnapTarget="True" Locked="True">
-          <Location>231,0</Location>
-          <Size>1517,1080</Size>
-          <Hidden>False</Hidden>
-          <Type>Momentary</Type>
-          <Image />
-          <PushedImage />
-          <Children />
-        </Control>
         <Control TypeIdentifier="Helios.Base.PushButton" Name="Gear Panel Buttun" SnapTarget="True" Locked="True">
           <Location>0,933</Location>
           <Size>200,147</Size>
@@ -13412,71 +13403,6 @@ end</LuaScript>
       <Trigger Source="Visual;Monitor 2.Main_panel.Kneeboard Button;Helios.Base.PushButton;Kneeboard Button" Name="pushed" />
       <Action Target="Visual;Monitor 2.Kneeboard Panel Right;Helios.Panel;Kneeboard Panel Right" Name="toggle.hidden" />
       <StaticValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 2.Close Side Panels;Helios.Base.PushButton;Close Side Panels" Name="pushed" />
-      <Action Target="Visual;Monitor 2.LEFT 3 panel;Helios.Panel;LEFT 3 panel" Name="set.hidden" />
-      <StaticValue>true</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 2.Close Side Panels;Helios.Base.PushButton;Close Side Panels" Name="pushed" />
-      <Action Target="Visual;Monitor 2.LEFT 2 panel;Helios.Panel;LEFT 2 panel" Name="set.hidden" />
-      <StaticValue>true</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 2.Close Side Panels;Helios.Base.PushButton;Close Side Panels" Name="pushed" />
-      <Action Target="Visual;Monitor 2.LEFT 1 panel;Helios.Panel;LEFT 1 panel" Name="set.hidden" />
-      <StaticValue>true</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 2.Close Side Panels;Helios.Base.PushButton;Close Side Panels" Name="pushed" />
-      <Action Target="Visual;Monitor 2.RIGHT 3 panel;Helios.Panel;RIGHT 3 panel" Name="set.hidden" />
-      <StaticValue>true</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 2.Close Side Panels;Helios.Base.PushButton;Close Side Panels" Name="pushed" />
-      <Action Target="Visual;Monitor 2.RIGHT 2 panel;Helios.Panel;RIGHT 2 panel" Name="set.hidden" />
-      <StaticValue>true</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 2.Close Side Panels;Helios.Base.PushButton;Close Side Panels" Name="pushed" />
-      <Action Target="Visual;Monitor 2.RIGHT 1 panel;Helios.Panel;RIGHT 1 panel" Name="set.hidden" />
-      <StaticValue>true</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 2.Close Side Panels;Helios.Base.PushButton;Close Side Panels" Name="pushed" />
-      <Action Target="Visual;Monitor 2.RIGH 1 button;Helios.Base.PushButton;RIGH 1 button" Name="set.physical state" />
-      <StaticValue>false</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 2.Close Side Panels;Helios.Base.PushButton;Close Side Panels" Name="pushed" />
-      <Action Target="Visual;Monitor 2.RIGHT 2 button;Helios.Base.PushButton;RIGHT 2 button" Name="set.physical state" />
-      <StaticValue>false</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 2.Close Side Panels;Helios.Base.PushButton;Close Side Panels" Name="pushed" />
-      <Action Target="Visual;Monitor 2.RIGHT 3 button;Helios.Base.PushButton;RIGHT 3 button" Name="set.physical state" />
-      <StaticValue>false</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 2.Close Side Panels;Helios.Base.PushButton;Close Side Panels" Name="pushed" />
-      <Action Target="Visual;Monitor 2.LEFT 1 button;Helios.Base.PushButton;LEFT 1 button" Name="set.physical state" />
-      <StaticValue>false</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 2.Close Side Panels;Helios.Base.PushButton;Close Side Panels" Name="pushed" />
-      <Action Target="Visual;Monitor 2.LEFT 2 button;Helios.Base.PushButton;LEFT 2 button" Name="set.physical state" />
-      <StaticValue>false</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 2.Close Side Panels;Helios.Base.PushButton;Close Side Panels" Name="pushed" />
-      <Action Target="Visual;Monitor 2.LEFT 3 button;Helios.Base.PushButton;LEFT 3 button" Name="set.physical state" />
-      <StaticValue>false</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 2.Close Side Panels;Helios.Base.PushButton;Close Side Panels" Name="pushed" />
-      <Action Target="Visual;Monitor 2.Gear Panel Buttun;Helios.Base.PushButton;Gear Panel Buttun" Name="set.physical state" />
-      <StaticValue>false</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.Gear Panel Buttun;Helios.Base.PushButton;Gear Panel Buttun" Name="closed" />
