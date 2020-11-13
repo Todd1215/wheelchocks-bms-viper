@@ -8859,33 +8859,6 @@
               </ClickType>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.RotaryEncoder" Name="Rotary Encoder" SnapTarget="True" Locked="False">
-              <Location>507,423</Location>
-              <Size>21,93</Size>
-              <Hidden>False</Hidden>
-              <KnobImage>Capt_Zeen\F16\vert_trim.png</KnobImage>
-              <RotationStep>5</RotationStep>
-              <StepValue>0.1</StepValue>
-              <InitialRotation>0</InitialRotation>
-              <ClickType>
-                <Type>Touch</Type>
-              </ClickType>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.RotaryEncoder" Name="Rotary Encoder 1" SnapTarget="True" Locked="False">
-              <Location>324,660</Location>
-              <Size>21,93</Size>
-              <Rotation>CW</Rotation>
-              <Hidden>False</Hidden>
-              <KnobImage>Capt_Zeen\F16\vert_trim.png</KnobImage>
-              <RotationStep>5</RotationStep>
-              <StepValue>0.1</StepValue>
-              <InitialRotation>0</InitialRotation>
-              <ClickType>
-                <Type>Touch</Type>
-              </ClickType>
-              <Children />
-            </Control>
             <Control TypeIdentifier="Helios.Base.RotaryEncoder" Name="Rotary Encoder 2" SnapTarget="True" Locked="False">
               <Location>471,609</Location>
               <Size>51,51</Size>
@@ -9086,6 +9059,33 @@
                   <Output>0.6996</Output>
                 </Point>
               </CalibrationPoints>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Three Way Toggle Switch" SnapTarget="True" Locked="True">
+              <Location>329,661</Location>
+              <Size>19,89</Size>
+              <Rotation>CW</Rotation>
+              <Hidden>False</Hidden>
+              <SwitchType>OnOnOn</SwitchType>
+              <Orientation>Vertical</Orientation>
+              <ClickType>Swipe</ClickType>
+              <PositionOneImage>Capt_Zeen\F16\vert_trim.png</PositionOneImage>
+              <PositionTwoImage>Capt_Zeen\F16\vert_trim.png</PositionTwoImage>
+              <PositionThreeImage>Capt_Zeen\F16\vert_trim.png</PositionThreeImage>
+              <DefaultPosition>Two</DefaultPosition>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Three Way Toggle Switch 1" SnapTarget="True" Locked="True">
+              <Location>508,423</Location>
+              <Size>19,89</Size>
+              <Hidden>False</Hidden>
+              <SwitchType>OnOnOn</SwitchType>
+              <Orientation>Vertical</Orientation>
+              <ClickType>Swipe</ClickType>
+              <PositionOneImage>Capt_Zeen\F16\vert_trim.png</PositionOneImage>
+              <PositionTwoImage>Capt_Zeen\F16\vert_trim.png</PositionTwoImage>
+              <PositionThreeImage>Capt_Zeen\F16\vert_trim.png</PositionThreeImage>
+              <DefaultPosition>Two</DefaultPosition>
               <Children />
             </Control>
           </Children>
@@ -14535,26 +14535,6 @@ end</LuaScript>
       <StaticValue>SimIFFBackupM1Digit2Dec</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 2.LEFT 3 panel.Rotary Encoder;Helios.Base.RotaryEncoder;Rotary Encoder" Name="encoder.incremented" />
-      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
-      <StaticValue>SimTrimNoseUp</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 2.LEFT 3 panel.Rotary Encoder;Helios.Base.RotaryEncoder;Rotary Encoder" Name="encoder.decremented" />
-      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
-      <StaticValue>SimTrimNoseDown</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 2.LEFT 3 panel.Rotary Encoder 1;Helios.Base.RotaryEncoder;Rotary Encoder 1" Name="encoder.incremented" />
-      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
-      <StaticValue>SimTrimRollLeft</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 2.LEFT 3 panel.Rotary Encoder 1;Helios.Base.RotaryEncoder;Rotary Encoder 1" Name="encoder.decremented" />
-      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
-      <StaticValue>SimTrimRollRight</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.LEFT 3 panel.Rotary Encoder 2;Helios.Base.RotaryEncoder;Rotary Encoder 2" Name="encoder.incremented" />
       <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
       <StaticValue>SimTrimYawLeft</StaticValue>
@@ -14613,6 +14593,26 @@ end</LuaScript>
       <Trigger Source="Visual;Monitor 2.LEFT 3 panel.Calibration Filter IFFM3D2;Helios.Base.CalibrationFilter;Calibration Filter IFFM3D2" Name="Output.Value.changed" />
       <Action Target="Visual;Monitor 2.LEFT 3 panel.IffCodeDrumDigit4;Helios.Base.CustomDrum;IffCodeDrumDigit4" Name="set.Drum tape offset" />
       <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.LEFT 3 panel.Three Way Toggle Switch;Helios.Base.ThreeWayToggleSwitch;Three Way Toggle Switch" Name="position one.entered" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimTrimRollLeft</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.LEFT 3 panel.Three Way Toggle Switch;Helios.Base.ThreeWayToggleSwitch;Three Way Toggle Switch" Name="position three.entered" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimTrimRollRight</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.LEFT 3 panel.Three Way Toggle Switch 1;Helios.Base.ThreeWayToggleSwitch;Three Way Toggle Switch 1" Name="position one.entered" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimTrimNoseUp</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.LEFT 3 panel.Three Way Toggle Switch 1;Helios.Base.ThreeWayToggleSwitch;Three Way Toggle Switch 1" Name="position three.entered" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimTrimNoseDown</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.RIGHT 3 button;Helios.Base.PushButton;RIGHT 3 button" Name="closed" />
