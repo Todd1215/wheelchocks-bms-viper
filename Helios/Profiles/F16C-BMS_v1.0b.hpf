@@ -1425,7 +1425,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="button 61" SnapTarget="True" Locked="False">
-              <Location>1662,681</Location>
+              <Location>1665,682</Location>
               <Size>33,33</Size>
               <Rotation>ROT180</Rotation>
               <Hidden>False</Hidden>
@@ -1561,7 +1561,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="button 34" SnapTarget="True" Locked="False">
-              <Location>447,336</Location>
+              <Location>447,337</Location>
               <Size>33,33</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
@@ -1615,7 +1615,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="button 25" SnapTarget="True" Locked="False">
-              <Location>390,204</Location>
+              <Location>389,205</Location>
               <Size>45,42</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
@@ -1624,7 +1624,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="button 35" SnapTarget="True" Locked="False">
-              <Location>504,336</Location>
+              <Location>505,337</Location>
               <Size>33,33</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
@@ -1669,7 +1669,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="button 36" SnapTarget="True" Locked="False">
-              <Location>564,336</Location>
+              <Location>565,337</Location>
               <Size>33,33</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
@@ -1733,7 +1733,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="button 57" SnapTarget="True" Locked="False">
-              <Location>1662,441</Location>
+              <Location>1665,444</Location>
               <Size>33,33</Size>
               <Rotation>ROT180</Rotation>
               <Hidden>False</Hidden>
@@ -1789,7 +1789,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="button 58" SnapTarget="True" Locked="False">
-              <Location>1662,501</Location>
+              <Location>1665,503</Location>
               <Size>33,33</Size>
               <Rotation>ROT180</Rotation>
               <Hidden>False</Hidden>
@@ -1836,7 +1836,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="button 59" SnapTarget="True" Locked="False">
-              <Location>1662,561</Location>
+              <Location>1665,564</Location>
               <Size>33,33</Size>
               <Rotation>ROT180</Rotation>
               <Hidden>False</Hidden>
@@ -1874,7 +1874,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.PushButton" Name="button 60" SnapTarget="True" Locked="False">
-              <Location>1662,621</Location>
+              <Location>1665,623</Location>
               <Size>33,33</Size>
               <Rotation>ROT180</Rotation>
               <Hidden>False</Hidden>
@@ -2007,7 +2007,7 @@
               <IndicatorOnImage>Capt_Zeen\F16\rwr _ship_ON.png</IndicatorOnImage>
               <PushedIndicatorOnImage>Capt_Zeen\F16\rwr _ship_ON_PRESS.png</PushedIndicatorOnImage>
               <OnTextColor>#FFB3A229</OnTextColor>
-              <Location>291,255</Location>
+              <Location>292,253</Location>
               <Size>42,45</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
@@ -2019,7 +2019,7 @@
               <IndicatorOnImage>Capt_Zeen\F16\rwr _launch_ON.png</IndicatorOnImage>
               <PushedIndicatorOnImage>Capt_Zeen\F16\rwr _launch_ON_PRESS.png</PushedIndicatorOnImage>
               <OnTextColor>#FFB3A229</OnTextColor>
-              <Location>342,204</Location>
+              <Location>342,203</Location>
               <Size>42,45</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
@@ -2031,7 +2031,7 @@
               <IndicatorOnImage>Capt_Zeen\F16\rwr _sys_ON.png</IndicatorOnImage>
               <PushedIndicatorOnImage>Capt_Zeen\F16\rwr _sys_ON_PRESS.png</PushedIndicatorOnImage>
               <OnTextColor>#FFB3A229</OnTextColor>
-              <Location>339,255</Location>
+              <Location>341,253</Location>
               <Size>42,45</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
@@ -2344,6 +2344,7 @@
             <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="roker bright" SnapTarget="True" Locked="False">
               <Location>783,273</Location>
               <Size>42,72</Size>
+              <Rotation>ROT180</Rotation>
               <Hidden>False</Hidden>
               <SwitchType>MomOnMom</SwitchType>
               <Orientation>Vertical</Orientation>
@@ -2433,7 +2434,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="right sym" SnapTarget="True" Locked="False">
-              <Location>1668,372</Location>
+              <Location>1670,376</Location>
               <Size>30,48</Size>
               <Hidden>False</Hidden>
               <SwitchType>MomOnMom</SwitchType>
@@ -2471,70 +2472,6 @@
               <DefaultPosition>Two</DefaultPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.CustomDrum" Name="ret depr Drum" SnapTarget="True" Locked="False">
-              <Location>1164,48</Location>
-              <Size>30,111</Size>
-              <Hidden>False</Hidden>
-              <DrumImage>Capt_Zeen\F16\vert_pot_R.png</DrumImage>
-              <Drum_PosX>0</Drum_PosX>
-              <Drum_PosY>0</Drum_PosY>
-              <Drum_Width>50</Drum_Width>
-              <Drum_Height>400</Drum_Height>
-              <MinVertical>0</MinVertical>
-              <VerticalTravel>-296</VerticalTravel>
-              <InitialVertical>0</InitialVertical>
-              <MinInputVertical>0</MinInputVertical>
-              <MaxInputVertical>1</MaxInputVertical>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.CustomDrum" Name="cont Drum" SnapTarget="True" Locked="False">
-              <Location>1158,204</Location>
-              <Size>30,111</Size>
-              <Hidden>False</Hidden>
-              <DrumImage>Capt_Zeen\F16\vert_pot_R.png</DrumImage>
-              <Drum_PosX>0</Drum_PosX>
-              <Drum_PosY>0</Drum_PosY>
-              <Drum_Width>50</Drum_Width>
-              <Drum_Height>400</Drum_Height>
-              <MinVertical>0</MinVertical>
-              <VerticalTravel>-296</VerticalTravel>
-              <InitialVertical>0</InitialVertical>
-              <MinInputVertical>0</MinInputVertical>
-              <MaxInputVertical>1</MaxInputVertical>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.CustomDrum" Name="brt Drum" SnapTarget="True" Locked="False">
-              <Location>720,198</Location>
-              <Size>30,111</Size>
-              <Hidden>False</Hidden>
-              <DrumImage>Capt_Zeen\F16\vert_pot_L.png</DrumImage>
-              <Drum_PosX>0</Drum_PosX>
-              <Drum_PosY>0</Drum_PosY>
-              <Drum_Width>50</Drum_Width>
-              <Drum_Height>400</Drum_Height>
-              <MinVertical>0</MinVertical>
-              <VerticalTravel>-296</VerticalTravel>
-              <InitialVertical>0</InitialVertical>
-              <MinInputVertical>0</MinInputVertical>
-              <MaxInputVertical>1</MaxInputVertical>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.CustomDrum" Name="Sym drum" SnapTarget="True" Locked="False">
-              <Location>717,48</Location>
-              <Size>30,111</Size>
-              <Hidden>False</Hidden>
-              <DrumImage>Capt_Zeen\F16\vert_pot_L.png</DrumImage>
-              <Drum_PosX>0</Drum_PosX>
-              <Drum_PosY>0</Drum_PosY>
-              <Drum_Width>50</Drum_Width>
-              <Drum_Height>400</Drum_Height>
-              <MinVertical>0</MinVertical>
-              <VerticalTravel>-296</VerticalTravel>
-              <InitialVertical>0</InitialVertical>
-              <MinInputVertical>0</MinInputVertical>
-              <MaxInputVertical>1</MaxInputVertical>
-              <Children />
-            </Control>
             <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image" SnapTarget="False" Locked="False">
               <Image>Capt_Zeen\F16\CZ_degrade.png</Image>
               <Alignment>Stretched</Alignment>
@@ -2542,27 +2479,6 @@
               <DefaultOpacity>0.735849056603774</DefaultOpacity>
               <Location>1158,198</Location>
               <Size>30,42</Size>
-              <Hidden>False</Hidden>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 1" SnapTarget="False" Locked="False">
-              <Image>Capt_Zeen\F16\CZ_degrade.png</Image>
-              <Alignment>Stretched</Alignment>
-              <CornerRadius>0</CornerRadius>
-              <DefaultOpacity>0.745283018867924</DefaultOpacity>
-              <Location>1164,48</Location>
-              <Size>30,42</Size>
-              <Hidden>False</Hidden>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 1 1" SnapTarget="False" Locked="False">
-              <Image>Capt_Zeen\F16\CZ_degrade.png</Image>
-              <Alignment>Stretched</Alignment>
-              <CornerRadius>0</CornerRadius>
-              <DefaultOpacity>0.735849056603774</DefaultOpacity>
-              <Location>1161,117</Location>
-              <Size>30,42</Size>
-              <Rotation>ROT180</Rotation>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -2619,8 +2535,8 @@
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Potentiometer" Name="Potentiometer" SnapTarget="True" Locked="False">
-              <Location>447,258</Location>
+            <Control TypeIdentifier="Helios.Base.Potentiometer" Name="Potentiometer" SnapTarget="True" Locked="True">
+              <Location>451,258</Location>
               <Size>51,51</Size>
               <Hidden>False</Hidden>
               <KnobImage>Capt_Zeen\F16\Tacan Vol Knob.png</KnobImage>
@@ -2648,62 +2564,6 @@
               <KnobImage>Capt_Zeen\F16\rotator_101.png</KnobImage>
               <RotationStep>5</RotationStep>
               <StepValue>0.04</StepValue>
-              <InitialRotation>0</InitialRotation>
-              <ClickType>
-                <Type>Touch</Type>
-              </ClickType>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.RotaryEncoder" Name="Pressure Setting Knob 2" SnapTarget="True" Locked="False">
-              <Location>1158,48</Location>
-              <Size>111,48</Size>
-              <Rotation>CCW</Rotation>
-              <Hidden>False</Hidden>
-              <KnobImage>Capt_Zeen\F16\empty_space.png</KnobImage>
-              <RotationStep>5</RotationStep>
-              <StepValue>0.05</StepValue>
-              <InitialRotation>0</InitialRotation>
-              <ClickType>
-                <Type>Touch</Type>
-              </ClickType>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.RotaryEncoder" Name="Pressure Setting Knob 2 1" SnapTarget="True" Locked="False">
-              <Location>696,201</Location>
-              <Size>114,66</Size>
-              <Rotation>CCW</Rotation>
-              <Hidden>False</Hidden>
-              <KnobImage>Capt_Zeen\F16\empty_space.png</KnobImage>
-              <RotationStep>5</RotationStep>
-              <StepValue>0.05</StepValue>
-              <InitialRotation>0</InitialRotation>
-              <ClickType>
-                <Type>Touch</Type>
-              </ClickType>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.RotaryEncoder" Name="Pressure Setting Knob 2 2" SnapTarget="True" Locked="False">
-              <Location>1152,201</Location>
-              <Size>108,45</Size>
-              <Rotation>CCW</Rotation>
-              <Hidden>False</Hidden>
-              <KnobImage>Capt_Zeen\F16\empty_space.png</KnobImage>
-              <RotationStep>5</RotationStep>
-              <StepValue>0.05</StepValue>
-              <InitialRotation>0</InitialRotation>
-              <ClickType>
-                <Type>Touch</Type>
-              </ClickType>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.RotaryEncoder" Name="Pressure Setting Knob 2 2 1" SnapTarget="True" Locked="False">
-              <Location>696,48</Location>
-              <Size>111,60</Size>
-              <Rotation>CCW</Rotation>
-              <Hidden>False</Hidden>
-              <KnobImage>Capt_Zeen\F16\empty_space.png</KnobImage>
-              <RotationStep>5</RotationStep>
-              <StepValue>0.05</StepValue>
               <InitialRotation>0</InitialRotation>
               <ClickType>
                 <Type>Touch</Type>
@@ -2788,6 +2648,58 @@
               <Type>Toggle</Type>
               <Image>Capt_Zeen\F16\rotator_035.png</Image>
               <PushedImage>Capt_Zeen\F16\rotator_035_PRESSED.png</PushedImage>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Wheel BRT" SnapTarget="True" Locked="False">
+              <Location>713,204</Location>
+              <Size>36,111</Size>
+              <Hidden>False</Hidden>
+              <SwitchType>MomOnMom</SwitchType>
+              <Orientation>Vertical</Orientation>
+              <ClickType>Swipe</ClickType>
+              <PositionOneImage>{Helios}/Images/Rockers/wheel-white-up.png</PositionOneImage>
+              <PositionTwoImage>{Helios}/Images/Rockers/wheel-white-norm.png</PositionTwoImage>
+              <PositionThreeImage>{Helios}/Images/Rockers/wheel-white-down.png</PositionThreeImage>
+              <DefaultPosition>Two</DefaultPosition>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Wheel CONT" SnapTarget="True" Locked="False">
+              <Location>1158,204</Location>
+              <Size>36,111</Size>
+              <Hidden>False</Hidden>
+              <SwitchType>MomOnMom</SwitchType>
+              <Orientation>Vertical</Orientation>
+              <ClickType>Swipe</ClickType>
+              <PositionOneImage>{Helios}/Images/Rockers/wheel-white-up.png</PositionOneImage>
+              <PositionTwoImage>{Helios}/Images/Rockers/wheel-white-norm.png</PositionTwoImage>
+              <PositionThreeImage>{Helios}/Images/Rockers/wheel-white-down.png</PositionThreeImage>
+              <DefaultPosition>Two</DefaultPosition>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Wheel SYM" SnapTarget="True" Locked="False">
+              <Location>713,50</Location>
+              <Size>36,111</Size>
+              <Hidden>False</Hidden>
+              <SwitchType>MomOnMom</SwitchType>
+              <Orientation>Vertical</Orientation>
+              <ClickType>Swipe</ClickType>
+              <PositionOneImage>{Helios}/Images/Rockers/wheel-white-up.png</PositionOneImage>
+              <PositionTwoImage>{Helios}/Images/Rockers/wheel-white-norm.png</PositionTwoImage>
+              <PositionThreeImage>{Helios}/Images/Rockers/wheel-white-down.png</PositionThreeImage>
+              <DefaultPosition>Two</DefaultPosition>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Wheel RET DEPR" SnapTarget="True" Locked="False">
+              <Location>1159,50</Location>
+              <Size>36,111</Size>
+              <Hidden>False</Hidden>
+              <SwitchType>MomOnMom</SwitchType>
+              <Orientation>Vertical</Orientation>
+              <ClickType>Swipe</ClickType>
+              <PositionOneImage>{Helios}/Images/Rockers/wheel-white-up.png</PositionOneImage>
+              <PositionTwoImage>{Helios}/Images/Rockers/wheel-white-norm.png</PositionTwoImage>
+              <PositionThreeImage>{Helios}/Images/Rockers/wheel-white-down.png</PositionThreeImage>
+              <DefaultPosition>Two</DefaultPosition>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="FUEL QTY SEL Knob" SnapTarget="True" Locked="False">
@@ -3006,7 +2918,7 @@
                 </Control>
               </Children>
             </Control>
-            <Control TypeIdentifier="Helios.Base.PushButton" Name="Kneeboard Button" SnapTarget="True" Locked="False">
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Kneeboard Button" SnapTarget="True" Locked="True">
               <Location>0,558</Location>
               <Size>51,51</Size>
               <Hidden>False</Hidden>
@@ -3044,7 +2956,7 @@
           <PushedImage />
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="RIGHT 1 panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="RIGHT 1 panel" SnapTarget="True" Locked="False">
           <Location>1221,144</Location>
           <Size>696,933</Size>
           <Hidden>True</Hidden>
@@ -5182,7 +5094,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="RIGHT 2 panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="RIGHT 2 panel" SnapTarget="True" Locked="False">
           <Location>1287,0</Location>
           <Size>633,1080</Size>
           <Hidden>True</Hidden>
@@ -5870,7 +5782,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="RIGHT 3 panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="RIGHT 3 panel" SnapTarget="True" Locked="False">
           <Location>1248,318</Location>
           <Size>669,759</Size>
           <Hidden>True</Hidden>
@@ -6073,7 +5985,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="LEFT 1 panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="LEFT 1 panel" SnapTarget="True" Locked="False">
           <Location>0,147</Location>
           <Size>711,933</Size>
           <Hidden>True</Hidden>
@@ -6882,7 +6794,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="LEFT 2 panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="LEFT 2 panel" SnapTarget="True" Locked="False">
           <Location>0,120</Location>
           <Size>711,957</Size>
           <Hidden>True</Hidden>
@@ -8106,7 +8018,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="LEFT 3 panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="LEFT 3 panel" SnapTarget="True" Locked="False">
           <Location>0,159</Location>
           <Size>711,918</Size>
           <Hidden>True</Hidden>
@@ -9061,7 +8973,7 @@
               </CalibrationPoints>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Three Way Toggle Switch" SnapTarget="True" Locked="True">
+            <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Three Way Toggle Switch" SnapTarget="True" Locked="False">
               <Location>329,661</Location>
               <Size>19,89</Size>
               <Rotation>CW</Rotation>
@@ -9075,7 +8987,7 @@
               <DefaultPosition>Two</DefaultPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Three Way Toggle Switch 1" SnapTarget="True" Locked="True">
+            <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Three Way Toggle Switch 1" SnapTarget="True" Locked="False">
               <Location>508,423</Location>
               <Size>19,89</Size>
               <Hidden>False</Hidden>
@@ -11865,7 +11777,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="Enable Cursor" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Enable Cursor" SnapTarget="True" Locked="False">
           <Location>0,77</Location>
           <Size>87,43</Size>
           <Hidden>False</Hidden>
@@ -12815,6 +12727,51 @@ end</LuaScript>
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="Threat Warning Prime.target step indicator.changed" />
+      <Action Target="Visual;Monitor 2.Main_panel.rwr_Sep_Up;Helios.Base.Indicator;rwr_Sep_Up" Name="toggle indicator" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="Aux Threat Warning.power indicator.changed" />
+      <Action Target="Visual;Monitor 2.Main_panel.rwr_Sep_Down;Helios.Base.Indicator;rwr_Sep_Down" Name="toggle indicator" />
+      <StaticValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="Aux Threat Warning.power indicator.changed" />
+      <Action Target="Visual;Monitor 2.Main_panel.rwr_Hand_H ;Helios.Base.Indicator;rwr_Hand_H " Name="set.indicator" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="Threat Warning Prime.prioirty mode indicator.changed" />
+      <Action Target="Visual;Monitor 2.Main_panel.rwr_Mode_Pri;Helios.Base.Indicator;rwr_Mode_Pri" Name="set.indicator" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="Threat Warning Prime.handoff indicator.changed" />
+      <Action Target="Visual;Monitor 2.Main_panel.rwr_Hand_Up ;Helios.Base.Indicator;rwr_Hand_Up " Name="set.indicator" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="Threat Warning Prime.launch indicator.changed" />
+      <Action Target="Visual;Monitor 2.Main_panel.rwr_ 1;Helios.Base.IndicatorPushButton;rwr_ 1" Name="set.indicator" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="Threat Warning Prime.systest indicator.changed" />
+      <Action Target="Visual;Monitor 2.Main_panel.rwr_ 2;Helios.Base.IndicatorPushButton;rwr_ 2" Name="set.indicator" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="Threat Warning Prime.unknown mode indicator.changed" />
+      <Action Target="Visual;Monitor 2.Main_panel.rwr_;Helios.Base.IndicatorPushButton;rwr_" Name="set.indicator" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="Threat Warning Prime.open mode indicator.changed" />
+      <Action Target="Visual;Monitor 2.Main_panel.rwr_Mode_Open;Helios.Base.Indicator;rwr_Mode_Open" Name="set.indicator" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.Main_panel.Pressure Setting Knob;Helios.Base.RotaryEncoder;Pressure Setting Knob" Name="encoder.incremented" />
       <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
       <StaticValue>SimAltPressIncBy1</StaticValue>
@@ -12940,6 +12897,11 @@ end</LuaScript>
       <StaticValue>SimICPIFF</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Main_panel.button 23;Helios.Base.PushButton;button 23" Name="pushed" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimRWRHandoff</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.Main_panel.button 33;Helios.Base.PushButton;button 33" Name="pushed" />
       <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
       <StaticValue>SimCBEOSB_2L</StaticValue>
@@ -12998,6 +12960,11 @@ end</LuaScript>
       <Trigger Source="Visual;Monitor 2.Main_panel.AA btn;Helios.Base.PushButton;AA btn" Name="pushed" />
       <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
       <StaticValue>SimICPAA</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Main_panel.button 25;Helios.Base.PushButton;button 25" Name="pushed" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimRWRSetPriority</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.Main_panel.button 35;Helios.Base.PushButton;button 35" Name="pushed" />
@@ -13075,6 +13042,11 @@ end</LuaScript>
       <StaticValue>SimICPEnter</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Main_panel.button 28;Helios.Base.PushButton;button 28" Name="pushed" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimRWRSetTargetSep</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.Main_panel.button 38;Helios.Base.PushButton;button 38" Name="pushed" />
       <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
       <StaticValue>SimCBEOSB_7L</StaticValue>
@@ -13138,6 +13110,21 @@ end</LuaScript>
       <Trigger Source="Visual;Monitor 2.Main_panel.button 70;Helios.Base.PushButton;button 70" Name="pushed" />
       <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
       <StaticValue>SimCBEOSB_19R</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Main_panel.rwr_;Helios.Base.IndicatorPushButton;rwr_" Name="pushed" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimRWRSetUnknowns</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Main_panel.rwr_ 1;Helios.Base.IndicatorPushButton;rwr_ 1" Name="pushed" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimRWRLaunch</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Main_panel.rwr_ 2;Helios.Base.IndicatorPushButton;rwr_ 2" Name="pushed" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimRWRSysTest</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.Main_panel.rf norm;Helios.Base.ThreeWayToggleSwitch;rf norm" Name="position one.entered" />
@@ -13305,36 +13292,6 @@ end</LuaScript>
       <StaticValue>SimStepHSIMode</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 2.Main_panel.Pressure Setting Knob 2;Helios.Base.RotaryEncoder;Pressure Setting Knob 2" Name="encoder.incremented" />
-      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
-      <StaticValue>SimReticleSwitchUp</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 2.Main_panel.Pressure Setting Knob 2;Helios.Base.RotaryEncoder;Pressure Setting Knob 2" Name="encoder.decremented" />
-      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
-      <StaticValue>SimReticleSwitchDown</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 2.Main_panel.Pressure Setting Knob 2 1;Helios.Base.RotaryEncoder;Pressure Setting Knob 2 1" Name="encoder.incremented" />
-      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
-      <StaticValue>SimBrtWheelUp</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 2.Main_panel.Pressure Setting Knob 2 1;Helios.Base.RotaryEncoder;Pressure Setting Knob 2 1" Name="encoder.decremented" />
-      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
-      <StaticValue>SimBrtWheelDn</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 2.Main_panel.Pressure Setting Knob 2 2 1;Helios.Base.RotaryEncoder;Pressure Setting Knob 2 2 1" Name="encoder.incremented" />
-      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
-      <StaticValue>SimHmsSymWheelUp</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 2.Main_panel.Pressure Setting Knob 2 2 1;Helios.Base.RotaryEncoder;Pressure Setting Knob 2 2 1" Name="encoder.decremented" />
-      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
-      <StaticValue>SimHmsSymWheelDn</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.Main_panel.DCS Switch 1;Helios.Base.HatSwitch;DCS Switch 1" Name="up.entered" />
       <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
       <StaticValue>SimICPDEDUP</StaticValue>
@@ -13373,6 +13330,36 @@ end</LuaScript>
       <Trigger Source="Visual;Monitor 2.Main_panel.Pressure Setting Knob 1 1 1;Helios.Base.RotaryEncoder;Pressure Setting Knob 1 1 1" Name="encoder.decremented" />
       <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
       <StaticValue>SimHsiCourseDec</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Main_panel.Wheel BRT;Helios.Base.ThreeWayToggleSwitch;Wheel BRT" Name="position one.entered" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimBrtWheelUp</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Main_panel.Wheel BRT;Helios.Base.ThreeWayToggleSwitch;Wheel BRT" Name="position three.entered" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimBrtWheelDn</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Main_panel.Wheel SYM;Helios.Base.ThreeWayToggleSwitch;Wheel SYM" Name="position one.entered" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimSymWheelUp</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Main_panel.Wheel SYM;Helios.Base.ThreeWayToggleSwitch;Wheel SYM" Name="position three.entered" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimSymWheelDn</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Main_panel.Wheel RET DEPR;Helios.Base.ThreeWayToggleSwitch;Wheel RET DEPR" Name="position one.entered" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimRetUp</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.Main_panel.Wheel RET DEPR;Helios.Base.ThreeWayToggleSwitch;Wheel RET DEPR" Name="position three.entered" />
+      <Action Target="Interface;;Helios.Falcon.Interface;Falcon" Name="send.callback" />
+      <StaticValue>SimRetDn</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.Main_panel.chaf falre btn;Helios.Base.PushButton;chaf falre btn" Name="pushed" />
