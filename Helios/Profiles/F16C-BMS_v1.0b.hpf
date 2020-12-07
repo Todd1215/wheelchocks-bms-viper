@@ -2153,194 +2153,6 @@
               <DefaultPosition>Two</DefaultPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Panel" Name="Panel_AOA" SnapTarget="True" Locked="False">
-              <Location>429,3</Location>
-              <Size>48,123</Size>
-              <Hidden>False</Hidden>
-              <Background>
-                <Color>#FF1E1E1E</Color>
-              </Background>
-              <Children>
-                <Control TypeIdentifier="Helios.Base.Image" Name="Image" SnapTarget="False" Locked="True">
-                  <Image>Capt_Zeen\F16\panel_AOA.png</Image>
-                  <Alignment>Stretched</Alignment>
-                  <CornerRadius>0</CornerRadius>
-                  <Location>0,0</Location>
-                  <Size>48,120</Size>
-                  <Hidden>False</Hidden>
-                  <Children />
-                </Control>
-                <Control TypeIdentifier="Helios.Base.Indicator" Name="AOA green" SnapTarget="True" Locked="False">
-                  <OnImage>Capt_Zeen\F16\indicador_053.png</OnImage>
-                  <OffImage>Capt_Zeen\F16\empty_space.png</OffImage>
-                  <Font>
-                    <FontFamily>Franklin Gothi c</FontFamily>
-                    <FontStyle>Normal</FontStyle>
-                    <FontWeight>Normal</FontWeight>
-                    <FontSize>12</FontSize>
-                    <HorizontalAlignment>Center</HorizontalAlignment>
-                    <VerticalAlignment>Center</VerticalAlignment>
-                    <Padding>
-                      <Left>0</Left>
-                      <Top>0</Top>
-                      <Right>0</Right>
-                      <Bottom>0</Bottom>
-                    </Padding>
-                  </Font>
-                  <Text />
-                  <OnTextColor>#FFB3A229</OnTextColor>
-                  <OffTextColor>#FF1C1C1C</OffTextColor>
-                  <Location>3,39</Location>
-                  <Size>39,36</Size>
-                  <Hidden>False</Hidden>
-                  <Children />
-                </Control>
-                <Control TypeIdentifier="Helios.Base.Indicator" Name="AOA yellow" SnapTarget="True" Locked="False">
-                  <OnImage>Capt_Zeen\F16\indicador_052.png</OnImage>
-                  <OffImage>Capt_Zeen\F16\empty_space.png</OffImage>
-                  <Font>
-                    <FontFamily>Franklin Gothi c</FontFamily>
-                    <FontStyle>Normal</FontStyle>
-                    <FontWeight>Normal</FontWeight>
-                    <FontSize>12</FontSize>
-                    <HorizontalAlignment>Center</HorizontalAlignment>
-                    <VerticalAlignment>Center</VerticalAlignment>
-                    <Padding>
-                      <Left>0</Left>
-                      <Top>0</Top>
-                      <Right>0</Right>
-                      <Bottom>0</Bottom>
-                    </Padding>
-                  </Font>
-                  <Text />
-                  <OnTextColor>#FFB3A229</OnTextColor>
-                  <OffTextColor>#FF1C1C1C</OffTextColor>
-                  <Location>3,75</Location>
-                  <Size>39,36</Size>
-                  <Hidden>False</Hidden>
-                  <Children />
-                </Control>
-                <Control TypeIdentifier="Helios.Base.Indicator" Name="AOA red" SnapTarget="True" Locked="False">
-                  <OnImage>Capt_Zeen\F16\indicador_051.png</OnImage>
-                  <OffImage>Capt_Zeen\F16\empty_space.png</OffImage>
-                  <Font>
-                    <FontFamily>Franklin Gothi c</FontFamily>
-                    <FontStyle>Normal</FontStyle>
-                    <FontWeight>Normal</FontWeight>
-                    <FontSize>12</FontSize>
-                    <HorizontalAlignment>Center</HorizontalAlignment>
-                    <VerticalAlignment>Center</VerticalAlignment>
-                    <Padding>
-                      <Left>0</Left>
-                      <Top>0</Top>
-                      <Right>0</Right>
-                      <Bottom>0</Bottom>
-                    </Padding>
-                  </Font>
-                  <Text />
-                  <OnTextColor>#FFB3A229</OnTextColor>
-                  <OffTextColor>#FF1C1C1C</OffTextColor>
-                  <Location>3,3</Location>
-                  <Size>39,36</Size>
-                  <Hidden>False</Hidden>
-                  <Children />
-                </Control>
-              </Children>
-            </Control>
-            <Control TypeIdentifier="Helios.Panel" Name="Panel_AOA 1" SnapTarget="True" Locked="False">
-              <Location>1551,3</Location>
-              <Size>48,123</Size>
-              <Hidden>False</Hidden>
-              <Background>
-                <Color>#FF1E1E1E</Color>
-              </Background>
-              <Children>
-                <Control TypeIdentifier="Helios.Base.Image" Name="Image" SnapTarget="False" Locked="True">
-                  <Image>Capt_Zeen\F16\panel_small_right.png</Image>
-                  <Alignment>Stretched</Alignment>
-                  <CornerRadius>0</CornerRadius>
-                  <Location>0,0</Location>
-                  <Size>48,123</Size>
-                  <Hidden>False</Hidden>
-                  <Children />
-                </Control>
-                <Control TypeIdentifier="Helios.Base.Indicator" Name="AR_NWS" SnapTarget="True" Locked="False">
-                  <OnImage>Capt_Zeen\F16\indicator_ar nws.png</OnImage>
-                  <OffImage>Capt_Zeen\F16\empty_space.png</OffImage>
-                  <Font>
-                    <FontFamily>Franklin Gothi c</FontFamily>
-                    <FontStyle>Normal</FontStyle>
-                    <FontWeight>Normal</FontWeight>
-                    <FontSize>12</FontSize>
-                    <HorizontalAlignment>Center</HorizontalAlignment>
-                    <VerticalAlignment>Center</VerticalAlignment>
-                    <Padding>
-                      <Left>0</Left>
-                      <Top>0</Top>
-                      <Right>0</Right>
-                      <Bottom>0</Bottom>
-                    </Padding>
-                  </Font>
-                  <Text />
-                  <OnTextColor>#FFB3A229</OnTextColor>
-                  <OffTextColor>#FF1C1C1C</OffTextColor>
-                  <Location>3,42</Location>
-                  <Size>36,33</Size>
-                  <Hidden>False</Hidden>
-                  <Children />
-                </Control>
-                <Control TypeIdentifier="Helios.Base.Indicator" Name="DISC" SnapTarget="True" Locked="False">
-                  <OnImage>Capt_Zeen\F16\indicator_disc.png</OnImage>
-                  <OffImage>Capt_Zeen\F16\empty_space.png</OffImage>
-                  <Font>
-                    <FontFamily>Franklin Gothi c</FontFamily>
-                    <FontStyle>Normal</FontStyle>
-                    <FontWeight>Normal</FontWeight>
-                    <FontSize>12</FontSize>
-                    <HorizontalAlignment>Center</HorizontalAlignment>
-                    <VerticalAlignment>Center</VerticalAlignment>
-                    <Padding>
-                      <Left>0</Left>
-                      <Top>0</Top>
-                      <Right>0</Right>
-                      <Bottom>0</Bottom>
-                    </Padding>
-                  </Font>
-                  <Text />
-                  <OnTextColor>#FFB3A229</OnTextColor>
-                  <OffTextColor>#FF1C1C1C</OffTextColor>
-                  <Location>3,78</Location>
-                  <Size>36,33</Size>
-                  <Hidden>False</Hidden>
-                  <Children />
-                </Control>
-                <Control TypeIdentifier="Helios.Base.Indicator" Name="RDY" SnapTarget="True" Locked="False">
-                  <OnImage>Capt_Zeen\F16\indicator_rdy.png</OnImage>
-                  <OffImage>Capt_Zeen\F16\empty_space.png</OffImage>
-                  <Font>
-                    <FontFamily>Franklin Gothi c</FontFamily>
-                    <FontStyle>Normal</FontStyle>
-                    <FontWeight>Normal</FontWeight>
-                    <FontSize>12</FontSize>
-                    <HorizontalAlignment>Center</HorizontalAlignment>
-                    <VerticalAlignment>Center</VerticalAlignment>
-                    <Padding>
-                      <Left>0</Left>
-                      <Top>0</Top>
-                      <Right>0</Right>
-                      <Bottom>0</Bottom>
-                    </Padding>
-                  </Font>
-                  <Text />
-                  <OnTextColor>#FFB3A229</OnTextColor>
-                  <OffTextColor>#FF1C1C1C</OffTextColor>
-                  <Location>3,6</Location>
-                  <Size>36,33</Size>
-                  <Hidden>False</Hidden>
-                  <Children />
-                </Control>
-              </Children>
-            </Control>
             <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="roker bright" SnapTarget="True" Locked="False">
               <Location>783,273</Location>
               <Size>42,72</Size>
@@ -2956,11 +2768,13 @@
           <PushedImage />
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="RIGHT 1 panel" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Panel.Timer" Name="RIGHT 1 panel" SnapTarget="True" Locked="True">
           <Location>1221,144</Location>
           <Size>696,933</Size>
           <Hidden>True</Hidden>
           <Background />
+          <TimerEnabled>True</TimerEnabled>
+          <TimerInterval>3</TimerInterval>
           <Children>
             <Control TypeIdentifier="Helios.Base.CustomGauge" Name="EPU fuel" SnapTarget="True" Locked="False">
               <Location>462,483</Location>
@@ -5094,11 +4908,13 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="RIGHT 2 panel" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Panel.Timer" Name="RIGHT 2 panel" SnapTarget="True" Locked="True">
           <Location>1287,0</Location>
           <Size>633,1080</Size>
           <Hidden>True</Hidden>
           <Background />
+          <TimerEnabled>True</TimerEnabled>
+          <TimerInterval>3</TimerInterval>
           <Children>
             <Control TypeIdentifier="Helios.Base.CustomGauge" Name="Oxygen Supply Pressure" SnapTarget="True" Locked="False">
               <Location>249,912</Location>
@@ -5782,11 +5598,13 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="RIGHT 3 panel" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Panel.Timer" Name="RIGHT 3 panel" SnapTarget="True" Locked="False">
           <Location>1248,318</Location>
           <Size>669,759</Size>
           <Hidden>True</Hidden>
           <Background />
+                    <TimerEnabled>True</TimerEnabled>
+          <TimerInterval>3</TimerInterval>
           <Children>
             <Control TypeIdentifier="Helios.Base.Image" Name="____ bg" SnapTarget="False" Locked="True">
               <Image>Capt_Zeen\F16\panel derecho 3.png</Image>
@@ -5985,11 +5803,13 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="LEFT 1 panel" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Panel.Timer" Name="LEFT 1 panel" SnapTarget="True" Locked="True">
           <Location>0,147</Location>
           <Size>711,933</Size>
           <Hidden>True</Hidden>
           <Background />
+          <TimerEnabled>True</TimerEnabled>
+          <TimerInterval>3</TimerInterval>
           <Children>
             <Control TypeIdentifier="Helios.Base.Image" Name="____ bg" SnapTarget="False" Locked="True">
               <Image>Capt_Zeen\F16\panel izquierdo 1 BG.png</Image>
@@ -6794,11 +6614,13 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="LEFT 2 panel" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Panel.Timer" Name="LEFT 2 panel" SnapTarget="True" Locked="True">
           <Location>0,120</Location>
           <Size>711,957</Size>
           <Hidden>True</Hidden>
           <Background />
+          <TimerEnabled>True</TimerEnabled>
+          <TimerInterval>3</TimerInterval>
           <Children>
             <Control TypeIdentifier="Helios.Base.Image" Name="____ bg" SnapTarget="False" Locked="True">
               <Image>Capt_Zeen\F16\panel izquierdo 2.png</Image>
@@ -8018,11 +7840,13 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="LEFT 3 panel" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Panel.Timer" Name="LEFT 3 panel" SnapTarget="True" Locked="False">
           <Location>0,159</Location>
           <Size>711,918</Size>
           <Hidden>True</Hidden>
           <Background />
+                    <TimerEnabled>True</TimerEnabled>
+          <TimerInterval>3</TimerInterval>
           <Children>
             <Control TypeIdentifier="Helios.Base.CustomGauge" Name="pitch trim" SnapTarget="True" Locked="False">
               <Location>393,432</Location>
@@ -9002,8 +8826,8 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="RIGHT 3 button" SnapTarget="True" Locked="False">
-          <Location>1222,929</Location>
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="RIGHT 3 button" SnapTarget="True" Locked="True">
+          <Location>1222,998</Location>
           <Size>65,39</Size>
           <Hidden>False</Hidden>
           <Type>Toggle</Type>
@@ -9029,8 +8853,8 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="RIGHT 2 button" SnapTarget="True" Locked="False">
-          <Location>1222,885</Location>
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="RIGHT 2 button" SnapTarget="True" Locked="True">
+          <Location>1222,954</Location>
           <Size>65,41</Size>
           <Hidden>False</Hidden>
           <Type>Toggle</Type>
@@ -9056,8 +8880,8 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="RIGH 1 button" SnapTarget="True" Locked="False">
-          <Location>1221,843</Location>
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="RIGH 1 button" SnapTarget="True" Locked="True">
+          <Location>1221,912</Location>
           <Size>66,39</Size>
           <Hidden>False</Hidden>
           <Type>Toggle</Type>
@@ -9083,8 +8907,8 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="LEFT 3 button" SnapTarget="True" Locked="False">
-          <Location>744,926</Location>
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="LEFT 3 button" SnapTarget="True" Locked="True">
+          <Location>643,1034</Location>
           <Size>62,43</Size>
           <Hidden>False</Hidden>
           <Type>Toggle</Type>
@@ -9110,8 +8934,8 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="LEFT 2 button" SnapTarget="True" Locked="False">
-          <Location>744,885</Location>
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="LEFT 2 button" SnapTarget="True" Locked="True">
+          <Location>643,993</Location>
           <Size>62,39</Size>
           <Hidden>False</Hidden>
           <Type>Toggle</Type>
@@ -9137,8 +8961,8 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="LEFT 1 button" SnapTarget="True" Locked="False">
-          <Location>744,843</Location>
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="LEFT 1 button" SnapTarget="True" Locked="True">
+          <Location>643,951</Location>
           <Size>62,39</Size>
           <Hidden>False</Hidden>
           <Type>Toggle</Type>
@@ -9164,11 +8988,13 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Kneeboard Panel Right" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel.Timer" Name="Kneeboard Panel Right" SnapTarget="True" Locked="True">
           <Location>1215,114</Location>
           <Size>582,957</Size>
           <Hidden>True</Hidden>
           <Background />
+          <TimerEnabled>False</TimerEnabled>
+          <TimerInterval>10</TimerInterval>
           <Children>
             <Control TypeIdentifier="Helios.Base.KneeBoard" Name="Kneeboard_Carousel Right" SnapTarget="False" Locked="False">
               <Positions>
@@ -9200,11 +9026,13 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Kneeboard Panel Left" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel.Timer" Name="Kneeboard Panel Left" SnapTarget="True" Locked="True">
           <Location>102,123</Location>
           <Size>582,957</Size>
           <Hidden>True</Hidden>
           <Background />
+          <TimerEnabled>False</TimerEnabled>
+          <TimerInterval>10</TimerInterval>
           <Children>
             <Control TypeIdentifier="Helios.Base.KneeBoard" Name="Kneeboard_Carousel Left" SnapTarget="False" Locked="False">
               <Positions>
@@ -9653,8 +9481,8 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="NAV_buttom" SnapTarget="True" Locked="False">
-          <Location>1222,971</Location>
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="NAV_buttom" SnapTarget="True" Locked="True">
+          <Location>1222,1039</Location>
           <Size>65,41</Size>
           <Hidden>False</Hidden>
           <Type>Toggle</Type>
@@ -11777,7 +11605,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="Enable Cursor" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Enable Cursor" SnapTarget="True" Locked="True">
           <Location>0,77</Location>
           <Size>87,43</Size>
           <Hidden>False</Hidden>
@@ -11918,36 +11746,6 @@
     <Binding BypassCascadingTriggers="False">
       <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="JFS.run indicator.changed" />
       <Action Target="Visual;Monitor 2.LEFT 2 panel.JFS_RUN;Helios.Base.Indicator;JFS_RUN" Name="set.indicator" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="Test Panel.FLCS channel lamps.changed" />
-      <Action Target="Visual;Monitor 2.LEFT 3 panel.FLCS_PWR_D;Helios.Base.Indicator;FLCS_PWR_D" Name="set.indicator" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="Test Panel.FLCS channel lamps.changed" />
-      <Action Target="Visual;Monitor 2.LEFT 3 panel.FLCS_PWR_C;Helios.Base.Indicator;FLCS_PWR_C" Name="set.indicator" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="Test Panel.FLCS channel lamps.changed" />
-      <Action Target="Visual;Monitor 2.LEFT 3 panel.FLCS_PWR_A;Helios.Base.Indicator;FLCS_PWR_A" Name="set.indicator" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="Test Panel.FLCS channel lamps.changed" />
-      <Action Target="Visual;Monitor 2.LEFT 3 panel.FLCS_PWR_B;Helios.Base.Indicator;FLCS_PWR_B" Name="set.indicator" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="Trim.roll trim.changed" />
-      <Action Target="Visual;Monitor 2.LEFT 3 panel.roll trim;Helios.Base.CustomGauge;roll trim" Name="set.value" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="Trim.pitch trim.changed" />
-      <Action Target="Visual;Monitor 2.LEFT 3 panel.pitch trim;Helios.Base.CustomGauge;pitch trim" Name="set.value" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="False">
@@ -12439,36 +12237,6 @@ else return true
 end</LuaScript>
     </Binding>
     <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="Refuel Indexer.air/nws indicator.changed" />
-      <Action Target="Visual;Monitor 2.Main_panel.Panel_AOA 1.AR_NWS;Helios.Base.Indicator;AR_NWS" Name="set.indicator" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="Refuel Indexer.disconnect indicator.changed" />
-      <Action Target="Visual;Monitor 2.Main_panel.Panel_AOA 1.DISC;Helios.Base.Indicator;DISC" Name="set.indicator" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="Refuel Indexer.ready indicator.changed" />
-      <Action Target="Visual;Monitor 2.Main_panel.Panel_AOA 1.RDY;Helios.Base.Indicator;RDY" Name="set.indicator" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="AOA Indexer.above indicator.changed" />
-      <Action Target="Visual;Monitor 2.Main_panel.Panel_AOA.AOA red;Helios.Base.Indicator;AOA red" Name="set.indicator" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="AOA Indexer.on indicator.changed" />
-      <Action Target="Visual;Monitor 2.Main_panel.Panel_AOA.AOA green;Helios.Base.Indicator;AOA green" Name="set.indicator" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="AOA Indexer.below indicator.changed" />
-      <Action Target="Visual;Monitor 2.Main_panel.Panel_AOA.AOA yellow;Helios.Base.Indicator;AOA yellow" Name="set.indicator" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
       <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="UHF.Backup frequency digit 1.changed" />
       <Action Target="Visual;Monitor 2.LEFT 2 panel.TextDisplay;Helios.Base.TextDisplay;TextDisplay" Name="set.TextDisplay" />
       <TriggerValue />
@@ -12639,26 +12407,6 @@ end</LuaScript>
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="IFF.backup mode 1 digit 1.changed" />
-      <Action Target="Visual;Monitor 2.LEFT 3 panel.Calibration Filter IFFM1D1;Helios.Base.CalibrationFilter;Calibration Filter IFFM1D1" Name="Input.set.Value" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="IFF.backup mode 1 digit 2.changed" />
-      <Action Target="Visual;Monitor 2.LEFT 3 panel.Calibration Filter IFFM1D2;Helios.Base.CalibrationFilter;Calibration Filter IFFM1D2" Name="Input.set.Value" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="IFF.backup mode 3 digit 1.changed" />
-      <Action Target="Visual;Monitor 2.LEFT 3 panel.Calibration Filter IFFM3D1;Helios.Base.CalibrationFilter;Calibration Filter IFFM3D1" Name="Input.set.Value" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="IFF.backup mode 3 digit 2.changed" />
-      <Action Target="Visual;Monitor 2.LEFT 3 panel.Calibration Filter IFFM3D2;Helios.Base.CalibrationFilter;Calibration Filter IFFM3D2" Name="Input.set.Value" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
       <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="HSI.desired course.changed" />
       <Action Target="Visual;Monitor 2.Main_panel.textures Panel.Panel_EHSI.TextDisplay CRS;Helios.Base.TextDisplay;TextDisplay CRS" Name="set.TextDisplay" />
       <LuaScript>return string.format("%03d", TriggerValue)</LuaScript>
@@ -12769,6 +12517,56 @@ end</LuaScript>
     <Binding BypassCascadingTriggers="False">
       <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="Threat Warning Prime.open mode indicator.changed" />
       <Action Target="Visual;Monitor 2.Main_panel.rwr_Mode_Open;Helios.Base.Indicator;rwr_Mode_Open" Name="set.indicator" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="Trim.pitch trim.changed" />
+      <Action Target="Visual;Monitor 2.LEFT 3 panel.pitch trim;Helios.Base.CustomGauge;pitch trim" Name="set.value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="Trim.roll trim.changed" />
+      <Action Target="Visual;Monitor 2.LEFT 3 panel.roll trim;Helios.Base.CustomGauge;roll trim" Name="set.value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="Test Panel.FLCS channel lamps.changed" />
+      <Action Target="Visual;Monitor 2.LEFT 3 panel.FLCS_PWR_A;Helios.Base.Indicator;FLCS_PWR_A" Name="set.indicator" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="Test Panel.FLCS channel lamps.changed" />
+      <Action Target="Visual;Monitor 2.LEFT 3 panel.FLCS_PWR_B;Helios.Base.Indicator;FLCS_PWR_B" Name="set.indicator" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="Test Panel.FLCS channel lamps.changed" />
+      <Action Target="Visual;Monitor 2.LEFT 3 panel.FLCS_PWR_C;Helios.Base.Indicator;FLCS_PWR_C" Name="set.indicator" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="Test Panel.FLCS channel lamps.changed" />
+      <Action Target="Visual;Monitor 2.LEFT 3 panel.FLCS_PWR_D;Helios.Base.Indicator;FLCS_PWR_D" Name="set.indicator" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="IFF.backup mode 1 digit 1.changed" />
+      <Action Target="Visual;Monitor 2.LEFT 3 panel.Calibration Filter IFFM1D1;Helios.Base.CalibrationFilter;Calibration Filter IFFM1D1" Name="Input.set.Value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="IFF.backup mode 1 digit 2.changed" />
+      <Action Target="Visual;Monitor 2.LEFT 3 panel.Calibration Filter IFFM1D2;Helios.Base.CalibrationFilter;Calibration Filter IFFM1D2" Name="Input.set.Value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="IFF.backup mode 3 digit 1.changed" />
+      <Action Target="Visual;Monitor 2.LEFT 3 panel.Calibration Filter IFFM3D1;Helios.Base.CalibrationFilter;Calibration Filter IFFM3D1" Name="Input.set.Value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Interface;;Helios.Falcon.Interface;Falcon" Name="IFF.backup mode 3 digit 2.changed" />
+      <Action Target="Visual;Monitor 2.LEFT 3 panel.Calibration Filter IFFM3D2;Helios.Base.CalibrationFilter;Calibration Filter IFFM3D2" Name="Input.set.Value" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="False">
@@ -13383,22 +13181,22 @@ end</LuaScript>
     </Binding>
     <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.Main_panel.Kneeboard Button;Helios.Base.PushButton;Kneeboard Button" Name="pushed" />
-      <Action Target="Visual;Monitor 2.Kneeboard Panel Left;Helios.Panel;Kneeboard Panel Left" Name="toggle.hidden" />
+      <Action Target="Visual;Monitor 2.Kneeboard Panel Left;Helios.Panel.Timer;Kneeboard Panel Left" Name="toggle.hidden" />
       <StaticValue />
     </Binding>
     <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.Main_panel.Kneeboard Button;Helios.Base.PushButton;Kneeboard Button" Name="pushed" />
-      <Action Target="Visual;Monitor 2.Kneeboard Panel Right;Helios.Panel;Kneeboard Panel Right" Name="toggle.hidden" />
+      <Action Target="Visual;Monitor 2.Kneeboard Panel Right;Helios.Panel.Timer;Kneeboard Panel Right" Name="toggle.hidden" />
       <StaticValue />
     </Binding>
     <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.Gear Panel Buttun;Helios.Base.PushButton;Gear Panel Buttun" Name="closed" />
-      <Action Target="Visual;Monitor 2.LEFT 1 panel;Helios.Panel;LEFT 1 panel" Name="set.hidden" />
+      <Action Target="Visual;Monitor 2.LEFT 1 panel;Helios.Panel.Timer;LEFT 1 panel" Name="set.hidden" />
       <StaticValue>false</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.Gear Panel Buttun;Helios.Base.PushButton;Gear Panel Buttun" Name="open" />
-      <Action Target="Visual;Monitor 2.LEFT 1 panel;Helios.Panel;LEFT 1 panel" Name="set.hidden" />
+      <Action Target="Visual;Monitor 2.LEFT 1 panel;Helios.Panel.Timer;LEFT 1 panel" Name="set.hidden" />
       <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="False">
@@ -14603,6 +14401,16 @@ end</LuaScript>
     </Binding>
     <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.RIGHT 3 button;Helios.Base.PushButton;RIGHT 3 button" Name="closed" />
+      <Action Target="Visual;Monitor 2.RIGH 1 button;Helios.Base.PushButton;RIGH 1 button" Name="set.physical state" />
+      <StaticValue>false</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.RIGHT 3 button;Helios.Base.PushButton;RIGHT 3 button" Name="closed" />
+      <Action Target="Visual;Monitor 2.RIGHT 2 button;Helios.Base.PushButton;RIGHT 2 button" Name="set.physical state" />
+      <StaticValue>false</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.RIGHT 3 button;Helios.Base.PushButton;RIGHT 3 button" Name="closed" />
       <Action Target="Visual;Monitor 2.RIGHT 3 panel;Helios.Panel;RIGHT 3 panel" Name="set.hidden" />
       <StaticValue>false</StaticValue>
     </Binding>
@@ -14612,23 +14420,13 @@ end</LuaScript>
       <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 2.RIGHT 3 button;Helios.Base.PushButton;RIGHT 3 button" Name="closed" />
-      <Action Target="Visual;Monitor 2.RIGH 1 button;Helios.Base.PushButton;RIGH 1 button" Name="set.physical state" />
-      <StaticValue>false</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 2.RIGHT 3 button;Helios.Base.PushButton;RIGHT 3 button" Name="closed" />
-      <Action Target="Visual;Monitor 2.RIGHT 2 button;Helios.Base.PushButton;RIGHT 2 button" Name="set.physical state" />
-      <StaticValue>false</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.RIGHT 2 button;Helios.Base.PushButton;RIGHT 2 button" Name="closed" />
-      <Action Target="Visual;Monitor 2.RIGHT 2 panel;Helios.Panel;RIGHT 2 panel" Name="set.hidden" />
+      <Action Target="Visual;Monitor 2.RIGHT 2 panel;Helios.Panel.Timer;RIGHT 2 panel" Name="set.hidden" />
       <StaticValue>false</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.RIGHT 2 button;Helios.Base.PushButton;RIGHT 2 button" Name="open" />
-      <Action Target="Visual;Monitor 2.RIGHT 2 panel;Helios.Panel;RIGHT 2 panel" Name="set.hidden" />
+      <Action Target="Visual;Monitor 2.RIGHT 2 panel;Helios.Panel.Timer;RIGHT 2 panel" Name="set.hidden" />
       <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="False">
@@ -14643,12 +14441,12 @@ end</LuaScript>
     </Binding>
     <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.RIGH 1 button;Helios.Base.PushButton;RIGH 1 button" Name="closed" />
-      <Action Target="Visual;Monitor 2.RIGHT 1 panel;Helios.Panel;RIGHT 1 panel" Name="set.hidden" />
+      <Action Target="Visual;Monitor 2.RIGHT 1 panel;Helios.Panel.Timer;RIGHT 1 panel" Name="set.hidden" />
       <StaticValue>false</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.RIGH 1 button;Helios.Base.PushButton;RIGH 1 button" Name="open" />
-      <Action Target="Visual;Monitor 2.RIGHT 1 panel;Helios.Panel;RIGHT 1 panel" Name="set.hidden" />
+      <Action Target="Visual;Monitor 2.RIGHT 1 panel;Helios.Panel.Timer;RIGHT 1 panel" Name="set.hidden" />
       <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="False">
@@ -14659,6 +14457,16 @@ end</LuaScript>
     <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.RIGH 1 button;Helios.Base.PushButton;RIGH 1 button" Name="closed" />
       <Action Target="Visual;Monitor 2.RIGHT 3 button;Helios.Base.PushButton;RIGHT 3 button" Name="set.physical state" />
+      <StaticValue>false</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.LEFT 3 button;Helios.Base.PushButton;LEFT 3 button" Name="closed" />
+      <Action Target="Visual;Monitor 2.LEFT 1 button;Helios.Base.PushButton;LEFT 1 button" Name="set.physical state" />
+      <StaticValue>false</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="False">
+      <Trigger Source="Visual;Monitor 2.LEFT 3 button;Helios.Base.PushButton;LEFT 3 button" Name="closed" />
+      <Action Target="Visual;Monitor 2.LEFT 2 button;Helios.Base.PushButton;LEFT 2 button" Name="set.physical state" />
       <StaticValue>false</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="False">
@@ -14672,23 +14480,13 @@ end</LuaScript>
       <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 2.LEFT 3 button;Helios.Base.PushButton;LEFT 3 button" Name="closed" />
-      <Action Target="Visual;Monitor 2.LEFT 1 button;Helios.Base.PushButton;LEFT 1 button" Name="set.physical state" />
-      <StaticValue>false</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Visual;Monitor 2.LEFT 3 button;Helios.Base.PushButton;LEFT 3 button" Name="closed" />
-      <Action Target="Visual;Monitor 2.LEFT 2 button;Helios.Base.PushButton;LEFT 2 button" Name="set.physical state" />
-      <StaticValue>false</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.LEFT 2 button;Helios.Base.PushButton;LEFT 2 button" Name="closed" />
-      <Action Target="Visual;Monitor 2.LEFT 2 panel;Helios.Panel;LEFT 2 panel" Name="set.hidden" />
+      <Action Target="Visual;Monitor 2.LEFT 2 panel;Helios.Panel.Timer;LEFT 2 panel" Name="set.hidden" />
       <StaticValue>false</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.LEFT 2 button;Helios.Base.PushButton;LEFT 2 button" Name="open" />
-      <Action Target="Visual;Monitor 2.LEFT 2 panel;Helios.Panel;LEFT 2 panel" Name="set.hidden" />
+      <Action Target="Visual;Monitor 2.LEFT 2 panel;Helios.Panel.Timer;LEFT 2 panel" Name="set.hidden" />
       <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="False">
@@ -14708,12 +14506,12 @@ end</LuaScript>
     </Binding>
     <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.LEFT 1 button;Helios.Base.PushButton;LEFT 1 button" Name="closed" />
-      <Action Target="Visual;Monitor 2.LEFT 1 panel;Helios.Panel;LEFT 1 panel" Name="set.hidden" />
+      <Action Target="Visual;Monitor 2.LEFT 1 panel;Helios.Panel.Timer;LEFT 1 panel" Name="set.hidden" />
       <StaticValue>false</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="False">
       <Trigger Source="Visual;Monitor 2.LEFT 1 button;Helios.Base.PushButton;LEFT 1 button" Name="open" />
-      <Action Target="Visual;Monitor 2.LEFT 1 panel;Helios.Panel;LEFT 1 panel" Name="set.hidden" />
+      <Action Target="Visual;Monitor 2.LEFT 1 panel;Helios.Panel.Timer;LEFT 1 panel" Name="set.hidden" />
       <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="False">
