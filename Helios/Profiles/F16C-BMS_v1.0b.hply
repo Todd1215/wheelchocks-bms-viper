@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LayoutRoot>
+  <RootPanel Orientation="Horizontal">
+    <LayoutAnchorablePaneGroup Orientation="Vertical" DockWidth="300">
+      <LayoutAnchorablePane DockWidth="300">
+        <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Preview" ContentId="PreviewPanel" CanClose="False" />
+        <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Profile Explorer" IsSelected="True" ContentId="ExplorerPanel" CanClose="False" LastActivationTimeStamp="12/27/2020 15:59:06" />
+      </LayoutAnchorablePane>
+      <LayoutAnchorablePane DockHeight="3*">
+        <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Toolbox" IsSelected="True" ContentId="ToolboxPanel" CanClose="False" />
+      </LayoutAnchorablePane>
+    </LayoutAnchorablePaneGroup>
+    <LayoutPanel Orientation="Horizontal">
+      <LayoutPanel Orientation="Vertical">
+        <LayoutDocumentPane Id="e00cb07d-fc4c-495d-9f77-87b04385cbe7">
+          <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Interface Status" ContentId="InterfaceStatusPanel" CanClose="False" LastActivationTimeStamp="12/27/2020 15:59:05" />
+          <LayoutDocument Title="Monitor 1" ContentId="Visual;Monitor 1;Helios.Monitor;Monitor 1" LastActivationTimeStamp="12/27/2020 15:59:03" />
+          <LayoutDocument Title="Monitor 2" IsSelected="True" IsLastFocusedDocument="True" ContentId="Visual;Monitor 2;Helios.Monitor;Monitor 2" LastActivationTimeStamp="12/27/2020 15:59:29" />
+        </LayoutDocumentPane>
+        <LayoutAnchorablePane DockHeight="300">
+          <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="300" Title="Bindings" IsSelected="True" ContentId="BindingsPanel" CanClose="False" LastActivationTimeStamp="12/27/2020 15:59:23" />
+        </LayoutAnchorablePane>
+      </LayoutPanel>
+      <LayoutAnchorablePaneGroup Orientation="Vertical" DockWidth="300">
+        <LayoutAnchorablePane DockWidth="300">
+          <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Properties" IsSelected="True" ContentId="PropertiesPanel" CanClose="False" />
+        </LayoutAnchorablePane>
+        <LayoutAnchorablePane>
+          <LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Layers" IsSelected="True" ContentId="LayersPanel" CanClose="False" LastActivationTimeStamp="12/27/2020 15:59:19" />
+        </LayoutAnchorablePane>
+      </LayoutAnchorablePaneGroup>
+    </LayoutPanel>
+  </RootPanel>
+  <TopSide />
+  <RightSide />
+  <LeftSide />
+  <BottomSide />
+  <FloatingWindows />
+  <Hidden />
+</LayoutRoot>

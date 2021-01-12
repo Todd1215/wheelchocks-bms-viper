@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HeliosSettings>
+  <Group>
+    <Name>Helios</Name>
+    <Settings>
+      <Setting>
+        <Name>LastestGitHubDownloadUrl</Name>
+        <Value>https://github.com/HeliosVirtualCockpit/Helios/releases/download/1.6.3425.0/Helios_Installers.zip</Value>
+      </Setting>
+    </Settings>
+  </Group>
+  <Group>
+    <Name>ConfigurationCheck</Name>
+    <Settings />
+  </Group>
+  <Group>
+    <Name>KeyboardInterface</Name>
+    <Settings />
+  </Group>
+  <Group>
+    <Name>ProfileEditor</Name>
+    <Settings>
+      <Setting>
+        <Name>WindowLocation</Name>
+        <Value>898,181,2998,1281</Value>
+      </Setting>
+    </Settings>
+  </Group>
+</HeliosSettings>
