@@ -6,11 +6,12 @@ I have decided to package each profile into its own Helios16 archive for easy in
 
 My profiles have integrated checklists,charts for KTO and Balkins. It also has integration for Weapon Delivery Planner but requires some setup in order to attain the integration. All is need for that is to either place WDP image files in {Helios}/Images/Datacards directory or use a shortcut from WDP datacards location and link it to the {Helios}/Images/Datacards directory.
 
-These profiles are a work-in-progress (USE AT YOUR OWN RISK!)
+*DISCLAIMER These profiles are a work-in-progress - **USE AT YOUR OWN RISK!**
 
 This Github repository contains the source files used in the creation of each profile. You are free to download the source and tinker you heart away. If you just want to install the profile then see the installation instructions below.
 
 **Installation Instructions**
+
 Goto the *releases* and download the profile archive(s). If Helios 1.6 is installed already then all you have to do is double-click the Helios 16 archive and the insatllation will occur. If Helios 1.6 is not installed then please install it first.
 
 **Profile Types**
