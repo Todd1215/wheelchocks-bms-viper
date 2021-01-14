@@ -13,8 +13,12 @@ This Github repository contains the source files used in the creation of each pr
 **Installation Instructions**
 Goto the *releases* and download the profile archive(s). If Helios 1.6 is installed already then all you have to do is double-click the Helios 16 archive and the insatllation will occur. If Helios 1.6 is not installed then please install it first.
 
+**Profile Types**
+Full PIT - All panels are provided
+Front PIT - Only the front / center panel is provided
+
 **Profiles Provided**
-BMS-Viper-434-V1.0 - BMS Version 4.34 Compatible
-BMS-Viper-435-V1.0 - BMS Version 4.35 Compatible
-BMS-Hornet - All BMS Versions (WIP)
-BMS-Harrier - All BMS Versions (WIP)
+BMS-Viper-434-V1.0 - BMS Version 4.34 Compatible - FUll PIT
+BMS-Viper-435-V1.0 - BMS Version 4.35 Compatible - FUll PIT
+BMS-Hornet - All BMS Versions (WIP) - Front PIT
+BMS-Harrier - All BMS Versions (WIP) - Front PIT
