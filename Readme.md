@@ -22,8 +22,8 @@ Goto the *releases* and download the profile archive(s). If Helios 1.6 is instal
 
 
 **Profiles Provided**
-* BMS-Viper-434-V1.0 - BMS Version 4.34 Compatible - FUll PIT
-* BMS-Viper-435-V1.0 - BMS Version 4.35 Compatible - FUll PIT
+* BMS-Viper-434-V1.0 - BMS Version 4.34 Compatible - Full PIT
+* BMS-Viper-435-V1.0 - BMS Version 4.35 Compatible - Full PIT
 * BMS-Hornet - All BMS Versions (WIP) - Front PIT
 * BMS-Harrier - All BMS Versions (WIP) - Front PIT
 
